@@ -29,7 +29,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149790}
   m_LocalRotation: {x: -0, y: -0.7467685, z: -0, w: 0.6650841}
-  m_LocalPosition: {x: 12.742727, y: 0.26999998, z: -160.14966}
+  m_LocalPosition: {x: -6.5, y: -4.48, z: -54.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4763998848207550}
@@ -3315,7 +3315,7 @@ MonoBehaviour:
   weaponSocket: {fileID: 1945500341530746}
   animatorOverrideController: {fileID: 22100000, guid: bdc6a012f294a7e4f9172d6ad04b8316,
     type: 2}
-  abilities: []
+  ability: {fileID: 175744, guid: e5bc8bb50018c46cd9669532417609a0, type: 2}
 --- !u!114 &114718624062200962
 MonoBehaviour:
   m_ObjectHideFlags: 1

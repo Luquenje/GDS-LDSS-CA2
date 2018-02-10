@@ -23,12 +23,13 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] AnimatorOverrideController animatorOverrideController;
     ManaManager mana;
 
-    [SerializeField] SpecialAbility[] abilities;
+    //[SerializeField] SpecialAbility[] abilities;
 
     float lastHitTime = 0f;
 
     CameraRaycaster cameraRaycaster;
     GameObject currentTarget;
+    public GameObject ability;
 
     // Use this for initialization
     void Start()
@@ -40,7 +41,7 @@ public class PlayerManager : MonoBehaviour
         PutWeaponInHand();
         SetupRuntimeAnimator();
         attackCD = weaponInUse.GetMinTimeBetweenHits();
-        abilities[0].AttachComponentTo(gameObject);
+        //abilities[0].AttachComponentTo(gameObject);
     }
 
     public bool GetAttackingState()
@@ -118,19 +119,26 @@ public class PlayerManager : MonoBehaviour
     private void AttemptAbility(int abilityIndex)
     {
         var manaComponent = GetComponent<ManaManager>();
-        var manaCost = abilities[abilityIndex].GetManaCost();
+        var manaCost = 10;
         if (manaComponent.isManaAvailable(manaCost))
         {
             manaComponent.UseMana(manaCost);
-            var abilityParams = new AbilityUseParams(dmgPerHit);
-            abilities[abilityIndex].Use(abilityParams);
+            StartCoroutine(SpecialAttack());
+            //var abilityParams = new AbilityUseParams(dmgPerHit);
+            //abilities[abilityIndex].Use(abilityParams);
             //use ability
 
         }
 
         //mana.UseMana(10);
     }
+    IEnumerator SpecialAttack()
+    {
+        yield return new WaitForSeconds(0.4f);
 
+        Instantiate(ability, transform.position + transform.forward * 2.5f, Quaternion.identity);
+
+    }
     void OnMouseClick(RaycastHit raycastHit, int layerHit)
     {
         if (layerHit == enemyLayer)

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0a1099f5389c18441b60575003b338f3
-timeCreated: 1515938814
+guid: 5a5e902b8bd36ab4baaab5577a3eeb36
+timeCreated: 1518357382
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -23,6 +23,19 @@ ModelImporter:
     400012: Left_Windowed_Wall
     400014: Main_Roof
     400016: Right_Windowed_Wall
+    2100000: Material
+    2100002: Right_Wall_Brick
+    2100004: Right_Wall_Beams
+    2100006: Back_Wall_Brick
+    2100008: Front_Door_Brick
+    2100010: Front_Door_Beams
+    2100012: Floor_Brick
+    2100014: Left_Wall_Brick
+    2100016: Left_Wall_Beams
+    2100018: Main_Roof_Beams
+    2100020: Main_Roof_Thatch
+    2100022: Front_Roof_Beams
+    2100024: Front_Roof_Thatch
     2300000: Back_wall
     2300002: Cube
     2300004: Floor
@@ -47,77 +60,12 @@ ModelImporter:
     4300010: Left_Windowed_Wall
     4300012: Main_Roof
     4300014: Front_Roof
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Back_Wall_Brick
-    second: {fileID: 2100000, guid: 4ff91caab66e70f4eb4abb1477849aea, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Floor_Brick
-    second: {fileID: 2100000, guid: c8b9874355c50624dbce3aaf0c9f077c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Front_Door_Beams
-    second: {fileID: 2100000, guid: 47dad0dbc6dcabb48b2cc7e3adec8f67, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Front_Door_Brick
-    second: {fileID: 2100000, guid: 7ed0387942fd5ff429efaf58f5fc0ae7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Front_Roof_Beams
-    second: {fileID: 2100000, guid: f8bb9564d1334cf418c1476210ac753d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Front_Roof_Thatch
-    second: {fileID: 2100000, guid: e91fc94d2d103a446a6fa21ad7177a4e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Left_Wall_Beams
-    second: {fileID: 2100000, guid: d5604802aa068a549a1027e5de6e1fd5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Left_Wall_Brick
-    second: {fileID: 2100000, guid: f4f275eacc38d3947805f56950dd17f1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Main_Roof_Beams
-    second: {fileID: 2100000, guid: 8f654ae1b41cb814180934749a0e5e36, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Main_Roof_Thatch
-    second: {fileID: 2100000, guid: c6b65ab343e61844b99883ac19b9b186, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 15cd446e736c46c4d88ea905289e16ad, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Right_Wall_Beams
-    second: {fileID: 2100000, guid: 2154f000560442640b4795cbedf678b6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Right_Wall_Brick
-    second: {fileID: 2100000, guid: 685e1251caae90b42b851a3740551e77, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -155,6 +103,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

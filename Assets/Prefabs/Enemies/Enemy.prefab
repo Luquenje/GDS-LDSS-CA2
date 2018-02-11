@@ -31,7 +31,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.015682, y: 0.23805237, z: -51.460007}
+  m_LocalPosition: {x: -26.015682, y: -4.41, z: -51.460007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4149163118667806}
@@ -491,6 +491,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4424130085986362}
   - component: {fileID: 137596843945596662}
+  - component: {fileID: 65900178729709468}
+  - component: {fileID: 114348671672860022}
   m_Layer: 0
   m_Name: Object01
   m_TagString: Untagged
@@ -1298,6 +1300,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65900178729709468
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489351636982256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.043376926, y: 1.5312027, z: 0.11449075}
+  m_Center: {x: -0.021623563, y: -0.5860803, z: 0.0026585218}
 --- !u!114 &114033904587198388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1342,15 +1356,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 100
-  attackRadius: 12.39
-  moveRadius: 6.93
+  attackRadius: 2.02
+  moveRadius: 11.1
   bullet: {fileID: 1510173722238942, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
   bulletSpawn: {fileID: 1018740935689448}
   projectileSpeed: 12
   secondsBetweenShots: 1
   aimOffset: {x: 0, y: 1, z: 0}
   aStar: {fileID: 0}
+  weaponSwing: 0
   pathfindCD: 1
+  isAttacking: 0
+--- !u!114 &114348671672860022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489351636982256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74410193096a8f04bb05bfa1ed9c9b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  enemyIsAttacking: 0
+  damageToGive: 15
 --- !u!114 &114642492244571238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1398,7 +1428,6 @@ MonoBehaviour:
   moveSpeed: 6
   maxSpeed: 6
   rotationSpeed: 5
-  arrivingRange: 5
   shootTimer: 0
   shootCooldown: 2
   currentState: 0

@@ -5,10 +5,12 @@ using UnityEngine;
 public class WeaponDmg : MonoBehaviour {
 
     [SerializeField] GameObject player;
+    [SerializeField] GameObject enemy;
     [SerializeField] bool isAttacking;
+    [SerializeField] int damageToGive = 15;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         //playerManager = GetComponent<PlayerManager>();
         //isAttacking = false;
         player = GameObject.FindGameObjectWithTag("Player");

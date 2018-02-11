@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
 {
 
     public int playerMaxHealth;
-    public int playerCurrentHealth;
+    public float playerCurrentHealth;
     [SerializeField] float dmgPerHit = 15f;
     //[SerializeField] float minTimeBetweenHits = 0.5f;
     //[SerializeField] float maxAttackRange = 3f;
@@ -89,7 +89,7 @@ public class PlayerManager : MonoBehaviour
                 attackCD = weaponInUse.GetMinTimeBetweenHits();
                 attk += 1;
                 animator.SetTrigger("Attacking");
-                animator.SetInteger("Attack", attk);//1 is random no.
+                animator.SetInteger("Attack", attk);
 
                 lastHitTime = Time.time;
 
@@ -170,7 +170,7 @@ public class PlayerManager : MonoBehaviour
         return distanceToTarget <= weaponInUse.GetMaxAttackRange();
     }
 
-    public void HurtPlayer(int damageToGive)
+    public void HurtPlayer(float damageToGive)
     {
         playerCurrentHealth -= damageToGive;
     }

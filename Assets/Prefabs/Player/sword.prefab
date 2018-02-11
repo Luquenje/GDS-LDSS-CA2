@@ -36,6 +36,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4930470390270600}
+  - component: {fileID: 65766543894159532}
+  - component: {fileID: 114811628342609910}
   m_Layer: 0
   m_Name: sword
   m_TagString: Untagged
@@ -153,7 +155,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1186322819814022}
   m_LocalRotation: {x: -0, y: -0.9984206, z: -0, w: -0.056181695}
-  m_LocalPosition: {x: -0.09, y: 1.78, z: -1.85}
+  m_LocalPosition: {x: 5.656769, y: -4.395, z: -53.420998}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 4460700330627338}
@@ -327,3 +329,28 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1257784667049518}
   m_Mesh: {fileID: 4300002, guid: fe39c8310a816204eb1e9265e1d0caf0, type: 3}
+--- !u!65 &65766543894159532
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1186322819814022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.96872, y: 9.058542, z: 0.4800198}
+  m_Center: {x: 0.04684955, y: 5.491059, z: -0.002463702}
+--- !u!114 &114811628342609910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1186322819814022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e254e5755e652f4a927992e11f4862a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  isAttacking: 0

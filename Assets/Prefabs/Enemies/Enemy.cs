@@ -11,14 +11,15 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject bulletSpawn;
     [SerializeField] float projectileSpeed = 4f;
-    [SerializeField] float secondsBetweenShots = 1f;
+    [SerializeField] float secondsBetweenShots = 1.3f;
     [SerializeField] Vector3 aimOffset = new Vector3(0, 1f, 0);
     [SerializeField] AStarSteeringBehaviour aStar;
+    Animator animator;
 
-
+    public bool weaponSwing = false;
     [SerializeField] float pathfindCD = 0.5f;
     float currentHealthPoints;
-    bool isAttacking = false;
+    [SerializeField]bool isAttacking = false;
     Pathfinder pathFinder = null;
     GameObject player = null;
     bool pathfindBool = false;
@@ -36,6 +37,7 @@ public class Enemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         pathFinder = GetComponent<Pathfinder>();
         aStar = GetComponent<AStarSteeringBehaviour>();
+        animator = GetComponent<Animator>();
         currentHealthPoints = maxHealthPoints;
 
     }
@@ -47,7 +49,8 @@ public class Enemy : MonoBehaviour
             //aiControl.SetTarget(player.transform);
             isAttacking = true;
             aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
-            InvokeRepeating("Shoot", 0f, secondsBetweenShots);
+            InvokeRepeating("Attack", 0f, secondsBetweenShots);
+            weaponSwing = false;
         }
         if (distanceToPlyaer > attackRadius)
         {
@@ -59,7 +62,7 @@ public class Enemy : MonoBehaviour
         //{
         //    aiControl.SetTarget(transform);
         //}
-        if (distanceToPlyaer <= moveRadius)
+        if ((distanceToPlyaer <= moveRadius) && (distanceToPlyaer > attackRadius))
         {
             //aiControl.SetTarget(player.transform);
             pathFinder.end = player.transform;
@@ -78,7 +81,7 @@ public class Enemy : MonoBehaviour
                 pathfindCD = 0.5f;
             }
         }
-        else
+        if (distanceToPlyaer > moveRadius)
         {
             //aiControl.SetTarget(transform);
             pathFinder.end = GameObject.FindGameObjectWithTag("Waypoint").transform;
@@ -90,7 +93,15 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-
+    void Attack()
+    {
+        animator.SetTrigger("Attacking");
+        weaponSwing = true;
+    }
+    public bool Attacking()
+    {
+        return isAttacking;
+    }
     void PathToPlayer()
     {
         pathFinder.FindPath();

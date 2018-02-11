@@ -14,7 +14,7 @@ public class AStarSteeringBehaviour : MonoBehaviour {
     public float moveSpeed = 6.0f;
     public float maxSpeed = 6.0f;
     public float rotationSpeed = 1.0f;
-    public float arrivingRange = 5f;
+    //public float arrivingRange = 5f;
     //Firing rate controller
     public float shootTimer = 0;
     public float shootCooldown = 2; //2 secs
@@ -66,8 +66,8 @@ public class AStarSteeringBehaviour : MonoBehaviour {
             case AIState.FLEE:
                 Flee();
                 break;
-            case AIState.ARRIVE:
-                Arrive();
+            //case AIState.ARRIVE:
+            //    Arrive();
                 break;
             case AIState.PURSUIT:
                 break;
@@ -174,21 +174,21 @@ public class AStarSteeringBehaviour : MonoBehaviour {
         direction.Normalize();//Make it unit vector of 1
         Turn(direction);
     }
-    void Arrive()
-    {
-        //Get the direction:AB=OA-OB (target position - self position)
-        Vector3 direction = target.position - transform.position;
-        //Deterimine the slowing down process if close by
-        //direction.magnitude is the dist betw enemy and player
-        if (direction.magnitude < arrivingRange)
-            //Slow down the enemy
-            moveSpeed *= direction.magnitude / arrivingRange;
-        else
-            //Ramp the chase 
-            moveSpeed = maxSpeed;
-        direction.Normalize();//Make it unit vector of 1
-        Turn(direction);
-    }
+    //void Arrive()
+    //{
+    //    //Get the direction:AB=OA-OB (target position - self position)
+    //    Vector3 direction = target.position - transform.position;
+    //    //Deterimine the slowing down process if close by
+    //    //direction.magnitude is the dist betw enemy and player
+    //    if (direction.magnitude < arrivingRange)
+    //        //Slow down the enemy
+    //        moveSpeed *= direction.magnitude / arrivingRange;
+    //    else
+    //        //Ramp the chase 
+    //        moveSpeed = maxSpeed;
+    //    direction.Normalize();//Make it unit vector of 1
+    //    Turn(direction);
+    //}
     private void Turn(Vector3 direction)
     {
         direction = ObstacleAvoidance(direction);//Alter initial dirn
@@ -318,7 +318,7 @@ public class AStarSteeringBehaviour : MonoBehaviour {
     {
         Gizmos.color = Color.yellow;
         Gizmos.color = new Color(1.0f, 1.0f, 0, 0.5f);
-        Gizmos.DrawSphere(transform.position, arrivingRange);
+       // Gizmos.DrawSphere(transform.position, arrivingRange);
         Gizmos.color = Color.red;
         if (target)
             Gizmos.DrawRay(transform.position + transform.up,

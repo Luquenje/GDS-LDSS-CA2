@@ -32,10 +32,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ReflectionTint: 0.2857143
-    - _Shininess: 0.15449207
+    - _Shininess: 0.269
     - _Tiling: 0.20178571
     m_Colors:
-    - _Color0: {r: 0.2715853, g: 0.33088237, b: 0.10461722, a: 1}
-    - _Color1: {r: 0.31593785, g: 0.33823532, b: 0.27357268, a: 0}
+    - _Color0: {r: 0.6521299, g: 0.6397059, b: 1, a: 1}
+    - _Color1: {r: 0.35294116, g: 0.4645032, b: 1, a: 0}
     - _InvRanges: {r: 1, g: 0.17, b: 0.17, a: 0}
-    - _Specular: {r: 0.58797723, g: 0.5955882, b: 0.51676035, a: 0}
+    - _Specular: {r: 1, g: 1, b: 1, a: 0}

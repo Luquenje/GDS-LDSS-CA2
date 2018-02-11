@@ -136,6 +136,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -158,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: f772e5cf38f2d984497a6a55a80adefc, type: 2}
+  profile: {fileID: 11400000, guid: faf3b10e4fd587740b08fbfd3b263914, type: 2}
 --- !u!114 &114436797913242516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -198,9 +199,9 @@ MonoBehaviour:
     camPositionOffsetLeft: {x: -0.072, y: 1.382, z: -1.513}
     camPositionOffsetRight: {x: 0.072, y: 1.382, z: -3.63}
     UICamera: {fileID: 0}
-    mouseXSensitivity: 5
-    mouseYSensitivity: 5
-    minAngle: -10
+    mouseXSensitivity: 2
+    mouseYSensitivity: 2
+    minAngle: -50
     maxAngle: 70
     rotationSpeed: 5
     maxCheckDist: 0.1

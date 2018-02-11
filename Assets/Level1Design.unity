@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 168991}
   - component: {fileID: 168990}
   - component: {fileID: 168989}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 12839442}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,7 +251,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 13081091}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 15557781}
   - component: {fileID: 15557782}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 15708401}
   - component: {fileID: 15708400}
   - component: {fileID: 15708399}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 16822676}
   - component: {fileID: 16822675}
   - component: {fileID: 16822674}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -517,7 +517,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 21089791}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 22809779}
   - component: {fileID: 22809778}
   - component: {fileID: 22809777}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -636,7 +636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 25684137}
   - component: {fileID: 25684138}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 27032052}
   - component: {fileID: 27032051}
   - component: {fileID: 27032050}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 29204174}
   - component: {fileID: 29204173}
   - component: {fileID: 29204172}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 29647531}
   - component: {fileID: 29647532}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 36326207}
   - component: {fileID: 36326206}
   - component: {fileID: 36326205}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1012,7 +1012,7 @@ GameObject:
   - component: {fileID: 37738659}
   - component: {fileID: 37738661}
   - component: {fileID: 37738660}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1088,7 +1088,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 43949915}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1119,7 +1119,7 @@ GameObject:
   - component: {fileID: 44176955}
   - component: {fileID: 44176954}
   - component: {fileID: 44176953}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1205,7 +1205,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 49390052}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1233,7 +1233,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 50238436}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1261,7 +1261,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 51132384}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1293,7 +1293,7 @@ GameObject:
   - component: {fileID: 52793616}
   - component: {fileID: 52793615}
   - component: {fileID: 52793614}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1391,7 @@ GameObject:
   - component: {fileID: 53034814}
   - component: {fileID: 53034813}
   - component: {fileID: 53034812}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 55147206}
   - component: {fileID: 55147208}
   - component: {fileID: 55147207}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1559,7 @@ GameObject:
   - component: {fileID: 58592896}
   - component: {fileID: 58592895}
   - component: {fileID: 58592894}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1646,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 63209423}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1674,7 +1674,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 68119051}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1760,7 +1760,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 71433417}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1791,7 +1791,7 @@ GameObject:
   - component: {fileID: 74491440}
   - component: {fileID: 74491439}
   - component: {fileID: 74491438}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1880,7 +1880,7 @@ GameObject:
   - component: {fileID: 75110185}
   - component: {fileID: 75110184}
   - component: {fileID: 75110183}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1967,7 +1967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77901619}
   - component: {fileID: 77901620}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2016,7 +2016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 81460313}
   - component: {fileID: 81460314}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2065,7 +2065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83955003}
   - component: {fileID: 83955004}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2117,7 +2117,7 @@ GameObject:
   - component: {fileID: 87677466}
   - component: {fileID: 87677465}
   - component: {fileID: 87677464}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2215,7 +2215,7 @@ GameObject:
   - component: {fileID: 87921588}
   - component: {fileID: 87921587}
   - component: {fileID: 87921586}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 97043494}
   - component: {fileID: 97043493}
   - component: {fileID: 97043492}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2437,7 @@ GameObject:
   - component: {fileID: 97152444}
   - component: {fileID: 97152443}
   - component: {fileID: 97152442}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,7 +2524,7 @@ GameObject:
   - component: {fileID: 97270824}
   - component: {fileID: 97270823}
   - component: {fileID: 97270822}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2613,7 +2613,7 @@ GameObject:
   - component: {fileID: 104549715}
   - component: {fileID: 104549714}
   - component: {fileID: 104549713}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2697,7 +2697,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 108064927}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2728,7 +2728,7 @@ GameObject:
   - component: {fileID: 110115753}
   - component: {fileID: 110115752}
   - component: {fileID: 110115751}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2816,7 +2816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110594505}
   - component: {fileID: 110594506}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2868,7 +2868,7 @@ GameObject:
   - component: {fileID: 111722820}
   - component: {fileID: 111722819}
   - component: {fileID: 111722818}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2970,7 +2970,7 @@ GameObject:
   - component: {fileID: 114244413}
   - component: {fileID: 114244412}
   - component: {fileID: 114244411}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3057,7 +3057,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 118063746}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3088,7 +3088,7 @@ GameObject:
   - component: {fileID: 124331279}
   - component: {fileID: 124331278}
   - component: {fileID: 124331277}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3178,7 +3178,7 @@ GameObject:
   - component: {fileID: 128505860}
   - component: {fileID: 128505859}
   - component: {fileID: 128505858}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3262,7 +3262,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 130249316}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3294,7 +3294,7 @@ GameObject:
   - component: {fileID: 135839954}
   - component: {fileID: 135839953}
   - component: {fileID: 135839952}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3393,7 +3393,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 136670072}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3421,7 +3421,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 138231395}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3452,7 +3452,7 @@ GameObject:
   - component: {fileID: 138492198}
   - component: {fileID: 138492197}
   - component: {fileID: 138492196}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3540,7 +3540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 140752470}
   - component: {fileID: 140752471}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3591,7 +3591,7 @@ GameObject:
   - component: {fileID: 140862446}
   - component: {fileID: 140862445}
   - component: {fileID: 140862444}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3677,7 +3677,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 140933545}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3705,7 +3705,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 141389397}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3734,7 +3734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141501889}
   - component: {fileID: 141501890}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3783,7 +3783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141867480}
   - component: {fileID: 141867481}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3835,7 +3835,7 @@ GameObject:
   - component: {fileID: 149972554}
   - component: {fileID: 149972553}
   - component: {fileID: 149972552}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3931,7 +3931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 151330749}
   - component: {fileID: 151330750}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3980,7 +3980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 152263166}
   - component: {fileID: 152263167}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4028,7 +4028,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 152679016}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4059,7 +4059,7 @@ GameObject:
   - component: {fileID: 154220868}
   - component: {fileID: 154220867}
   - component: {fileID: 154220866}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4146,7 +4146,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 154718380}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4178,7 +4178,7 @@ GameObject:
   - component: {fileID: 156467277}
   - component: {fileID: 156467276}
   - component: {fileID: 156467275}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4273,7 +4273,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 156748011}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4304,7 +4304,7 @@ GameObject:
   - component: {fileID: 160549465}
   - component: {fileID: 160549464}
   - component: {fileID: 160549463}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4392,7 +4392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 160732009}
   - component: {fileID: 160732010}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4441,7 +4441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 162360832}
   - component: {fileID: 162360833}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4492,7 +4492,7 @@ GameObject:
   - component: {fileID: 164240086}
   - component: {fileID: 164240085}
   - component: {fileID: 164240084}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4577,7 +4577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166934719}
   - component: {fileID: 166934720}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4628,7 +4628,7 @@ GameObject:
   - component: {fileID: 173836953}
   - component: {fileID: 173836952}
   - component: {fileID: 173836951}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4714,7 +4714,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 175845429}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4745,7 +4745,7 @@ GameObject:
   - component: {fileID: 176733066}
   - component: {fileID: 176733065}
   - component: {fileID: 176733064}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4834,7 +4834,7 @@ GameObject:
   - component: {fileID: 181072715}
   - component: {fileID: 181072714}
   - component: {fileID: 181072713}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4921,7 +4921,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 183853108}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4998,7 +4998,7 @@ GameObject:
   - component: {fileID: 186579311}
   - component: {fileID: 186579310}
   - component: {fileID: 186579309}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5084,7 +5084,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 186596893}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5113,7 +5113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187466937}
   - component: {fileID: 187466938}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5164,7 +5164,7 @@ GameObject:
   - component: {fileID: 190384262}
   - component: {fileID: 190384261}
   - component: {fileID: 190384260}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5255,7 +5255,7 @@ GameObject:
   - component: {fileID: 191998179}
   - component: {fileID: 191998178}
   - component: {fileID: 191998177}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5350,7 +5350,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 192842146}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5382,7 +5382,7 @@ GameObject:
   - component: {fileID: 195004108}
   - component: {fileID: 195004107}
   - component: {fileID: 195004106}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5480,7 +5480,7 @@ GameObject:
   - component: {fileID: 196688082}
   - component: {fileID: 196688081}
   - component: {fileID: 196688080}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5569,7 +5569,7 @@ GameObject:
   - component: {fileID: 197960144}
   - component: {fileID: 197960143}
   - component: {fileID: 197960142}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_OBJ_Statu_01_02_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5655,7 +5655,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 198167161}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5684,7 +5684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198630196}
   - component: {fileID: 198630197}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5733,7 +5733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 204188209}
   - component: {fileID: 204188210}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5785,7 +5785,7 @@ GameObject:
   - component: {fileID: 206691385}
   - component: {fileID: 206691384}
   - component: {fileID: 206691383}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5873,7 +5873,7 @@ GameObject:
   - component: {fileID: 210915507}
   - component: {fileID: 210915509}
   - component: {fileID: 210915508}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5953,7 +5953,7 @@ GameObject:
   - component: {fileID: 214713222}
   - component: {fileID: 214713221}
   - component: {fileID: 214713220}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MossRock_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6039,7 +6039,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 216435308}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6070,7 +6070,7 @@ GameObject:
   - component: {fileID: 221274184}
   - component: {fileID: 221274183}
   - component: {fileID: 221274182}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6157,7 +6157,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 223471972}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6185,7 +6185,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 225605253}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6214,7 +6214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228518432}
   - component: {fileID: 228518433}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6263,7 +6263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 233068903}
   - component: {fileID: 233068904}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6315,7 +6315,7 @@ GameObject:
   - component: {fileID: 233474758}
   - component: {fileID: 233474757}
   - component: {fileID: 233474756}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6417,7 +6417,7 @@ GameObject:
   - component: {fileID: 236417782}
   - component: {fileID: 236417781}
   - component: {fileID: 236417780}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6504,7 +6504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 241374440}
   - component: {fileID: 241374441}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6555,7 +6555,7 @@ GameObject:
   - component: {fileID: 241516636}
   - component: {fileID: 241516635}
   - component: {fileID: 241516634}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6641,7 +6641,7 @@ GameObject:
   - component: {fileID: 244097216}
   - component: {fileID: 244097218}
   - component: {fileID: 244097217}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Quest1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6716,7 +6716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244718011}
   - component: {fileID: 244718012}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6768,7 +6768,7 @@ GameObject:
   - component: {fileID: 246833732}
   - component: {fileID: 246833731}
   - component: {fileID: 246833730}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6867,7 +6867,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 249560320}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6898,7 +6898,7 @@ GameObject:
   - component: {fileID: 250428755}
   - component: {fileID: 250428754}
   - component: {fileID: 250428753}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6986,7 +6986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253984714}
   - component: {fileID: 253984715}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7034,7 +7034,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 256367668}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7063,7 +7063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256776303}
   - component: {fileID: 256776304}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BRIDGE City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7114,7 +7114,7 @@ GameObject:
   - component: {fileID: 260634437}
   - component: {fileID: 260634436}
   - component: {fileID: 260634435}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7202,7 +7202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260942518}
   - component: {fileID: 260942519}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7250,7 +7250,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 262132598}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7278,7 +7278,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 268410739}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7306,7 +7306,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 268969647}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7336,7 +7336,7 @@ GameObject:
   - component: {fileID: 278045388}
   - component: {fileID: 278045390}
   - component: {fileID: 278045389}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7403,7 +7403,7 @@ GameObject:
   - component: {fileID: 283577025}
   - component: {fileID: 283577024}
   - component: {fileID: 283577023}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7503,7 +7503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 290199002}
   - component: {fileID: 290199003}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7551,7 +7551,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 294315206}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7581,7 +7581,7 @@ GameObject:
   - component: {fileID: 298287569}
   - component: {fileID: 298287571}
   - component: {fileID: 298287570}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7661,7 +7661,7 @@ GameObject:
   - component: {fileID: 300664783}
   - component: {fileID: 300664782}
   - component: {fileID: 300664781}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7751,7 +7751,7 @@ GameObject:
   - component: {fileID: 303378791}
   - component: {fileID: 303378790}
   - component: {fileID: 303378789}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7842,7 +7842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308162167}
   - component: {fileID: 308162168}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7893,7 +7893,7 @@ GameObject:
   - component: {fileID: 311231836}
   - component: {fileID: 311231835}
   - component: {fileID: 311231834}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7981,7 +7981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311280883}
   - component: {fileID: 311280884}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8028,7 +8028,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 311432532}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8056,7 +8056,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 765304675}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Village Houses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8073,7 +8073,7 @@ GameObject:
   - component: {fileID: 321509955}
   - component: {fileID: 321509957}
   - component: {fileID: 321509956}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8151,7 +8151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 325776614}
   - component: {fileID: 325776615}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8200,7 +8200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 328093760}
   - component: {fileID: 328093761}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8251,7 +8251,7 @@ GameObject:
   - component: {fileID: 330771627}
   - component: {fileID: 330771626}
   - component: {fileID: 330771625}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8342,7 +8342,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 339116293}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8373,7 +8373,7 @@ GameObject:
   - component: {fileID: 340678165}
   - component: {fileID: 340678164}
   - component: {fileID: 340678163}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8460,7 +8460,7 @@ GameObject:
   - component: {fileID: 341013840}
   - component: {fileID: 341013839}
   - component: {fileID: 341013838}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8546,7 +8546,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 344493377}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8574,7 +8574,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 351416888}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8633,7 +8633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352139869}
   - component: {fileID: 352139870}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8681,7 +8681,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 361212037}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8712,7 +8712,7 @@ GameObject:
   - component: {fileID: 363447179}
   - component: {fileID: 363447178}
   - component: {fileID: 363447177}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8802,7 +8802,7 @@ GameObject:
   - component: {fileID: 373183371}
   - component: {fileID: 373183370}
   - component: {fileID: 373183369}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8888,7 +8888,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 379085001}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8917,7 +8917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 384817610}
   - component: {fileID: 384817611}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8966,7 +8966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385876402}
   - component: {fileID: 385876403}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9014,7 +9014,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 387714418}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9046,7 +9046,7 @@ GameObject:
   - component: {fileID: 393139333}
   - component: {fileID: 393139332}
   - component: {fileID: 393139331}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9146,7 +9146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394350232}
   - component: {fileID: 394350233}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9195,7 +9195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 395231568}
   - component: {fileID: 395231569}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9243,7 +9243,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 396868554}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9271,7 +9271,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 398330632}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9302,7 +9302,7 @@ GameObject:
   - component: {fileID: 402033142}
   - component: {fileID: 402033141}
   - component: {fileID: 402033140}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_OBJ_Statu_03_Body_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9391,7 +9391,7 @@ GameObject:
   - component: {fileID: 413018208}
   - component: {fileID: 413018207}
   - component: {fileID: 413018206}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9478,7 +9478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413345459}
   - component: {fileID: 413345460}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9526,7 +9526,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 415716061}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9558,7 +9558,7 @@ GameObject:
   - component: {fileID: 417459336}
   - component: {fileID: 417459335}
   - component: {fileID: 417459334}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9657,7 +9657,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 418736970}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9686,7 +9686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 422681216}
   - component: {fileID: 422681217}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9735,7 +9735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430618502}
   - component: {fileID: 430618503}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9786,7 +9786,7 @@ GameObject:
   - component: {fileID: 432650849}
   - component: {fileID: 432650848}
   - component: {fileID: 432650847}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9875,7 +9875,7 @@ GameObject:
   - component: {fileID: 433618110}
   - component: {fileID: 433618112}
   - component: {fileID: 433618111}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9938,7 +9938,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 434798253}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9969,7 +9969,7 @@ GameObject:
   - component: {fileID: 435786007}
   - component: {fileID: 435786006}
   - component: {fileID: 435786005}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10062,7 +10062,7 @@ GameObject:
   - component: {fileID: 437511999}
   - component: {fileID: 437511998}
   - component: {fileID: 437511997}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10165,7 +10165,7 @@ GameObject:
   - component: {fileID: 437602426}
   - component: {fileID: 437602425}
   - component: {fileID: 437602424}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10263,7 +10263,7 @@ GameObject:
   - component: {fileID: 448332042}
   - component: {fileID: 448332041}
   - component: {fileID: 448332040}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10350,7 +10350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452049868}
   - component: {fileID: 452049869}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10399,7 +10399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452711557}
   - component: {fileID: 452711558}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10447,7 +10447,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 455742314}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10475,7 +10475,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 455869433}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10504,7 +10504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458338483}
   - component: {fileID: 458338484}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10552,7 +10552,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 458406511}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10580,7 +10580,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 461441362}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10611,7 +10611,7 @@ GameObject:
   - component: {fileID: 462684505}
   - component: {fileID: 462684504}
   - component: {fileID: 462684503}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10698,7 +10698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462768970}
   - component: {fileID: 462768971}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10746,7 +10746,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 465287262}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10777,7 +10777,7 @@ GameObject:
   - component: {fileID: 467790321}
   - component: {fileID: 467790320}
   - component: {fileID: 467790319}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10863,7 +10863,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 470650137}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10895,7 +10895,7 @@ GameObject:
   - component: {fileID: 472494186}
   - component: {fileID: 472494185}
   - component: {fileID: 472494184}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10998,7 +10998,7 @@ GameObject:
   - component: {fileID: 473395761}
   - component: {fileID: 473395760}
   - component: {fileID: 473395759}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11093,7 +11093,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 473830241}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11121,7 +11121,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 473863634}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11152,7 +11152,7 @@ GameObject:
   - component: {fileID: 476685131}
   - component: {fileID: 476685130}
   - component: {fileID: 476685129}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11240,7 +11240,7 @@ GameObject:
   - component: {fileID: 477427437}
   - component: {fileID: 477427439}
   - component: {fileID: 477427438}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11304,7 +11304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477742550}
   - component: {fileID: 477742551}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11353,7 +11353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480377415}
   - component: {fileID: 480377416}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11404,7 +11404,7 @@ GameObject:
   - component: {fileID: 480883227}
   - component: {fileID: 480883226}
   - component: {fileID: 480883225}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11493,7 +11493,7 @@ GameObject:
   - component: {fileID: 483953982}
   - component: {fileID: 483953981}
   - component: {fileID: 483953980}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BRIDGE_City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11584,7 +11584,7 @@ GameObject:
   - component: {fileID: 489850085}
   - component: {fileID: 489850084}
   - component: {fileID: 489850083}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11671,7 +11671,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 493542294}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11702,7 +11702,7 @@ GameObject:
   - component: {fileID: 494960851}
   - component: {fileID: 494960850}
   - component: {fileID: 494960849}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11791,7 +11791,7 @@ GameObject:
   - component: {fileID: 497336531}
   - component: {fileID: 497336530}
   - component: {fileID: 497336529}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11936,7 +11936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 504418930}
   - component: {fileID: 504418931}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Directional light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12002,7 +12002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 510600911}
   - component: {fileID: 510600912}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12050,7 +12050,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 515103304}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12081,7 +12081,7 @@ GameObject:
   - component: {fileID: 528503562}
   - component: {fileID: 528503561}
   - component: {fileID: 528503560}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12169,7 +12169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 529156388}
   - component: {fileID: 529156389}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12217,7 +12217,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 529955323}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12313,7 +12313,7 @@ GameObject:
   - component: {fileID: 531124937}
   - component: {fileID: 531124936}
   - component: {fileID: 531124935}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Meshi_Shop2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12401,7 +12401,7 @@ GameObject:
   - component: {fileID: 531421123}
   - component: {fileID: 531421125}
   - component: {fileID: 531421124}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Quest2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12478,7 +12478,7 @@ GameObject:
   - component: {fileID: 533840258}
   - component: {fileID: 533840257}
   - component: {fileID: 533840256}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12564,7 +12564,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 534173496}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12593,7 +12593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538223368}
   - component: {fileID: 538223369}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12641,7 +12641,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 539048001}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12670,7 +12670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543720326}
   - component: {fileID: 543720327}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12721,7 +12721,7 @@ GameObject:
   - component: {fileID: 549998289}
   - component: {fileID: 549998288}
   - component: {fileID: 549998287}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_OBJ_Statu02_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12807,7 +12807,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 556669235}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12894,7 +12894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 564211081}
   - component: {fileID: 564211082}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12943,7 +12943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 564947638}
   - component: {fileID: 564947639}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12991,7 +12991,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 569040774}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13020,7 +13020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571211682}
   - component: {fileID: 571211683}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13068,7 +13068,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 574966225}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13099,7 +13099,7 @@ GameObject:
   - component: {fileID: 576823071}
   - component: {fileID: 576823070}
   - component: {fileID: 576823069}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13186,7 +13186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578814125}
   - component: {fileID: 578814126}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13234,7 +13234,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 580813738}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13262,7 +13262,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 585477667}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13293,7 +13293,7 @@ GameObject:
   - component: {fileID: 585662364}
   - component: {fileID: 585662363}
   - component: {fileID: 585662362}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13380,7 +13380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586877528}
   - component: {fileID: 586877529}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13432,7 +13432,7 @@ GameObject:
   - component: {fileID: 587848789}
   - component: {fileID: 587848788}
   - component: {fileID: 587848787}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13521,7 +13521,7 @@ GameObject:
   - component: {fileID: 593584316}
   - component: {fileID: 593584315}
   - component: {fileID: 593584314}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13607,7 +13607,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 594734947}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13638,7 +13638,7 @@ GameObject:
   - component: {fileID: 594855183}
   - component: {fileID: 594855182}
   - component: {fileID: 594855181}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13728,7 +13728,7 @@ GameObject:
   - component: {fileID: 597693476}
   - component: {fileID: 597693475}
   - component: {fileID: 597693474}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13817,7 +13817,7 @@ GameObject:
   - component: {fileID: 597796900}
   - component: {fileID: 597796899}
   - component: {fileID: 597796898}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store_cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13904,7 +13904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599299751}
   - component: {fileID: 599299752}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13956,7 +13956,7 @@ GameObject:
   - component: {fileID: 599814972}
   - component: {fileID: 599814971}
   - component: {fileID: 599814970}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14046,7 +14046,7 @@ GameObject:
   - component: {fileID: 603974655}
   - component: {fileID: 603974654}
   - component: {fileID: 603974653}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14133,7 +14133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 605216957}
   - component: {fileID: 605216958}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14181,7 +14181,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 606427974}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14210,7 +14210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608884661}
   - component: {fileID: 608884662}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14261,7 +14261,7 @@ GameObject:
   - component: {fileID: 611103389}
   - component: {fileID: 611103388}
   - component: {fileID: 611103387}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14349,7 +14349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612263643}
   - component: {fileID: 612263644}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14398,7 +14398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 620700917}
   - component: {fileID: 620700918}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14446,7 +14446,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 622056357}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14476,7 +14476,7 @@ GameObject:
   - component: {fileID: 626300381}
   - component: {fileID: 626300383}
   - component: {fileID: 626300382}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14553,7 +14553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 627556226}
   - component: {fileID: 627556227}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14604,7 +14604,7 @@ GameObject:
   - component: {fileID: 634205340}
   - component: {fileID: 634205339}
   - component: {fileID: 634205338}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14692,7 +14692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641879605}
   - component: {fileID: 641879606}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14741,7 +14741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 645690431}
   - component: {fileID: 645690432}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BRIDGE City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14790,7 +14790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647465765}
   - component: {fileID: 647465766}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14842,7 +14842,7 @@ GameObject:
   - component: {fileID: 649640665}
   - component: {fileID: 649640664}
   - component: {fileID: 649640663}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14940,7 +14940,7 @@ GameObject:
   - component: {fileID: 654226082}
   - component: {fileID: 654226081}
   - component: {fileID: 654226080}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15029,7 +15029,7 @@ GameObject:
   - component: {fileID: 655771068}
   - component: {fileID: 655771067}
   - component: {fileID: 655771066}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15118,7 +15118,7 @@ GameObject:
   - component: {fileID: 656254825}
   - component: {fileID: 656254824}
   - component: {fileID: 656254823}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15205,7 +15205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 663449035}
   - component: {fileID: 663449036}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15254,7 +15254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672653895}
   - component: {fileID: 672653896}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15302,7 +15302,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 676676104}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15333,7 +15333,7 @@ GameObject:
   - component: {fileID: 680516331}
   - component: {fileID: 680516330}
   - component: {fileID: 680516329}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15423,7 +15423,7 @@ GameObject:
   - component: {fileID: 683886000}
   - component: {fileID: 683885999}
   - component: {fileID: 683885998}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15513,7 +15513,7 @@ GameObject:
   - component: {fileID: 685588954}
   - component: {fileID: 685588953}
   - component: {fileID: 685588952}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15616,7 +15616,7 @@ GameObject:
   - component: {fileID: 686694917}
   - component: {fileID: 686694916}
   - component: {fileID: 686694915}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15712,7 +15712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 688680713}
   - component: {fileID: 688680714}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15761,7 +15761,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 691682349}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15790,7 +15790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 694769389}
   - component: {fileID: 694769390}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15838,7 +15838,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 695501770}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15866,7 +15866,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 699350164}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15897,7 +15897,7 @@ GameObject:
   - component: {fileID: 700391799}
   - component: {fileID: 700391798}
   - component: {fileID: 700391797}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15982,7 +15982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 700763131}
   - component: {fileID: 700763132}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16033,7 +16033,7 @@ GameObject:
   - component: {fileID: 702506043}
   - component: {fileID: 702506042}
   - component: {fileID: 702506041}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16120,7 +16120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704344869}
   - component: {fileID: 704344870}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16168,7 +16168,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 704809605}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16199,7 +16199,7 @@ GameObject:
   - component: {fileID: 707103165}
   - component: {fileID: 707103164}
   - component: {fileID: 707103163}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16286,7 +16286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709832521}
   - component: {fileID: 709832522}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16335,7 +16335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710143132}
   - component: {fileID: 710143133}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16387,7 +16387,7 @@ GameObject:
   - component: {fileID: 718846953}
   - component: {fileID: 718846952}
   - component: {fileID: 718846951}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def_Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16475,7 +16475,7 @@ GameObject:
   - component: {fileID: 720571646}
   - component: {fileID: 720571648}
   - component: {fileID: 720571647}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16555,7 +16555,7 @@ GameObject:
   - component: {fileID: 722114826}
   - component: {fileID: 722114825}
   - component: {fileID: 722114824}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16646,7 +16646,7 @@ GameObject:
   - component: {fileID: 724404155}
   - component: {fileID: 724404154}
   - component: {fileID: 724404153}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16747,7 +16747,7 @@ GameObject:
   - component: {fileID: 737500614}
   - component: {fileID: 737500616}
   - component: {fileID: 737500615}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16829,7 +16829,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 737967055}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16860,7 +16860,7 @@ GameObject:
   - component: {fileID: 741024867}
   - component: {fileID: 741024866}
   - component: {fileID: 741024865}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16947,7 +16947,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 747974651}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16976,7 +16976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 748746954}
   - component: {fileID: 748746955}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17024,7 +17024,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 750090496}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17056,7 +17056,7 @@ GameObject:
   - component: {fileID: 756500550}
   - component: {fileID: 756500549}
   - component: {fileID: 756500548}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17158,7 +17158,7 @@ GameObject:
   - component: {fileID: 759797580}
   - component: {fileID: 759797579}
   - component: {fileID: 759797578}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17247,7 +17247,7 @@ GameObject:
   - component: {fileID: 761463636}
   - component: {fileID: 761463635}
   - component: {fileID: 761463634}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17331,7 +17331,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 763497852}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17362,7 +17362,7 @@ GameObject:
   - component: {fileID: 764236923}
   - component: {fileID: 764236922}
   - component: {fileID: 764236921}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17469,7 +17469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766787140}
   - component: {fileID: 766787141}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17521,7 +17521,7 @@ GameObject:
   - component: {fileID: 767557612}
   - component: {fileID: 767557611}
   - component: {fileID: 767557610}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17623,7 +17623,7 @@ GameObject:
   - component: {fileID: 772080120}
   - component: {fileID: 772080119}
   - component: {fileID: 772080118}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17710,7 +17710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 772679838}
   - component: {fileID: 772679839}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17761,7 +17761,7 @@ GameObject:
   - component: {fileID: 778397677}
   - component: {fileID: 778397676}
   - component: {fileID: 778397675}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17849,7 +17849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 782147652}
   - component: {fileID: 782147653}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17897,7 +17897,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 784259071}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17929,7 +17929,7 @@ GameObject:
   - component: {fileID: 784318980}
   - component: {fileID: 784318979}
   - component: {fileID: 784318978}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18025,7 +18025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 785955699}
   - component: {fileID: 785955700}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18073,7 +18073,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 788817472}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Block City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18160,7 +18160,7 @@ GameObject:
   - component: {fileID: 795986803}
   - component: {fileID: 795986802}
   - component: {fileID: 795986801}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18258,7 +18258,7 @@ GameObject:
   - component: {fileID: 800074197}
   - component: {fileID: 800074196}
   - component: {fileID: 800074195}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18348,7 +18348,7 @@ GameObject:
   - component: {fileID: 803782040}
   - component: {fileID: 803782039}
   - component: {fileID: 803782038}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18435,7 +18435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808218058}
   - component: {fileID: 808218059}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18484,7 +18484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810855274}
   - component: {fileID: 810855275}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18536,7 +18536,7 @@ GameObject:
   - component: {fileID: 812592415}
   - component: {fileID: 812592414}
   - component: {fileID: 812592413}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18638,7 +18638,7 @@ GameObject:
   - component: {fileID: 814592836}
   - component: {fileID: 814592835}
   - component: {fileID: 814592834}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18723,7 +18723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 816074550}
   - component: {fileID: 816074551}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18771,7 +18771,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 816281623}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18802,7 +18802,7 @@ GameObject:
   - component: {fileID: 816907778}
   - component: {fileID: 816907777}
   - component: {fileID: 816907776}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18889,7 +18889,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 823881293}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18920,7 +18920,7 @@ GameObject:
   - component: {fileID: 828920188}
   - component: {fileID: 828920187}
   - component: {fileID: 828920186}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19010,7 +19010,7 @@ GameObject:
   - component: {fileID: 831877615}
   - component: {fileID: 831877614}
   - component: {fileID: 831877613}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19100,7 +19100,7 @@ GameObject:
   - component: {fileID: 834358220}
   - component: {fileID: 834358219}
   - component: {fileID: 834358218}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19184,7 +19184,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 835221564}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19215,7 +19215,7 @@ GameObject:
   - component: {fileID: 837797334}
   - component: {fileID: 837797333}
   - component: {fileID: 837797332}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19302,7 +19302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843089888}
   - component: {fileID: 843089889}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19354,7 +19354,7 @@ GameObject:
   - component: {fileID: 843814612}
   - component: {fileID: 843814611}
   - component: {fileID: 843814610}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19449,7 +19449,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 845628856}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19481,7 +19481,7 @@ GameObject:
   - component: {fileID: 846684837}
   - component: {fileID: 846684836}
   - component: {fileID: 846684835}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19583,7 +19583,7 @@ GameObject:
   - component: {fileID: 849211656}
   - component: {fileID: 849211655}
   - component: {fileID: 849211654}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19674,7 +19674,7 @@ GameObject:
   - component: {fileID: 850977102}
   - component: {fileID: 850977101}
   - component: {fileID: 850977100}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19774,7 +19774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852182492}
   - component: {fileID: 852182493}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19825,7 +19825,7 @@ GameObject:
   - component: {fileID: 855319793}
   - component: {fileID: 855319792}
   - component: {fileID: 855319791}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MossRock_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19972,7 +19972,7 @@ GameObject:
   - component: {fileID: 856343561}
   - component: {fileID: 856343560}
   - component: {fileID: 856343559}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20058,7 +20058,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 856885277}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20086,7 +20086,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 858246166}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20118,7 +20118,7 @@ GameObject:
   - component: {fileID: 859825855}
   - component: {fileID: 859825854}
   - component: {fileID: 859825853}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20222,7 +20222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868237963}
   - component: {fileID: 868237964}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20273,7 +20273,7 @@ GameObject:
   - component: {fileID: 874165225}
   - component: {fileID: 874165224}
   - component: {fileID: 874165223}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20361,7 +20361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877527560}
   - component: {fileID: 877527561}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20410,7 +20410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 885728464}
   - component: {fileID: 885728465}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20463,7 +20463,7 @@ GameObject:
   - component: {fileID: 886718119}
   - component: {fileID: 886718118}
   - component: {fileID: 886718117}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20552,7 +20552,7 @@ GameObject:
   - component: {fileID: 887003862}
   - component: {fileID: 887003861}
   - component: {fileID: 887003860}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20642,7 +20642,7 @@ GameObject:
   - component: {fileID: 893474143}
   - component: {fileID: 893474142}
   - component: {fileID: 893474141}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20730,7 +20730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 894563646}
   - component: {fileID: 894563647}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20780,7 +20780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 896336581}
   - component: {fileID: 896336582}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20862,7 +20862,7 @@ GameObject:
   - component: {fileID: 899425283}
   - component: {fileID: 899425282}
   - component: {fileID: 899425281}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House_Quest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20957,7 +20957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 901299439}
   - component: {fileID: 901299440}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21005,7 +21005,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 903541502}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21034,7 +21034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 908613821}
   - component: {fileID: 908613822}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21085,7 +21085,7 @@ GameObject:
   - component: {fileID: 908873870}
   - component: {fileID: 908873869}
   - component: {fileID: 908873868}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21171,7 +21171,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 913230206}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21202,7 +21202,7 @@ GameObject:
   - component: {fileID: 919129522}
   - component: {fileID: 919129521}
   - component: {fileID: 919129520}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21292,7 +21292,7 @@ GameObject:
   - component: {fileID: 923068411}
   - component: {fileID: 923068410}
   - component: {fileID: 923068409}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21379,7 +21379,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 924298377}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21410,7 +21410,7 @@ GameObject:
   - component: {fileID: 929009805}
   - component: {fileID: 929009804}
   - component: {fileID: 929009803}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21500,7 +21500,7 @@ GameObject:
   - component: {fileID: 933177714}
   - component: {fileID: 933177713}
   - component: {fileID: 933177712}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21587,7 +21587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 934875325}
   - component: {fileID: 934875326}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21635,7 +21635,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 937324262}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21664,7 +21664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942757399}
   - component: {fileID: 942757400}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21713,7 +21713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 944995529}
   - component: {fileID: 944995530}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21764,7 +21764,7 @@ GameObject:
   - component: {fileID: 945178305}
   - component: {fileID: 945178304}
   - component: {fileID: 945178303}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21854,7 +21854,7 @@ GameObject:
   - component: {fileID: 945870045}
   - component: {fileID: 945870044}
   - component: {fileID: 945870043}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21943,7 +21943,7 @@ GameObject:
   - component: {fileID: 947597180}
   - component: {fileID: 947597179}
   - component: {fileID: 947597178}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22033,7 +22033,7 @@ GameObject:
   - component: {fileID: 947876957}
   - component: {fileID: 947876956}
   - component: {fileID: 947876955}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22136,7 +22136,7 @@ GameObject:
   - component: {fileID: 949411806}
   - component: {fileID: 949411805}
   - component: {fileID: 949411804}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22234,7 +22234,7 @@ GameObject:
   - component: {fileID: 951134379}
   - component: {fileID: 951134378}
   - component: {fileID: 951134377}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22320,7 +22320,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 956056155}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22349,7 +22349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 957243408}
   - component: {fileID: 957243409}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22400,7 +22400,7 @@ GameObject:
   - component: {fileID: 957718115}
   - component: {fileID: 957718114}
   - component: {fileID: 957718113}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22486,7 +22486,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 958482651}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22517,7 +22517,7 @@ GameObject:
   - component: {fileID: 960395101}
   - component: {fileID: 960395100}
   - component: {fileID: 960395099}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22605,7 +22605,7 @@ GameObject:
   - component: {fileID: 963512972}
   - component: {fileID: 963512974}
   - component: {fileID: 963512973}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22679,7 +22679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964122449}
   - component: {fileID: 964122450}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22728,7 +22728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969593216}
   - component: {fileID: 969593217}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22776,7 +22776,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 971240551}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22804,7 +22804,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 977958696}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22832,7 +22832,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 981608390}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22863,7 +22863,7 @@ GameObject:
   - component: {fileID: 984568477}
   - component: {fileID: 984568476}
   - component: {fileID: 984568475}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22952,7 +22952,7 @@ GameObject:
   - component: {fileID: 985246067}
   - component: {fileID: 985246066}
   - component: {fileID: 985246065}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23042,7 +23042,7 @@ GameObject:
   - component: {fileID: 988565914}
   - component: {fileID: 988565913}
   - component: {fileID: 988565912}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23137,7 +23137,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 991148416}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23166,7 +23166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 993311045}
   - component: {fileID: 993311046}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23214,7 +23214,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1006819311}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23245,7 +23245,7 @@ GameObject:
   - component: {fileID: 1013620875}
   - component: {fileID: 1013620874}
   - component: {fileID: 1013620873}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23331,7 +23331,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1017496559}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23360,7 +23360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1019027799}
   - component: {fileID: 1019027800}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23410,7 +23410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1019036358}
   - component: {fileID: 1019036359}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23461,7 +23461,7 @@ GameObject:
   - component: {fileID: 1030044893}
   - component: {fileID: 1030044892}
   - component: {fileID: 1030044891}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_CON_StairSet_04_SM_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23551,7 +23551,7 @@ GameObject:
   - component: {fileID: 1037647739}
   - component: {fileID: 1037647738}
   - component: {fileID: 1037647737}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23645,7 +23645,7 @@ GameObject:
   - component: {fileID: 1041091504}
   - component: {fileID: 1041091503}
   - component: {fileID: 1041091502}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23731,7 +23731,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1041995425}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23760,7 +23760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045963462}
   - component: {fileID: 1045963463}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23809,7 +23809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048769137}
   - component: {fileID: 1048769138}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23860,7 +23860,7 @@ GameObject:
   - component: {fileID: 1049810795}
   - component: {fileID: 1049810794}
   - component: {fileID: 1049810793}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23949,7 +23949,7 @@ GameObject:
   - component: {fileID: 1054005792}
   - component: {fileID: 1054005791}
   - component: {fileID: 1054005790}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24039,7 +24039,7 @@ GameObject:
   - component: {fileID: 1054151642}
   - component: {fileID: 1054151641}
   - component: {fileID: 1054151640}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24129,7 +24129,7 @@ GameObject:
   - component: {fileID: 1056658911}
   - component: {fileID: 1056658910}
   - component: {fileID: 1056658909}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24216,7 +24216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1056929661}
   - component: {fileID: 1056929662}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24267,7 +24267,7 @@ GameObject:
   - component: {fileID: 1057660419}
   - component: {fileID: 1057660418}
   - component: {fileID: 1057660417}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24353,7 +24353,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1061695353}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24382,7 +24382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1062581393}
   - component: {fileID: 1062581394}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24434,7 +24434,7 @@ GameObject:
   - component: {fileID: 1063970470}
   - component: {fileID: 1063970469}
   - component: {fileID: 1063970468}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24536,7 +24536,7 @@ GameObject:
   - component: {fileID: 1066688129}
   - component: {fileID: 1066688128}
   - component: {fileID: 1066688127}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24622,7 +24622,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1070538118}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24650,7 +24650,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1070868923}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24678,7 +24678,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1071609051}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24706,7 +24706,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1074452622}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24738,7 +24738,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1085933483}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24769,7 +24769,7 @@ GameObject:
   - component: {fileID: 1088657771}
   - component: {fileID: 1088657770}
   - component: {fileID: 1088657769}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24901,7 +24901,7 @@ GameObject:
   - component: {fileID: 1102772946}
   - component: {fileID: 1102772945}
   - component: {fileID: 1102772944}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24991,7 +24991,7 @@ GameObject:
   - component: {fileID: 1102961758}
   - component: {fileID: 1102961757}
   - component: {fileID: 1102961756}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25080,7 +25080,7 @@ GameObject:
   - component: {fileID: 1103443241}
   - component: {fileID: 1103443240}
   - component: {fileID: 1103443239}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25166,7 +25166,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1112932678}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25197,7 +25197,7 @@ GameObject:
   - component: {fileID: 1116407032}
   - component: {fileID: 1116407031}
   - component: {fileID: 1116407030}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25286,7 +25286,7 @@ GameObject:
   - component: {fileID: 1119074249}
   - component: {fileID: 1119074248}
   - component: {fileID: 1119074247}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25375,7 +25375,7 @@ GameObject:
   - component: {fileID: 1121378096}
   - component: {fileID: 1121378095}
   - component: {fileID: 1121378094}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MossRock_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25464,7 +25464,7 @@ GameObject:
   - component: {fileID: 1126254102}
   - component: {fileID: 1126254101}
   - component: {fileID: 1126254100}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25553,7 +25553,7 @@ GameObject:
   - component: {fileID: 1128753016}
   - component: {fileID: 1128753015}
   - component: {fileID: 1128753014}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25637,7 +25637,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1131538572}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25665,7 +25665,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1134269569}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25694,7 +25694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1139224485}
   - component: {fileID: 1139224486}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25742,7 +25742,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1142486498}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25771,7 +25771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144537375}
   - component: {fileID: 1144537376}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25822,7 +25822,7 @@ GameObject:
   - component: {fileID: 1147559955}
   - component: {fileID: 1147559954}
   - component: {fileID: 1147559953}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25908,7 +25908,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1154177211}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25970,7 +25970,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1155214718}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: city senter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26003,7 +26003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1155440071}
   - component: {fileID: 1155440072}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26055,7 +26055,7 @@ GameObject:
   - component: {fileID: 1159065984}
   - component: {fileID: 1159065983}
   - component: {fileID: 1159065982}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26153,7 +26153,7 @@ GameObject:
   - component: {fileID: 1162827545}
   - component: {fileID: 1162827544}
   - component: {fileID: 1162827543}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26239,7 +26239,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1163362205}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26270,7 +26270,7 @@ GameObject:
   - component: {fileID: 1163571327}
   - component: {fileID: 1163571326}
   - component: {fileID: 1163571325}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: CM_Fountain_03_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26359,7 +26359,7 @@ GameObject:
   - component: {fileID: 1165424936}
   - component: {fileID: 1165424935}
   - component: {fileID: 1165424934}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26450,7 +26450,7 @@ GameObject:
   - component: {fileID: 1167111556}
   - component: {fileID: 1167111555}
   - component: {fileID: 1167111554}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26548,7 +26548,7 @@ GameObject:
   - component: {fileID: 1169834058}
   - component: {fileID: 1169834057}
   - component: {fileID: 1169834056}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26637,7 +26637,7 @@ GameObject:
   - component: {fileID: 1169891822}
   - component: {fileID: 1169891824}
   - component: {fileID: 1169891823}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26713,7 +26713,7 @@ GameObject:
   - component: {fileID: 1169912112}
   - component: {fileID: 1169912111}
   - component: {fileID: 1169912110}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26804,7 +26804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173672809}
   - component: {fileID: 1173672810}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26855,7 +26855,7 @@ GameObject:
   - component: {fileID: 1176543781}
   - component: {fileID: 1176543780}
   - component: {fileID: 1176543779}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26944,7 +26944,7 @@ GameObject:
   - component: {fileID: 1183687776}
   - component: {fileID: 1183687775}
   - component: {fileID: 1183687774}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_CON_StairSet_04_SM_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27033,7 +27033,7 @@ GameObject:
   - component: {fileID: 1190429457}
   - component: {fileID: 1190429459}
   - component: {fileID: 1190429458}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27118,7 +27118,7 @@ GameObject:
   - component: {fileID: 1190431043}
   - component: {fileID: 1190431042}
   - component: {fileID: 1190431041}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27205,7 +27205,7 @@ GameObject:
   - component: {fileID: 1196404195}
   - component: {fileID: 1196404194}
   - component: {fileID: 1196404193}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27291,7 +27291,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1198333837}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27319,7 +27319,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1199451067}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27350,7 +27350,7 @@ GameObject:
   - component: {fileID: 1204307327}
   - component: {fileID: 1204307326}
   - component: {fileID: 1204307325}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27437,7 +27437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210491029}
   - component: {fileID: 1210491030}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27488,7 +27488,7 @@ GameObject:
   - component: {fileID: 1221915594}
   - component: {fileID: 1221915593}
   - component: {fileID: 1221915592}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27575,7 +27575,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1223858697}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27607,7 +27607,7 @@ GameObject:
   - component: {fileID: 1227443763}
   - component: {fileID: 1227443762}
   - component: {fileID: 1227443761}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27706,7 +27706,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1227854355}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27734,7 +27734,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1227855480}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27766,7 +27766,7 @@ GameObject:
   - component: {fileID: 1229244328}
   - component: {fileID: 1229244327}
   - component: {fileID: 1229244326}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27865,7 +27865,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1241973232}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27896,7 +27896,7 @@ GameObject:
   - component: {fileID: 1242158133}
   - component: {fileID: 1242158132}
   - component: {fileID: 1242158131}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27987,7 +27987,7 @@ GameObject:
   - component: {fileID: 1243281671}
   - component: {fileID: 1243281670}
   - component: {fileID: 1243281669}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28089,7 +28089,7 @@ GameObject:
   - component: {fileID: 1243676345}
   - component: {fileID: 1243676344}
   - component: {fileID: 1243676343}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28174,7 +28174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245394917}
   - component: {fileID: 1245394918}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28343,7 +28343,7 @@ GameObject:
   - component: {fileID: 1251265231}
   - component: {fileID: 1251265230}
   - component: {fileID: 1251265229}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28439,7 +28439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1253266106}
   - component: {fileID: 1253266107}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28487,7 +28487,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1254107749}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28516,7 +28516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1254784348}
   - component: {fileID: 1254784349}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28565,7 +28565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1256962477}
   - component: {fileID: 1256962478}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28616,7 +28616,7 @@ GameObject:
   - component: {fileID: 1257416311}
   - component: {fileID: 1257416310}
   - component: {fileID: 1257416309}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28701,7 +28701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1260942297}
   - component: {fileID: 1260942298}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28752,7 +28752,7 @@ GameObject:
   - component: {fileID: 1264007524}
   - component: {fileID: 1264007523}
   - component: {fileID: 1264007522}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28842,7 +28842,7 @@ GameObject:
   - component: {fileID: 1266849086}
   - component: {fileID: 1266849085}
   - component: {fileID: 1266849084}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28932,7 +28932,7 @@ GameObject:
   - component: {fileID: 1269375289}
   - component: {fileID: 1269375288}
   - component: {fileID: 1269375287}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29030,7 +29030,7 @@ GameObject:
   - component: {fileID: 1271524072}
   - component: {fileID: 1271524071}
   - component: {fileID: 1271524070}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29119,7 +29119,7 @@ GameObject:
   - component: {fileID: 1272703828}
   - component: {fileID: 1272703827}
   - component: {fileID: 1272703826}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29209,7 +29209,7 @@ GameObject:
   - component: {fileID: 1278110266}
   - component: {fileID: 1278110265}
   - component: {fileID: 1278110264}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29298,7 +29298,7 @@ GameObject:
   - component: {fileID: 1282875014}
   - component: {fileID: 1282875013}
   - component: {fileID: 1282875012}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29385,7 +29385,7 @@ GameObject:
   - component: {fileID: 1289465169}
   - component: {fileID: 1289465168}
   - component: {fileID: 1289465167}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29475,7 +29475,7 @@ GameObject:
   - component: {fileID: 1296798693}
   - component: {fileID: 1296798692}
   - component: {fileID: 1296798691}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29574,7 +29574,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1299965933}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29605,7 +29605,7 @@ GameObject:
   - component: {fileID: 1300533991}
   - component: {fileID: 1300533990}
   - component: {fileID: 1300533989}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29694,7 +29694,7 @@ GameObject:
   - component: {fileID: 1303656693}
   - component: {fileID: 1303656692}
   - component: {fileID: 1303656691}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29780,7 +29780,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1305506407}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29808,7 +29808,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1306622656}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29837,7 +29837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1310833931}
   - component: {fileID: 1310833932}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29885,7 +29885,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1311059531}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29916,7 +29916,7 @@ GameObject:
   - component: {fileID: 1318051587}
   - component: {fileID: 1318051586}
   - component: {fileID: 1318051585}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30003,7 +30003,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1318286181}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30035,7 +30035,7 @@ GameObject:
   - component: {fileID: 1318878983}
   - component: {fileID: 1318878982}
   - component: {fileID: 1318878981}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30131,7 +30131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1319771666}
   - component: {fileID: 1319771667}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30179,7 +30179,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1322373010}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30210,7 +30210,7 @@ GameObject:
   - component: {fileID: 1323804236}
   - component: {fileID: 1323804235}
   - component: {fileID: 1323804234}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30300,7 +30300,7 @@ GameObject:
   - component: {fileID: 1323887929}
   - component: {fileID: 1323887928}
   - component: {fileID: 1323887927}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30389,7 +30389,7 @@ GameObject:
   - component: {fileID: 1324141283}
   - component: {fileID: 1324141282}
   - component: {fileID: 1324141281}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30480,7 +30480,7 @@ GameObject:
   - component: {fileID: 1325838524}
   - component: {fileID: 1325838523}
   - component: {fileID: 1325838522}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30582,7 +30582,7 @@ GameObject:
   - component: {fileID: 1328177178}
   - component: {fileID: 1328177177}
   - component: {fileID: 1328177176}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30668,7 +30668,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1328314646}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30699,7 +30699,7 @@ GameObject:
   - component: {fileID: 1330361049}
   - component: {fileID: 1330361048}
   - component: {fileID: 1330361047}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30786,7 +30786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1334576169}
   - component: {fileID: 1334576170}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30835,7 +30835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335060334}
   - component: {fileID: 1335060335}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30884,7 +30884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335571470}
   - component: {fileID: 1335571471}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30935,7 +30935,7 @@ GameObject:
   - component: {fileID: 1346325090}
   - component: {fileID: 1346325089}
   - component: {fileID: 1346325088}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31024,7 +31024,7 @@ GameObject:
   - component: {fileID: 1346815974}
   - component: {fileID: 1346815973}
   - component: {fileID: 1346815972}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31111,7 +31111,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1348897234}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31140,7 +31140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1349290896}
   - component: {fileID: 1349290897}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31189,7 +31189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353411534}
   - component: {fileID: 1353411535}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31239,7 +31239,7 @@ GameObject:
   - component: {fileID: 1357279476}
   - component: {fileID: 1357279478}
   - component: {fileID: 1357279477}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31318,7 +31318,7 @@ GameObject:
   - component: {fileID: 1358013291}
   - component: {fileID: 1358013290}
   - component: {fileID: 1358013289}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31405,7 +31405,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1360825730}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31569,7 +31569,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1375042638}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31601,7 +31601,7 @@ GameObject:
   - component: {fileID: 1380826996}
   - component: {fileID: 1380826995}
   - component: {fileID: 1380826994}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31700,7 +31700,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1382716634}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31729,7 +31729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1383725669}
   - component: {fileID: 1383725670}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31778,7 +31778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384655422}
   - component: {fileID: 1384655423}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31827,7 +31827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388832483}
   - component: {fileID: 1388832484}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31878,7 +31878,7 @@ GameObject:
   - component: {fileID: 1391012431}
   - component: {fileID: 1391012430}
   - component: {fileID: 1391012429}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31967,7 +31967,7 @@ GameObject:
   - component: {fileID: 1392938846}
   - component: {fileID: 1392938845}
   - component: {fileID: 1392938844}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32056,7 +32056,7 @@ GameObject:
   - component: {fileID: 1398919945}
   - component: {fileID: 1398919944}
   - component: {fileID: 1398919943}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32144,7 +32144,7 @@ GameObject:
   - component: {fileID: 1399202978}
   - component: {fileID: 1399202980}
   - component: {fileID: 1399202979}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32221,7 +32221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1400989280}
   - component: {fileID: 1400989281}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32269,7 +32269,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1406171640}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32297,7 +32297,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1407484338}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32326,7 +32326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1408860604}
   - component: {fileID: 1408860605}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32375,7 +32375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414029671}
   - component: {fileID: 1414029672}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32424,7 +32424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418605175}
   - component: {fileID: 1418605176}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32473,7 +32473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418634433}
   - component: {fileID: 1418634434}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32521,7 +32521,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1418892495}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: City Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32683,7 +32683,7 @@ GameObject:
   - component: {fileID: 1423026120}
   - component: {fileID: 1423026119}
   - component: {fileID: 1423026118}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32773,7 +32773,7 @@ GameObject:
   - component: {fileID: 1423793432}
   - component: {fileID: 1423793431}
   - component: {fileID: 1423793430}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32863,7 +32863,7 @@ GameObject:
   - component: {fileID: 1424981530}
   - component: {fileID: 1424981529}
   - component: {fileID: 1424981528}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32952,7 +32952,7 @@ GameObject:
   - component: {fileID: 1428220148}
   - component: {fileID: 1428220147}
   - component: {fileID: 1428220146}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33041,7 +33041,7 @@ GameObject:
   - component: {fileID: 1431098025}
   - component: {fileID: 1431098024}
   - component: {fileID: 1431098023}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33132,7 +33132,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1434143474}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33161,7 +33161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439082105}
   - component: {fileID: 1439082106}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33210,7 +33210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439160187}
   - component: {fileID: 1439160188}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33259,7 +33259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440176099}
   - component: {fileID: 1440176100}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33309,7 +33309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446047152}
   - component: {fileID: 1446047153}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33361,7 +33361,7 @@ GameObject:
   - component: {fileID: 1447171734}
   - component: {fileID: 1447171733}
   - component: {fileID: 1447171732}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33457,7 +33457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453747578}
   - component: {fileID: 1453747579}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp store cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33541,7 +33541,7 @@ GameObject:
   - component: {fileID: 1455689122}
   - component: {fileID: 1455689121}
   - component: {fileID: 1455689120}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_CON_StairSet_04_SM_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33629,7 +33629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458489192}
   - component: {fileID: 1458489193}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33680,7 +33680,7 @@ GameObject:
   - component: {fileID: 1462238961}
   - component: {fileID: 1462238960}
   - component: {fileID: 1462238959}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BRIDGE_City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33768,7 +33768,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1462773546}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33796,7 +33796,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1462820036}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33825,7 +33825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1475188822}
   - component: {fileID: 1475188823}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33873,7 +33873,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1476631578}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33904,7 +33904,7 @@ GameObject:
   - component: {fileID: 1486313392}
   - component: {fileID: 1486313391}
   - component: {fileID: 1486313390}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33994,7 +33994,7 @@ GameObject:
   - component: {fileID: 1487165242}
   - component: {fileID: 1487165241}
   - component: {fileID: 1487165240}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34083,7 +34083,7 @@ GameObject:
   - component: {fileID: 1493668531}
   - component: {fileID: 1493668530}
   - component: {fileID: 1493668529}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store_cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34173,7 +34173,7 @@ GameObject:
   - component: {fileID: 1499539073}
   - component: {fileID: 1499539072}
   - component: {fileID: 1499539071}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34269,7 +34269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1502469686}
   - component: {fileID: 1502469687}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34320,7 +34320,7 @@ GameObject:
   - component: {fileID: 1502844558}
   - component: {fileID: 1502844557}
   - component: {fileID: 1502844556}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34409,7 +34409,7 @@ GameObject:
   - component: {fileID: 1506216319}
   - component: {fileID: 1506216318}
   - component: {fileID: 1506216317}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34497,7 +34497,7 @@ GameObject:
   - component: {fileID: 1506662062}
   - component: {fileID: 1506662061}
   - component: {fileID: 1506662060}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34599,7 +34599,7 @@ GameObject:
   - component: {fileID: 1516674533}
   - component: {fileID: 1516674532}
   - component: {fileID: 1516674531}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34687,7 +34687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517503624}
   - component: {fileID: 1517503625}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34738,7 +34738,7 @@ GameObject:
   - component: {fileID: 1518552685}
   - component: {fileID: 1518552684}
   - component: {fileID: 1518552683}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34825,7 +34825,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1520781880}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34857,7 +34857,7 @@ GameObject:
   - component: {fileID: 1525140994}
   - component: {fileID: 1525140993}
   - component: {fileID: 1525140992}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34957,7 +34957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527193123}
   - component: {fileID: 1527193124}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35008,7 +35008,7 @@ GameObject:
   - component: {fileID: 1528534940}
   - component: {fileID: 1528534939}
   - component: {fileID: 1528534938}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35095,7 +35095,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1531732266}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35127,7 +35127,7 @@ GameObject:
   - component: {fileID: 1535115686}
   - component: {fileID: 1535115685}
   - component: {fileID: 1535115684}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35230,7 +35230,7 @@ GameObject:
   - component: {fileID: 1537022732}
   - component: {fileID: 1537022731}
   - component: {fileID: 1537022730}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35328,7 +35328,7 @@ GameObject:
   - component: {fileID: 1540859360}
   - component: {fileID: 1540859359}
   - component: {fileID: 1540859358}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BRIDGE_City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35417,7 +35417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1545618749}
   - component: {fileID: 1545618750}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35465,7 +35465,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1554611872}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35496,7 +35496,7 @@ GameObject:
   - component: {fileID: 1556458664}
   - component: {fileID: 1556458663}
   - component: {fileID: 1556458662}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MossRock_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35585,7 +35585,7 @@ GameObject:
   - component: {fileID: 1559214267}
   - component: {fileID: 1559214266}
   - component: {fileID: 1559214265}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35672,7 +35672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565428421}
   - component: {fileID: 1565428422}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Quest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35725,7 +35725,7 @@ GameObject:
   - component: {fileID: 1567883749}
   - component: {fileID: 1567883748}
   - component: {fileID: 1567883747}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35821,7 +35821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573921758}
   - component: {fileID: 1573921759}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35872,7 +35872,7 @@ GameObject:
   - component: {fileID: 1574128653}
   - component: {fileID: 1574128652}
   - component: {fileID: 1574128651}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35990,7 +35990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1577364044}
   - component: {fileID: 1577364045}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36111,7 +36111,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1590432853}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36139,7 +36139,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1595687690}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36171,7 +36171,7 @@ GameObject:
   - component: {fileID: 1595936316}
   - component: {fileID: 1595936315}
   - component: {fileID: 1595936314}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36270,7 +36270,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1595956229}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36298,7 +36298,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1598604199}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36326,7 +36326,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1599085780}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36358,7 +36358,7 @@ GameObject:
   - component: {fileID: 1599097372}
   - component: {fileID: 1599097371}
   - component: {fileID: 1599097370}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36456,7 +36456,7 @@ GameObject:
   - component: {fileID: 1605332926}
   - component: {fileID: 1605332925}
   - component: {fileID: 1605332924}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36546,7 +36546,7 @@ GameObject:
   - component: {fileID: 1607701677}
   - component: {fileID: 1607701676}
   - component: {fileID: 1607701675}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36635,7 +36635,7 @@ GameObject:
   - component: {fileID: 1608263939}
   - component: {fileID: 1608263938}
   - component: {fileID: 1608263937}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36725,7 +36725,7 @@ GameObject:
   - component: {fileID: 1608413424}
   - component: {fileID: 1608413423}
   - component: {fileID: 1608413422}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36810,7 +36810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609139104}
   - component: {fileID: 1609139105}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36859,7 +36859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1610084720}
   - component: {fileID: 1610084721}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36907,7 +36907,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1610833789}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36935,7 +36935,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1618788331}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36964,7 +36964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1625173728}
   - component: {fileID: 1625173729}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37015,7 +37015,7 @@ GameObject:
   - component: {fileID: 1631088706}
   - component: {fileID: 1631088705}
   - component: {fileID: 1631088704}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_OBJ_Statu_03_Wing_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37105,7 +37105,7 @@ GameObject:
   - component: {fileID: 1634413956}
   - component: {fileID: 1634413955}
   - component: {fileID: 1634413954}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37200,7 +37200,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1642788427}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37228,7 +37228,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1643377527}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37259,7 +37259,7 @@ GameObject:
   - component: {fileID: 1644648338}
   - component: {fileID: 1644648337}
   - component: {fileID: 1644648336}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37346,7 +37346,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1646266557}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37378,7 +37378,7 @@ GameObject:
   - component: {fileID: 1646455224}
   - component: {fileID: 1646455223}
   - component: {fileID: 1646455222}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37473,7 +37473,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1647882022}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37501,7 +37501,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1652235884}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37530,7 +37530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1652455873}
   - component: {fileID: 1652455874}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37578,7 +37578,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1653014931}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37606,7 +37606,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1655242364}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37635,7 +37635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1656511377}
   - component: {fileID: 1656511378}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37686,7 +37686,7 @@ GameObject:
   - component: {fileID: 1658253656}
   - component: {fileID: 1658253655}
   - component: {fileID: 1658253654}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37772,7 +37772,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1659648653}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37800,7 +37800,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1660300063}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37832,7 +37832,7 @@ GameObject:
   - component: {fileID: 1665969432}
   - component: {fileID: 1665969431}
   - component: {fileID: 1665969430}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37927,7 +37927,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1677381630}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38001,7 +38001,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1685129394}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38029,7 +38029,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1686891359}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38057,7 +38057,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1699186480}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38086,7 +38086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1699500590}
   - component: {fileID: 1699500591}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38136,7 +38136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701211653}
   - component: {fileID: 1701211654}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38184,7 +38184,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1702173413}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38215,7 +38215,7 @@ GameObject:
   - component: {fileID: 1702519570}
   - component: {fileID: 1702519569}
   - component: {fileID: 1702519568}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38303,7 +38303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705164609}
   - component: {fileID: 1705164610}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38354,7 +38354,7 @@ GameObject:
   - component: {fileID: 1709930701}
   - component: {fileID: 1709930700}
   - component: {fileID: 1709930699}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38443,7 +38443,7 @@ GameObject:
   - component: {fileID: 1711501185}
   - component: {fileID: 1711501187}
   - component: {fileID: 1711501186}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38520,7 +38520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1714516878}
   - component: {fileID: 1714516879}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38569,7 +38569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1715367243}
   - component: {fileID: 1715367244}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38618,7 +38618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718482427}
   - component: {fileID: 1718482428}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38669,7 +38669,7 @@ GameObject:
   - component: {fileID: 1724075292}
   - component: {fileID: 1724075291}
   - component: {fileID: 1724075290}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store_cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38755,7 +38755,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1724296755}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38787,7 +38787,7 @@ GameObject:
   - component: {fileID: 1726448647}
   - component: {fileID: 1726448646}
   - component: {fileID: 1726448645}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38886,7 +38886,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1727618834}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38914,7 +38914,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1730098984}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38943,7 +38943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731858230}
   - component: {fileID: 1731858231}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38994,7 +38994,7 @@ GameObject:
   - component: {fileID: 1736103092}
   - component: {fileID: 1736103091}
   - component: {fileID: 1736103090}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39079,7 +39079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740238344}
   - component: {fileID: 1740238345}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39130,7 +39130,7 @@ GameObject:
   - component: {fileID: 1740734834}
   - component: {fileID: 1740734833}
   - component: {fileID: 1740734832}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: CM_Fountain_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39221,7 +39221,7 @@ GameObject:
   - component: {fileID: 1740905553}
   - component: {fileID: 1740905552}
   - component: {fileID: 1740905551}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39316,7 +39316,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1756540053}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39348,7 +39348,7 @@ GameObject:
   - component: {fileID: 1757536820}
   - component: {fileID: 1757536819}
   - component: {fileID: 1757536818}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39447,7 +39447,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1758967561}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39475,7 +39475,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1765544678}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39507,7 +39507,7 @@ GameObject:
   - component: {fileID: 1769979607}
   - component: {fileID: 1769979606}
   - component: {fileID: 1769979605}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39609,7 +39609,7 @@ GameObject:
   - component: {fileID: 1770360157}
   - component: {fileID: 1770360156}
   - component: {fileID: 1770360155}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: CM_Teleport_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39702,7 +39702,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1773973750}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39722,90 +39722,6 @@ Transform:
   m_Father: {fileID: 785955699}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1779212871
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1779212872}
-  - component: {fileID: 1779212875}
-  - component: {fileID: 1779212874}
-  - component: {fileID: 1779212873}
-  m_Layer: 15
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1779212872
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1779212871}
-  m_LocalRotation: {x: -0, y: -0.7467685, z: -0, w: 0.6650841}
-  m_LocalPosition: {x: -0.15784693, y: -4.48, z: -54.698574}
-  m_LocalScale: {x: 5.774015, y: 8.992917, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1779212873
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1779212871}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1779212874
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1779212871}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1779212875
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1779212871}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1783362391
 GameObject:
   m_ObjectHideFlags: 0
@@ -39814,7 +39730,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1783362392}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39845,7 +39761,7 @@ GameObject:
   - component: {fileID: 1787634794}
   - component: {fileID: 1787634793}
   - component: {fileID: 1787634792}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39939,7 +39855,7 @@ GameObject:
   - component: {fileID: 1789044161}
   - component: {fileID: 1789044160}
   - component: {fileID: 1789044159}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40034,7 +39950,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1792722518}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40062,7 +39978,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1793311246}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40091,7 +40007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1793694150}
   - component: {fileID: 1793694151}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40141,7 +40057,7 @@ GameObject:
   - component: {fileID: 1793895071}
   - component: {fileID: 1793895073}
   - component: {fileID: 1793895072}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40226,7 +40142,7 @@ GameObject:
   - component: {fileID: 1795136406}
   - component: {fileID: 1795136405}
   - component: {fileID: 1795136404}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40313,7 +40229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796667059}
   - component: {fileID: 1796667060}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40362,7 +40278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1800894556}
   - component: {fileID: 1800894557}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40410,7 +40326,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1803870106}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40441,7 +40357,7 @@ GameObject:
   - component: {fileID: 1809329436}
   - component: {fileID: 1809329435}
   - component: {fileID: 1809329434}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40529,7 +40445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1810916176}
   - component: {fileID: 1810916177}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40582,7 +40498,7 @@ GameObject:
   - component: {fileID: 1811560872}
   - component: {fileID: 1811560871}
   - component: {fileID: 1811560870}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40668,7 +40584,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1813584057}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40699,7 +40615,7 @@ GameObject:
   - component: {fileID: 1814481213}
   - component: {fileID: 1814481212}
   - component: {fileID: 1814481211}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40788,7 +40704,7 @@ GameObject:
   - component: {fileID: 1816906374}
   - component: {fileID: 1816906373}
   - component: {fileID: 1816906372}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40875,7 +40791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1821023763}
   - component: {fileID: 1821023764}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40926,7 +40842,7 @@ GameObject:
   - component: {fileID: 1828847819}
   - component: {fileID: 1828847818}
   - component: {fileID: 1828847817}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41012,7 +40928,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1829194370}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41040,7 +40956,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1830077598}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41069,7 +40985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831202559}
   - component: {fileID: 1831202560}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41120,7 +41036,7 @@ GameObject:
   - component: {fileID: 1831485865}
   - component: {fileID: 1831485864}
   - component: {fileID: 1831485863}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41209,7 +41125,7 @@ GameObject:
   - component: {fileID: 1835723106}
   - component: {fileID: 1835723105}
   - component: {fileID: 1835723104}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41298,7 +41214,7 @@ GameObject:
   - component: {fileID: 1836509086}
   - component: {fileID: 1836509085}
   - component: {fileID: 1836509084}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41388,7 +41304,7 @@ GameObject:
   - component: {fileID: 1836927513}
   - component: {fileID: 1836927512}
   - component: {fileID: 1836927511}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41478,7 +41394,7 @@ GameObject:
   - component: {fileID: 1839206589}
   - component: {fileID: 1839206588}
   - component: {fileID: 1839206587}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41567,7 +41483,7 @@ GameObject:
   - component: {fileID: 1841595798}
   - component: {fileID: 1841595797}
   - component: {fileID: 1841595796}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41654,7 +41570,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1845086014}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41683,7 +41599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1848388961}
   - component: {fileID: 1848388962}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41732,7 +41648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1849448230}
   - component: {fileID: 1849448231}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41783,7 +41699,7 @@ GameObject:
   - component: {fileID: 1857643141}
   - component: {fileID: 1857643140}
   - component: {fileID: 1857643139}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41872,7 +41788,7 @@ GameObject:
   - component: {fileID: 1857882450}
   - component: {fileID: 1857882449}
   - component: {fileID: 1857882448}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41965,7 +41881,7 @@ GameObject:
   - component: {fileID: 1860373719}
   - component: {fileID: 1860373718}
   - component: {fileID: 1860373717}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42053,7 +41969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1861574551}
   - component: {fileID: 1861574552}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42106,7 +42022,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1862343725}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42138,7 +42054,7 @@ GameObject:
   - component: {fileID: 1862959573}
   - component: {fileID: 1862959572}
   - component: {fileID: 1862959571}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42241,7 +42157,7 @@ GameObject:
   - component: {fileID: 1863145400}
   - component: {fileID: 1863145399}
   - component: {fileID: 1863145398}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42337,7 +42253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1865415796}
   - component: {fileID: 1865415797}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42389,7 +42305,7 @@ GameObject:
   - component: {fileID: 1866099744}
   - component: {fileID: 1866099743}
   - component: {fileID: 1866099742}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42491,7 +42407,7 @@ GameObject:
   - component: {fileID: 1872857551}
   - component: {fileID: 1872857550}
   - component: {fileID: 1872857549}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42581,7 +42497,7 @@ GameObject:
   - component: {fileID: 1880771195}
   - component: {fileID: 1880771194}
   - component: {fileID: 1880771193}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42670,7 +42586,7 @@ GameObject:
   - component: {fileID: 1882833584}
   - component: {fileID: 1882833583}
   - component: {fileID: 1882833582}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42757,7 +42673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887318342}
   - component: {fileID: 1887318343}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42808,7 +42724,7 @@ GameObject:
   - component: {fileID: 1888115707}
   - component: {fileID: 1888115706}
   - component: {fileID: 1888115705}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42895,7 +42811,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1890420304}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42926,7 +42842,7 @@ GameObject:
   - component: {fileID: 1891525077}
   - component: {fileID: 1891525076}
   - component: {fileID: 1891525075}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43017,7 +42933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892366196}
   - component: {fileID: 1892366197}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43066,7 +42982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1902073619}
   - component: {fileID: 1902073620}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43117,7 +43033,7 @@ GameObject:
   - component: {fileID: 1902955225}
   - component: {fileID: 1902955224}
   - component: {fileID: 1902955223}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43207,7 +43123,7 @@ GameObject:
   - component: {fileID: 1904949087}
   - component: {fileID: 1904949086}
   - component: {fileID: 1904949085}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House_Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43302,7 +43218,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1906379245}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43330,7 +43246,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1906738937}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43358,7 +43274,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1907391905}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43390,7 +43306,7 @@ GameObject:
   - component: {fileID: 1910952940}
   - component: {fileID: 1910952939}
   - component: {fileID: 1910952938}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43535,7 +43451,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1912215322}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43566,7 +43482,7 @@ GameObject:
   - component: {fileID: 1915905927}
   - component: {fileID: 1915905926}
   - component: {fileID: 1915905925}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def_Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43653,7 +43569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1927854792}
   - component: {fileID: 1927854793}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43704,7 +43620,7 @@ GameObject:
   - component: {fileID: 1934074828}
   - component: {fileID: 1934074827}
   - component: {fileID: 1934074826}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def_Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43790,7 +43706,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1934374409}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43818,7 +43734,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1934517506}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43848,7 +43764,7 @@ GameObject:
   - component: {fileID: 1936972488}
   - component: {fileID: 1936972490}
   - component: {fileID: 1936972489}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43925,7 +43841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939238236}
   - component: {fileID: 1939238237}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43973,7 +43889,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1940363221}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44001,7 +43917,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1945956632}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44030,7 +43946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952712168}
   - component: {fileID: 1952712169}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44080,7 +43996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1953355469}
   - component: {fileID: 1953355470}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44131,7 +44047,7 @@ GameObject:
   - component: {fileID: 1953831885}
   - component: {fileID: 1953831884}
   - component: {fileID: 1953831883}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44217,7 +44133,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1957314582}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44248,7 +44164,7 @@ GameObject:
   - component: {fileID: 1959532989}
   - component: {fileID: 1959532988}
   - component: {fileID: 1959532987}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44334,7 +44250,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1961279937}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44362,7 +44278,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1963904203}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44390,7 +44306,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1964999875}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44433,7 +44349,7 @@ GameObject:
   - component: {fileID: 1968463986}
   - component: {fileID: 1968463988}
   - component: {fileID: 1968463987}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44510,7 +44426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972621847}
   - component: {fileID: 1972621848}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44559,7 +44475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1975658452}
   - component: {fileID: 1975658453}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44608,7 +44524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976554193}
   - component: {fileID: 1976554194}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44660,7 +44576,7 @@ GameObject:
   - component: {fileID: 1978156532}
   - component: {fileID: 1978156531}
   - component: {fileID: 1978156530}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44760,7 +44676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1978805244}
   - component: {fileID: 1978805245}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44808,7 +44724,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1980542755}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44839,7 +44755,7 @@ GameObject:
   - component: {fileID: 1980651124}
   - component: {fileID: 1980651123}
   - component: {fileID: 1980651122}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44925,7 +44841,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1981424628}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44957,7 +44873,7 @@ GameObject:
   - component: {fileID: 1982028929}
   - component: {fileID: 1982028928}
   - component: {fileID: 1982028927}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Conifer_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45053,7 +44969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1983464933}
   - component: {fileID: 1983464934}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45104,7 +45020,7 @@ GameObject:
   - component: {fileID: 1986909275}
   - component: {fileID: 1986909274}
   - component: {fileID: 1986909273}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45194,7 +45110,7 @@ GameObject:
   - component: {fileID: 1994517035}
   - component: {fileID: 1994517034}
   - component: {fileID: 1994517033}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45278,7 +45194,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1997145728}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45361,7 +45277,7 @@ GameObject:
   - component: {fileID: 2009710859}
   - component: {fileID: 2009710858}
   - component: {fileID: 2009710857}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45450,7 +45366,7 @@ GameObject:
   - component: {fileID: 2009952707}
   - component: {fileID: 2009952706}
   - component: {fileID: 2009952705}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45537,7 +45453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2011373340}
   - component: {fileID: 2011373341}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45588,7 +45504,7 @@ GameObject:
   - component: {fileID: 2011605961}
   - component: {fileID: 2011605960}
   - component: {fileID: 2011605959}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45679,7 +45595,7 @@ GameObject:
   - component: {fileID: 2016766589}
   - component: {fileID: 2016766588}
   - component: {fileID: 2016766587}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45779,7 +45695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2020102320}
   - component: {fileID: 2020102321}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45829,7 +45745,7 @@ GameObject:
   - component: {fileID: 2020396107}
   - component: {fileID: 2020396109}
   - component: {fileID: 2020396108}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45895,7 +45811,7 @@ GameObject:
   - component: {fileID: 2022027680}
   - component: {fileID: 2022027679}
   - component: {fileID: 2022027678}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45984,7 +45900,7 @@ GameObject:
   - component: {fileID: 2023319077}
   - component: {fileID: 2023319076}
   - component: {fileID: 2023319075}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46074,7 +45990,7 @@ GameObject:
   - component: {fileID: 2024879872}
   - component: {fileID: 2024879871}
   - component: {fileID: 2024879870}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46162,7 +46078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026356808}
   - component: {fileID: 2026356809}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46213,7 +46129,7 @@ GameObject:
   - component: {fileID: 2038484665}
   - component: {fileID: 2038484664}
   - component: {fileID: 2038484663}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46301,7 +46217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2044499359}
   - component: {fileID: 2044499360}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46349,7 +46265,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2045749864}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46377,7 +46293,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2050601337}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46406,7 +46322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2053137631}
   - component: {fileID: 2053137632}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46455,7 +46371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2059874873}
   - component: {fileID: 2059874874}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: BRIDGE City
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46504,7 +46420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2061238087}
   - component: {fileID: 2061238088}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46555,7 +46471,7 @@ GameObject:
   - component: {fileID: 2061993949}
   - component: {fileID: 2061993948}
   - component: {fileID: 2061993947}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MEsh_Shop1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46649,7 +46565,7 @@ GameObject:
   - component: {fileID: 2065192199}
   - component: {fileID: 2065192198}
   - component: {fileID: 2065192197}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46748,7 +46664,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2068444041}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46776,7 +46692,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2069454074}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46807,7 +46723,7 @@ GameObject:
   - component: {fileID: 2076130691}
   - component: {fileID: 2076130690}
   - component: {fileID: 2076130689}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: CM_Fountain_02_SM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46897,7 +46813,7 @@ GameObject:
   - component: {fileID: 2076283693}
   - component: {fileID: 2076283692}
   - component: {fileID: 2076283691}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46985,7 +46901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2078846258}
   - component: {fileID: 2078846259}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47034,7 +46950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2079930300}
   - component: {fileID: 2079930301}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47085,7 +47001,7 @@ GameObject:
   - component: {fileID: 2081494541}
   - component: {fileID: 2081494540}
   - component: {fileID: 2081494539}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47172,7 +47088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085290284}
   - component: {fileID: 2085290285}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47220,7 +47136,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2086642931}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47248,7 +47164,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2097325503}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47279,7 +47195,7 @@ GameObject:
   - component: {fileID: 2098390490}
   - component: {fileID: 2098390489}
   - component: {fileID: 2098390488}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: VK_CON_StairSet_04_SM_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47367,7 +47283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2098702478}
   - component: {fileID: 2098702479}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47416,7 +47332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101319724}
   - component: {fileID: 2101319725}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47467,7 +47383,7 @@ GameObject:
   - component: {fileID: 2102303166}
   - component: {fileID: 2102303165}
   - component: {fileID: 2102303164}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MossRock_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47556,7 +47472,7 @@ GameObject:
   - component: {fileID: 2102488378}
   - component: {fileID: 2102488377}
   - component: {fileID: 2102488376}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: def_Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47646,7 +47562,7 @@ GameObject:
   - component: {fileID: 2113342568}
   - component: {fileID: 2113342567}
   - component: {fileID: 2113342566}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House_Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47748,7 +47664,7 @@ GameObject:
   - component: {fileID: 2113736800}
   - component: {fileID: 2113736799}
   - component: {fileID: 2113736798}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47836,7 +47752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2114937851}
   - component: {fileID: 2114937852}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47887,7 +47803,7 @@ GameObject:
   - component: {fileID: 2118495034}
   - component: {fileID: 2118495033}
   - component: {fileID: 2118495032}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Camp_store8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47976,7 +47892,7 @@ GameObject:
   - component: {fileID: 2122301740}
   - component: {fileID: 2122301739}
   - component: {fileID: 2122301738}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate_of_city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48064,7 +47980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123812363}
   - component: {fileID: 2123812364}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Gate of city1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48114,7 +48030,7 @@ GameObject:
   - component: {fileID: 2127668404}
   - component: {fileID: 2127668406}
   - component: {fileID: 2127668405}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mesh_House3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48191,7 +48107,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2134853902}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cinema4D_Editor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48222,7 +48138,7 @@ GameObject:
   - component: {fileID: 2137058754}
   - component: {fileID: 2137058753}
   - component: {fileID: 2137058752}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: House1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

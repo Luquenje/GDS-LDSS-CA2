@@ -81,7 +81,7 @@ MonoBehaviour:
     m_Settings:
       shutterAngle: 270
       sampleCount: 10
-      frameBlending: 0.226
+      frameBlending: 0
   eyeAdaptation:
     m_Enabled: 1
     m_Settings:
@@ -120,12 +120,12 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 1.2
-        temperature: 0
+        postExposure: 2.49
+        temperature: -7.5
         tint: 0
         hueShift: 0
         saturation: 1
-        contrast: 1
+        contrast: 1.019
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -296,10 +296,10 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       mode: 0
-      color: {r: 0, g: 0, b: 0, a: 1}
+      color: {r: 0, g: 0.503448, b: 1, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.459
-      smoothness: 0.2
+      intensity: 0.346
+      smoothness: 0.317
       roundness: 1
       mask: {fileID: 0}
       opacity: 1

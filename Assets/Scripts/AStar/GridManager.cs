@@ -92,7 +92,7 @@ public class GridManager : MonoBehaviour {
         nodes = new Node[numRows, numColums];
         //helper variables
         int index = 0;//to keep track of the nodes visited
-        int layer = 1 << 11;//this is the layer for the collision matrix
+        int layer = 1 << 16;//this is the layer for the collision matrix
         Vector3 cellSize = new Vector3(gridCellSize, 1.0f, gridCellSize);//Sphere position
         for (int i = 0; i < numColums; i++)
         {

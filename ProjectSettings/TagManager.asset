@@ -21,6 +21,7 @@ TagManager:
   - Boss
   - Waypoint
   - Fx
+  - Elevator
   layers:
   - Default
   - TransparentFX
@@ -37,8 +38,8 @@ TagManager:
   - Action
   - CompanionAI
   - lava
-  - Obstacle
   - 
+  - Obstacle
   - 
   - 
   - 

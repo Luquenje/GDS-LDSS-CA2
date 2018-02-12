@@ -59,7 +59,7 @@ public class Boss : MonoBehaviour
         if (distanceToPlyaer <= attackRadius /*&& !isAttacking*/ && !attack)
         {
             //aiControl.SetTarget(player.transform);
-            //isAttacking = true;
+            isAttacking = true;
             attack = true;
             aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
             //InvokeRepeating("Shoot", 0f, secondsBetweenShots);
@@ -91,7 +91,7 @@ public class Boss : MonoBehaviour
 
         if (distanceToPlyaer > attackRadius)
         {
-            //isAttacking = false;
+            isAttacking = false;
             
             if (patrolling)
             {

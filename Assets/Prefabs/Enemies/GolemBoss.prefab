@@ -19,6 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4439226246079222}
+  - component: {fileID: 65521445254335994}
+  - component: {fileID: 114008386893507252}
   m_Layer: 17
   m_Name: GOLEM_ R Hand
   m_TagString: Untagged
@@ -736,6 +738,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4527257437479014}
+  - component: {fileID: 65009996707677222}
+  - component: {fileID: 114644654160617130}
   m_Layer: 17
   m_Name: GOLEM_ L Hand
   m_TagString: Untagged
@@ -787,7 +791,6 @@ GameObject:
   - component: {fileID: 114254857963925026}
   - component: {fileID: 114520962943238048}
   - component: {fileID: 114743210843805718}
-  - component: {fileID: 114777645490285734}
   - component: {fileID: 114547020681046244}
   - component: {fileID: 114736436642009090}
   m_Layer: 17
@@ -2397,6 +2400,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65009996707677222
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1692923926068100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3318322, y: 0.8662304, z: 1}
+  m_Center: {x: -0.010303034, y: 0.06688485, z: -0.0000000044021924}
+--- !u!65 &65521445254335994
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015599170908814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3667378, y: 0.8637295, z: 1}
+  m_Center: {x: -0.0020922583, y: 0.06813533, z: 0.0000000038865924}
 --- !u!95 &95773907716033966
 Animator:
   serializedVersion: 3
@@ -2414,6 +2441,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114008386893507252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015599170908814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e0a27151544a0429c3cc650ee24613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  enemyIsAttacking: 0
+  damageToGive: 15
 --- !u!114 &114103077878664848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2489,6 +2530,20 @@ MonoBehaviour:
   avoidanceAngle: 45
   avoidanceState: 0
   ifBoss: 1
+--- !u!114 &114644654160617130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1692923926068100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e0a27151544a0429c3cc650ee24613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  enemyIsAttacking: 0
+  damageToGive: 15
 --- !u!114 &114736436642009090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2533,18 +2588,6 @@ MonoBehaviour:
   attack: 0
   attackCD: 5
   skillCD: 5
---- !u!114 &114777645490285734
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1818860584615824}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e464381efb84c3d45b3f888e92db6cf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageToGive: 2
 --- !u!136 &136070157121314748
 CapsuleCollider:
   m_ObjectHideFlags: 1

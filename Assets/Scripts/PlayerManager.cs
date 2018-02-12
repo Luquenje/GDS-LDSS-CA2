@@ -45,7 +45,8 @@ public class PlayerManager : MonoBehaviour
 
     CameraRaycaster cameraRaycaster;
     GameObject currentTarget;
-    public GameObject ability;
+    public GameObject ability1;
+    public GameObject ability2;
 
     // Use this for initialization
     void Start()
@@ -209,6 +210,7 @@ public class PlayerManager : MonoBehaviour
                     if (manaComponent.isManaAvailable(manaCost))
                     {
                         manaComponent.UseMana(manaCost);
+                        Instantiate(ability2, transform.position, Quaternion.identity, gameObject.transform);
                         if ((playerCurrentHealth + healAmount) > playerMaxHealth)
                         {
                             playerCurrentHealth = playerMaxHealth;
@@ -236,7 +238,7 @@ public class PlayerManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
 
-        Instantiate(ability, transform.position + transform.forward * 2.5f, Quaternion.identity);
+        Instantiate(ability1, transform.position + transform.forward * 2.5f, Quaternion.identity);
         flameTornadoSFX.Play();
     }
     void OnMouseClick(RaycastHit raycastHit, int layerHit)

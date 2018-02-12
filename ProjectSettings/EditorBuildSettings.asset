@@ -6,26 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Invector-3rdPersonController/DemoScenes/3rdPersonController-Demo.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/MainMenu.unity
+    guid: 9d049544dbee6fb4d8907ce5b8977c91
   - enabled: 1
-    path: Assets/Invector-3rdPersonController/DemoScenes/2.5DController-Demo.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Invector-3rdPersonController/DemoScenes/IsometricController-Demo.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Invector-3rdPersonController/DemoScenes/TopDownController-Demo.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Invector-3rdPersonController/DemoScenes/V-Mansion.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Invector-3rdPersonController/DemoScenes/BeatnUp@CompanionAI-Demo.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Invector-3rdPersonController/DemoScenes/PuzzleBoxes.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Invector-3rdPersonController/DemoScenes/3rdPersonController-Mobile.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/CaveLevel.unity
+    guid: 315d8f26f22f7f4408780bf8b1c9a689

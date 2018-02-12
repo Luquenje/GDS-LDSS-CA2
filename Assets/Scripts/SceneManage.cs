@@ -5,11 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour
 {
-
+    public static SceneManage instance;
     // Use this for initialization
-    void Start()
+    void Awake()
     {
+        if (instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            instance = this;
+        }
 
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame

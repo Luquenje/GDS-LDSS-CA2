@@ -12,8 +12,8 @@ public class SettingsMenu : MonoBehaviour {
     public GameObject optionsMenu;
     public GameObject menuClick;
 
-    public float mstVol;
-    public float bgmVol;
+    static public float mstVol;
+    static public float bgmVol;
     public float sfxVol;
 
     public static SettingsMenu instance;
@@ -23,18 +23,20 @@ public class SettingsMenu : MonoBehaviour {
         masterVolume = GameObject.FindGameObjectWithTag("mstSlider");
         bgmVolume = GameObject.FindGameObjectWithTag("bgmSlider");
         sfxVolume = GameObject.FindGameObjectWithTag("sfxSlider");
-        menuClick = GameObject.FindGameObjectWithTag("menuClick");
         optionsMenu = GameObject.FindGameObjectWithTag("pauseMenu");
         optionsMenu.SetActive(false);
 
-        if (instance == null)
+        if (instance == null) {
+            DontDestroyOnLoad(gameObject);
             instance = this;
+        }
+
         else
         {
             Destroy(gameObject);
         }
-        DontDestroyOnLoad(gameObject);
 
+        DontDestroyOnLoad(gameObject);
 
     }
 

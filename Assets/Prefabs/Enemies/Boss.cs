@@ -18,6 +18,9 @@ public class Boss : MonoBehaviour
     Animator animator;
     public Transform waypoint;//Denote the start and end object in the scene
 
+    public AudioSource MeleeSwingSFX;
+    public AudioSource fireBallSFX;
+
     public bool weaponSwing = false;
     [SerializeField] float pathfindCD = 0.5f;
     [SerializeField] float currentHealthPoints;
@@ -156,6 +159,7 @@ public class Boss : MonoBehaviour
     {
         animator.SetTrigger("Attacking");
         weaponSwing = true;
+        MeleeSwingSFX.Play();
     }
     public bool Attacking()
     {
@@ -172,6 +176,7 @@ public class Boss : MonoBehaviour
         Vector3 unitVectorToPlayer = (player.transform.position + aimOffset - bulletSpawn.transform.position).normalized;
         newBullet.GetComponent<Rigidbody>().velocity = unitVectorToPlayer * projectileSpeed;
         animator.SetTrigger("Skill");
+        fireBallSFX.Play();
     }
 
     public void HurtEnemy(float damageToGive)

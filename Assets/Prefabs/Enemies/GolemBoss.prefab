@@ -2521,15 +2521,17 @@ MonoBehaviour:
   bullet: {fileID: 1510173722238942, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
   bulletSpawn: {fileID: 1999232485142270}
   projectileSpeed: 4
-  secondsBetweenShots: 1.3
+  secondsBetweenShots: 5
   aimOffset: {x: 0, y: 1, z: 0}
   aStar: {fileID: 0}
   patrolling: 0
   waypoint: {fileID: 0}
   weaponSwing: 0
-  pathfindCD: 1
+  pathfindCD: 4
   currentHealthPoints: 0
   isAttacking: 0
+  attack: 0
+  attackCD: 5
 --- !u!114 &114777645490285734
 MonoBehaviour:
   m_ObjectHideFlags: 1

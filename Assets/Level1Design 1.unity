@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 4
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 7d1430089afb5854892670b854d1d684, type: 2}
   m_HaloStrength: 0.5
@@ -320,34 +320,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &15619883
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100020, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 15619884}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &15619884
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400020, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 15619883}
-  m_LocalRotation: {x: 0.000000044702833, y: -2.4138577e-10, z: -0.0053997086, w: 0.99998546}
-  m_LocalPosition: {x: -0.16039582, y: 0.00000030517577, z: 0.000000076293944}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1979290791}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &15708397
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,34 +913,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &33409916
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100078, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 33409917}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger22
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &33409917
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400078, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 33409916}
-  m_LocalRotation: {x: 0.000000015026883, y: 0.000000014774369, z: -0.008472895, w: 0.9999641}
-  m_LocalPosition: {x: -0.19646026, y: 0, z: -0.000000038146972}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 463310915}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &36326203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1163,7 +1107,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 37702880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.65, y: -4.59, z: -148.82}
+  m_LocalPosition: {x: -4.32, y: -4.59, z: -144.27}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1490540660}
@@ -1288,35 +1232,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 37738658}
   m_Mesh: {fileID: 4300004, guid: d5c2479154ad1794ca18ef63c558728c, type: 3}
---- !u!1 &43121489
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100064, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 43121490}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &43121490
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400064, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 43121489}
-  m_LocalRotation: {x: -0.000000029802072, y: -1.2180758e-10, z: 0.0040871846, w: 0.99999166}
-  m_LocalPosition: {x: -0.21155521, y: 0.00000030517577, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1775054317}
-  m_Father: {fileID: 777245665}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &43949914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,35 +2724,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 97270820}
   m_Mesh: {fileID: 4300010, guid: 38a7c31ec793cd341afb1366ced6dfcc, type: 3}
---- !u!1 &100970619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100090, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 100970620}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger42
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &100970620
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400090, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 100970619}
-  m_LocalRotation: {x: 0.0000000124673685, y: -0.000000007241559, z: -0.006565966,
-    w: 0.9999785}
-  m_LocalPosition: {x: -0.13781662, y: 0.00000030517577, z: -0.000000114440915}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1449629039}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &104549711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5960,35 +5846,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &199682709
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100014, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 199682710}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &199682710
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400014, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 199682709}
-  m_LocalRotation: {x: -0.0000000148705865, y: -0.000000007511422, z: 0.0040871543,
-    w: 0.99999166}
-  m_LocalPosition: {x: -0.25674382, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 676482589}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &204188208
 GameObject:
   m_ObjectHideFlags: 0
@@ -7595,35 +7452,6 @@ Transform:
   m_Father: {fileID: 452049868}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &274065419
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100084, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 274065420}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger32
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &274065420
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400084, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 274065419}
-  m_LocalRotation: {x: -0.0000000018750264, y: 0.0000000074474746, z: 0.0016621226,
-    w: 0.9999986}
-  m_LocalPosition: {x: -0.18009101, y: 0, z: -0.000000038146972}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 550100772}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &278045387
 GameObject:
   m_ObjectHideFlags: 0
@@ -9014,7 +8842,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114318040778650384, guid: 27e10421b3cffad4091f4a8323e8eb8e,
         type: 2}
@@ -9175,63 +9003,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &356703490
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100080, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 356703491}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &356703491
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400080, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356703490}
-  m_LocalRotation: {x: 0.115984716, y: -0.06535662, z: 0.00025547354, w: 0.9910984}
-  m_LocalPosition: {x: -0.61857784, y: 0.013329772, z: -0.071008645}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_Children:
-  - {fileID: 550100772}
-  m_Father: {fileID: 588639753}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &358004712
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100056, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 358004713}
-  m_Layer: 0
-  m_Name: GOLEM_ Queue de cheval 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &358004713
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400056, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 358004712}
-  m_LocalRotation: {x: 1.5487872e-12, y: 0.0000022081683, z: -0.7961384, w: 0.6051146}
-  m_LocalPosition: {x: 0.03356842, y: 0.13552406, z: 0.0000016733743}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
-  m_Children: []
-  m_Father: {fileID: 1080795607}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &361212036
 GameObject:
   m_ObjectHideFlags: 0
@@ -9439,134 +9210,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 373183367}
   m_Mesh: {fileID: 4300000, guid: 2feacc72ca21a4e47b68cda14fbf037d, type: 3}
---- !u!1 &378039828
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100110, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 378039830}
-  - component: {fileID: 378039829}
-  m_Layer: 0
-  m_Name: GOLEM_LOD1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!137 &378039829
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13700002, guid: d3d3cb8ade0d8364aa268ba27a3c7985,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 378039828}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 276a6024f7c1a1945bcb2839ba29651c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300004, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_Bones:
-  - {fileID: 1638002618}
-  - {fileID: 1097398668}
-  - {fileID: 1986246226}
-  - {fileID: 2009072587}
-  - {fileID: 358004713}
-  - {fileID: 773010940}
-  - {fileID: 1265195371}
-  - {fileID: 1994556123}
-  - {fileID: 573782441}
-  - {fileID: 1061898887}
-  - {fileID: 1299061520}
-  - {fileID: 2127907343}
-  - {fileID: 1080795607}
-  - {fileID: 15619884}
-  - {fileID: 1451011742}
-  - {fileID: 1956205367}
-  - {fileID: 496741332}
-  - {fileID: 620644175}
-  - {fileID: 409424909}
-  - {fileID: 610906199}
-  - {fileID: 1979290791}
-  - {fileID: 1263463804}
-  - {fileID: 199682710}
-  - {fileID: 857496501}
-  - {fileID: 646119774}
-  - {fileID: 471572077}
-  - {fileID: 1647009064}
-  - {fileID: 1558789230}
-  - {fileID: 676482589}
-  - {fileID: 1292269840}
-  - {fileID: 1779076818}
-  - {fileID: 491593796}
-  - {fileID: 575209261}
-  - {fileID: 782315871}
-  - {fileID: 517815735}
-  - {fileID: 494160344}
-  - {fileID: 588639753}
-  - {fileID: 777245665}
-  - {fileID: 356703491}
-  - {fileID: 1970894018}
-  - {fileID: 43121490}
-  - {fileID: 1897481837}
-  - {fileID: 465534097}
-  - {fileID: 463310915}
-  - {fileID: 951674951}
-  - {fileID: 1449629039}
-  - {fileID: 1775054317}
-  - {fileID: 100970620}
-  - {fileID: 550100772}
-  - {fileID: 274065420}
-  - {fileID: 33409917}
-  - {fileID: 1311578322}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 1097398668}
-  m_AABB:
-    m_Center: {x: 0.61962426, y: 0.30580306, z: 0.000002026558}
-    m_Extent: {x: 3.118897, y: 1.8526304, z: 2.9211164}
-  m_DirtyAABB: 0
---- !u!4 &378039830
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400110, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 378039828}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 4.1938596, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393897303}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379085000
 GameObject:
   m_ObjectHideFlags: 0
@@ -10067,36 +9710,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 402033138}
   m_Mesh: {fileID: 4300190, guid: 5997b075554393d44bc76e3650b3e7d3, type: 3}
---- !u!1 &409424908
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100030, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 409424909}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger31
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &409424909
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400030, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 409424908}
-  m_LocalRotation: {x: -0.000000007438186, y: -0.000000007462954, z: 0.0016621075,
-    w: 0.9999986}
-  m_LocalPosition: {x: -0.19959839, y: 0.00000030517577, z: 0.000000076293944}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_Children:
-  - {fileID: 610906199}
-  m_Father: {fileID: 620644175}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &413018204
 GameObject:
   m_ObjectHideFlags: 0
@@ -10408,12 +10021,12 @@ Prefab:
     - target: {fileID: 224841263323030160, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -40
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 224841263323030160, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.0025134087
+      value: -5.0025134
       objectReference: {fileID: 0}
     - target: {fileID: 1498029651114558, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba, type: 2}
       propertyPath: m_Name
@@ -10432,12 +10045,12 @@ Prefab:
     - target: {fileID: 224401127711051126, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -40
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 224401127711051126, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.0025134087
+      value: -5.0025134
       objectReference: {fileID: 0}
     - target: {fileID: 224735272354783376, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
@@ -11729,36 +11342,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &463310914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100076, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 463310915}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger21
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &463310915
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400076, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 463310914}
-  m_LocalRotation: {x: 0.000000007387185, y: -0.000000007513441, z: -0.008472911,
-    w: 0.9999641}
-  m_LocalPosition: {x: -0.2429309, y: -0.00000030517577, z: -0.000000076293944}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
-  m_Children:
-  - {fileID: 33409917}
-  m_Father: {fileID: 1970894018}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &465287261
 GameObject:
   m_ObjectHideFlags: 0
@@ -11786,35 +11369,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2011373340}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &465534096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100086, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 465534097}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &465534097
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400086, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 465534096}
-  m_LocalRotation: {x: 0.071584746, y: -0.105370596, z: -0.03269537, w: 0.9913141}
-  m_LocalPosition: {x: -0.61510116, y: 0.08541351, z: -0.2349044}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_Children:
-  - {fileID: 1449629039}
-  m_Father: {fileID: 588639753}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &467790317
 GameObject:
@@ -11931,35 +11485,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 241374440}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &471572076
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100094, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 471572077}
-  m_Layer: 0
-  m_Name: GOLEM_ R Forearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &471572077
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400094, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 471572076}
-  m_LocalRotation: {x: 0.000000026380302, y: -0.000000005071943, z: 0.38762888, w: 0.9218155}
-  m_LocalPosition: {x: -1.4032568, y: 0, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_Children:
-  - {fileID: 588639753}
-  m_Father: {fileID: 773010940}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &471822951 stripped
@@ -12747,66 +12272,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 489850081}
   m_Mesh: {fileID: 4300000, guid: f13484081ed21554e9d84c5758034800, type: 3}
---- !u!1 &491593795
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100036, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 491593796}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger41
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &491593796
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400036, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 491593795}
-  m_LocalRotation: {x: 0.000000023756796, y: -0.000000012147029, z: -0.006565952,
-    w: 0.9999785}
-  m_LocalPosition: {x: -0.15853615, y: 0, z: 0.000000076293944}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
-  m_Children:
-  - {fileID: 575209261}
-  m_Father: {fileID: 1292269840}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &493400322
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1018740935689448, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 493400323}
-  m_Layer: 9
-  m_Name: bulletSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &493400323
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4393892804962920, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 493400322}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.63, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393897303}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &493542293
 GameObject:
   m_ObjectHideFlags: 0
@@ -12833,35 +12298,6 @@ Transform:
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 627556226}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &494160343
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100092, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 494160344}
-  m_Layer: 0
-  m_Name: GOLEM_ R Foot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &494160344
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400092, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494160343}
-  m_LocalRotation: {x: -0.01575565, y: -0.07258941, z: -0.11317771, w: 0.9907943}
-  m_LocalPosition: {x: -1.3202481, y: 0, z: -0.000000076293944}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
-  m_Children:
-  - {fileID: 517815735}
-  m_Father: {fileID: 646119774}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &494960847
@@ -12953,35 +12389,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 494960847}
   m_Mesh: {fileID: 4300000, guid: 9ca0c37406ee82c40ac1fedce6dafc4a, type: 3}
---- !u!1 &496741331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100026, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 496741332}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger22
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &496741332
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400026, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 496741331}
-  m_LocalRotation: {x: -0.00000001868891, y: -0.0000000072924924, z: -0.00847291,
-    w: 0.9999641}
-  m_LocalPosition: {x: -0.19646019, y: 0.00000030517577, z: -0.000000038146972}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 1956205367}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &497336527
 GameObject:
   m_ObjectHideFlags: 0
@@ -13275,34 +12682,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 477427437}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &517815734
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100100, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 517815735}
-  m_Layer: 0
-  m_Name: GOLEM_ R Toe0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &517815735
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400100, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 517815734}
-  m_LocalRotation: {x: 0.000000015454312, y: -0.000000015454312, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.54044473, y: 0.63397133, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
-  m_Children: []
-  m_Father: {fileID: 494160344}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &528503558
@@ -14023,6 +13402,12 @@ Prefab:
       propertyPath: m_Mass
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 114033904587198388, guid: 27e10421b3cffad4091f4a8323e8eb8e,
+        type: 2}
+      propertyPath: enemyCanvasPrefab
+      value: 
+      objectReference: {fileID: 1311539807392560, guid: 9a9d70d10b9331d469e57254147e0430,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
   m_IsPrefabParent: 0
@@ -14115,36 +13500,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 549998285}
   m_Mesh: {fileID: 4300196, guid: 5997b075554393d44bc76e3650b3e7d3, type: 3}
---- !u!1 &550100771
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100082, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 550100772}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger31
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &550100772
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400082, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 550100771}
-  m_LocalRotation: {x: 0.000000014907332, y: -0.0000000037005174, z: 0.0016621224,
-    w: 0.9999986}
-  m_LocalPosition: {x: -0.19959839, y: 0.00000030517577, z: -0.000000076293944}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 274065420}
-  m_Father: {fileID: 356703491}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &556669234
 GameObject:
   m_ObjectHideFlags: 0
@@ -14348,35 +13703,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &573782440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100046, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 573782441}
-  m_Layer: 0
-  m_Name: GOLEM_ L Thigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &573782441
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400046, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 573782440}
-  m_LocalRotation: {x: -0.049841102, y: 0.99599123, z: 0.0037117298, w: 0.07418593}
-  m_LocalPosition: {x: 0.00000061035155, y: 0.0000007056737, z: 0.4164676}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
-  m_Children:
-  - {fileID: 857496501}
-  m_Father: {fileID: 1986246226}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &574966224
 GameObject:
   m_ObjectHideFlags: 0
@@ -14403,35 +13729,6 @@ Transform:
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 694769389}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &575209260
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100038, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 575209261}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger42
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &575209261
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400038, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 575209260}
-  m_LocalRotation: {x: -0.0000000075914075, y: 0.000000005172231, z: -0.0065659513,
-    w: 0.9999785}
-  m_LocalPosition: {x: -0.13781677, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 491593796}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &576823067
@@ -14856,39 +14153,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 587848785}
   m_Mesh: {fileID: 4300000, guid: bbabd6310678b6a46bae19f3d88938a0, type: 3}
---- !u!1 &588639752
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100096, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 588639753}
-  m_Layer: 0
-  m_Name: GOLEM_ R Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &588639753
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400096, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 588639752}
-  m_LocalRotation: {x: 0.7052666, y: -0.034569126, z: -0.11146483, w: 0.69927084}
-  m_LocalPosition: {x: -1.1393408, y: 0.000000076293944, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 777245665}
-  - {fileID: 1897481837}
-  - {fileID: 1970894018}
-  - {fileID: 356703491}
-  - {fileID: 465534097}
-  m_Father: {fileID: 471572077}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593584312
 GameObject:
   m_ObjectHideFlags: 0
@@ -15629,35 +14893,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &610906198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100032, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 610906199}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger32
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &610906199
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400032, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 610906198}
-  m_LocalRotation: {x: -0.00000003540259, y: 0.0000000073917477, z: 0.0016621075,
-    w: 0.9999986}
-  m_LocalPosition: {x: -0.18009093, y: -0.00000030517577, z: -0.000000019073486}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 409424909}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &611103385
 GameObject:
   m_ObjectHideFlags: 0
@@ -15797,35 +15032,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &620644174
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100028, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 620644175}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &620644175
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400028, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 620644174}
-  m_LocalRotation: {x: -0.115984745, y: 0.06535665, z: 0.0002554766, w: 0.9910984}
-  m_LocalPosition: {x: -0.6185777, y: 0.013330078, z: 0.071008645}
-  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 409424909}
-  m_Father: {fileID: 1647009064}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &620700916
 GameObject:
   m_ObjectHideFlags: 0
@@ -16289,35 +15495,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &646119773
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100058, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 646119774}
-  m_Layer: 0
-  m_Name: GOLEM_ R Calf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &646119774
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400058, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 646119773}
-  m_LocalRotation: {x: 0.0000000018377324, y: 3.036217e-10, z: 0.16300566, w: 0.98662513}
-  m_LocalPosition: {x: -1.140429, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 494160344}
-  m_Father: {fileID: 1299061520}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &647465764
 GameObject:
   m_ObjectHideFlags: 0
@@ -16466,51 +15643,6 @@ Tree:
   m_GameObject: {fileID: 649640661}
   m_SpeedTreeWindAsset: {fileID: 0}
   m_TreeData: {fileID: 11400000, guid: 292083b57b1c72a438024253eb2ad7fb, type: 2}
---- !u!1 &651727570
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1148873284862878, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 651727571}
-  - component: {fileID: 651727572}
-  m_Layer: 9
-  m_Name: UI Socket
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &651727571
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4688402282780474, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 651727570}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.75, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393897303}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &651727572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114033904587198388, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 651727570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1946e1c1bae1c34ba2666ebb3463952, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyCanvasPrefab: {fileID: 1311539807392560, guid: 9a9d70d10b9331d469e57254147e0430,
-    type: 2}
 --- !u!1 &654226078
 GameObject:
   m_ObjectHideFlags: 0
@@ -16904,35 +16036,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &676482588
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100012, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 676482589}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &676482589
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400012, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 676482588}
-  m_LocalRotation: {x: 0, y: 0, z: 0.0040871697, w: 0.99999166}
-  m_LocalPosition: {x: -0.21155524, y: 0, z: -0.000000076293944}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 199682710}
-  m_Father: {fileID: 1558789230}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &676676103
 GameObject:
   m_ObjectHideFlags: 0
@@ -19541,64 +18644,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &773010939
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100102, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 773010940}
-  m_Layer: 0
-  m_Name: GOLEM_ R UpperArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &773010940
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400102, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 773010939}
-  m_LocalRotation: {x: -0.23659894, y: 0.40421242, z: 0.044809543, w: 0.88239753}
-  m_LocalPosition: {x: -0.677617, y: -3.6379787e-14, z: -0.00000030517577}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_Children:
-  - {fileID: 471572077}
-  m_Father: {fileID: 1061898887}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &777245664
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100062, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 777245665}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &777245665
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400062, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 777245664}
-  m_LocalRotation: {x: -0.27965766, y: 0.47179818, z: 0.17515892, w: 0.81762916}
-  m_LocalPosition: {x: -0.1906604, y: 0.07997925, z: 0.39537054}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-  m_Children:
-  - {fileID: 43121490}
-  m_Father: {fileID: 588639753}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &778397673
 GameObject:
   m_ObjectHideFlags: 0
@@ -19738,35 +18783,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &782315870
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100040, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 782315871}
-  m_Layer: 0
-  m_Name: GOLEM_ L Foot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &782315871
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400040, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 782315870}
-  m_LocalRotation: {x: 0.01575564, y: 0.07258932, z: -0.11317771, w: 0.9907943}
-  m_LocalPosition: {x: -1.3202481, y: 0.000000019073486, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 1779076818}
-  m_Father: {fileID: 857496501}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &784259070
 GameObject:
   m_ObjectHideFlags: 0
@@ -21896,35 +20912,6 @@ Transform:
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 2079930300}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &857496500
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100006, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 857496501}
-  m_Layer: 0
-  m_Name: GOLEM_ L Calf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &857496501
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400006, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 857496500}
-  m_LocalRotation: {x: -0.0000000030522196, y: 0.000000007047309, z: 0.1630057, w: 0.98662513}
-  m_LocalPosition: {x: -1.1404289, y: -0.000000019073486, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 782315871}
-  m_Father: {fileID: 573782441}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &858246165
@@ -24254,35 +23241,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 951134375}
   m_Mesh: {fileID: 4300000, guid: 2feacc72ca21a4e47b68cda14fbf037d, type: 3}
---- !u!1 &951674950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100070, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 951674951}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &951674951
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400070, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 951674950}
-  m_LocalRotation: {x: -0.000000011175707, y: 6.034643e-11, z: -0.005399708, w: 0.99998546}
-  m_LocalPosition: {x: -0.25694367, y: 0, z: -0.000000038146972}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
-  m_Children:
-  - {fileID: 1311578322}
-  m_Father: {fileID: 1897481837}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &956056154
 GameObject:
   m_ObjectHideFlags: 0
@@ -25214,7 +24172,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114318040778650384, guid: 27e10421b3cffad4091f4a8323e8eb8e,
         type: 2}
@@ -26439,35 +25397,6 @@ Transform:
   m_Father: {fileID: 543720326}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1061898886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100060, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1061898887}
-  m_Layer: 0
-  m_Name: GOLEM_ R Clavicle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1061898887
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400060, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1061898886}
-  m_LocalRotation: {x: 0.6621028, y: 0.116535425, z: 0.72908944, w: -0.12832758}
-  m_LocalPosition: {x: -0.033753358, y: -0.012103272, z: -0.21143815}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_Children:
-  - {fileID: 773010940}
-  m_Father: {fileID: 1265195371}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1062581392
 GameObject:
   m_ObjectHideFlags: 0
@@ -26821,35 +25750,6 @@ Transform:
   m_Father: {fileID: 395231568}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1080795606
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100004, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1080795607}
-  m_Layer: 0
-  m_Name: GOLEM_ Head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1080795607
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400004, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1080795606}
-  m_LocalRotation: {x: -2.440665e-13, y: -0.00000023421319, z: 0.08444442, w: 0.9964282}
-  m_LocalPosition: {x: -0.19803742, y: 0.00000015258789, z: 0}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 358004713}
-  m_Father: {fileID: 1265195371}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1084624600 stripped
 Transform:
   m_PrefabParentObject: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
@@ -26972,35 +25872,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1088657767}
   m_Mesh: {fileID: 4300000, guid: f13484081ed21554e9d84c5758034800, type: 3}
---- !u!1 &1097398667
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100104, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1097398668}
-  m_Layer: 0
-  m_Name: GOLEM_ Spine
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1097398668
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400104, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1097398667}
-  m_LocalRotation: {x: 0.5000007, y: -0.4999993, z: -0.5000007, w: -0.4999993}
-  m_LocalPosition: {x: 0.0005465241, y: -1.93765e-13, z: 0.30365753}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_Children:
-  - {fileID: 1638002618}
-  m_Father: {fileID: 2064685367}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1101182096
 Prefab:
   m_ObjectHideFlags: 0
@@ -30971,35 +29842,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &1263463803
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100016, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1263463804}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1263463804
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400016, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1263463803}
-  m_LocalRotation: {x: 0.011093416, y: -0.046681967, z: -0.039730247, w: 0.9980578}
-  m_LocalPosition: {x: -0.615997, y: 0.015969848, z: -0.3473015}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999998}
-  m_Children:
-  - {fileID: 1979290791}
-  m_Father: {fileID: 1647009064}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1264007520
 GameObject:
   m_ObjectHideFlags: 0
@@ -31090,37 +29932,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264007520}
   m_Mesh: {fileID: 4300000, guid: e4db73ae01e86f94fa9074b2e6de356c, type: 3}
---- !u!1 &1265195370
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100052, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1265195371}
-  m_Layer: 0
-  m_Name: GOLEM_ Neck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1265195371
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400052, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1265195370}
-  m_LocalRotation: {x: -1.901748e-14, y: 0.00000047970195, z: -0.17295279, w: 0.98493016}
-  m_LocalPosition: {x: -1.0293149, y: -0.00014828175, z: -4.1127007e-10}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 1080795607}
-  - {fileID: 1994556123}
-  - {fileID: 1061898887}
-  m_Father: {fileID: 1638002618}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1266849082
 GameObject:
   m_ObjectHideFlags: 0
@@ -31753,35 +30564,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1289465165}
   m_Mesh: {fileID: 4300000, guid: 9ca0c37406ee82c40ac1fedce6dafc4a, type: 3}
---- !u!1 &1292269839
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100034, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1292269840}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1292269840
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400034, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1292269839}
-  m_LocalRotation: {x: -0.07158469, y: 0.105370596, z: -0.032695387, w: 0.9913141}
-  m_LocalPosition: {x: -0.61510116, y: 0.08541381, z: 0.23490444}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 491593796}
-  m_Father: {fileID: 1647009064}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1296798689
 GameObject:
   m_ObjectHideFlags: 0
@@ -31885,35 +30667,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1296798689}
   m_Mesh: {fileID: 4300000, guid: 70141ba124d5bd042a85c6007a3792a5, type: 3}
---- !u!1 &1299061519
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100098, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1299061520}
-  m_Layer: 0
-  m_Name: GOLEM_ R Thigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1299061520
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400098, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1299061519}
-  m_LocalRotation: {x: -0.049841065, y: 0.9959911, z: -0.0037131258, w: -0.07418746}
-  m_LocalPosition: {x: -0.00000061035155, y: -0.000000449441, z: -0.4164676}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_Children:
-  - {fileID: 646119774}
-  m_Father: {fileID: 1986246226}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1299965932
 GameObject:
   m_ObjectHideFlags: 0
@@ -32251,35 +31004,6 @@ Transform:
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 290199002}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1311578321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100072, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1311578322}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1311578322
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400072, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1311578321}
-  m_LocalRotation: {x: -0.0000000036850054, y: 0.000000007470588, z: -0.005399708,
-    w: 0.99998546}
-  m_LocalPosition: {x: -0.16039589, y: 0.00000030517577, z: -0.000000076293944}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 951674951}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318051583
@@ -34396,24 +33120,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1392938842}
   m_Mesh: {fileID: 4300000, guid: 3fd5da09bcea4d2448bff0be909b1fc8, type: 3}
---- !u!4 &1393897303
+--- !u!4 &1393897303 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 408730, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.9, y: -4.41, z: -149.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2064685367}
-  - {fileID: 2108855212}
-  - {fileID: 378039830}
-  - {fileID: 651727571}
-  - {fileID: 493400323}
-  m_Father: {fileID: 897105792}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_PrefabParentObject: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1413574679}
 --- !u!1 &1398919941
 GameObject:
   m_ObjectHideFlags: 0
@@ -34735,6 +33446,68 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1001 &1413574679
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 897105792}
+    m_Modifications:
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -9.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -149.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423604665440790, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114743210843805718, guid: 74266aeed490b8540aa3bacb56d46f7f,
+        type: 2}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 37702881}
+    - target: {fileID: 114736436642009090, guid: 74266aeed490b8540aa3bacb56d46f7f,
+        type: 2}
+      propertyPath: end
+      value: 
+      objectReference: {fileID: 37702881}
+    - target: {fileID: 114736436642009090, guid: 74266aeed490b8540aa3bacb56d46f7f,
+        type: 2}
+      propertyPath: marker
+      value: 
+      objectReference: {fileID: 1865413336}
+    - target: {fileID: 114547020681046244, guid: 74266aeed490b8540aa3bacb56d46f7f,
+        type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1865413337}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1414029670
 GameObject:
   m_ObjectHideFlags: 0
@@ -35812,65 +34585,6 @@ Tree:
   m_GameObject: {fileID: 1447171730}
   m_SpeedTreeWindAsset: {fileID: 0}
   m_TreeData: {fileID: 11400000, guid: 292083b57b1c72a438024253eb2ad7fb, type: 2}
---- !u!1 &1449629038
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100088, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1449629039}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger41
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1449629039
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400088, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1449629038}
-  m_LocalRotation: {x: -0.0000000044115143, y: 0.0000000063155303, z: -0.0065659666,
-    w: 0.9999785}
-  m_LocalPosition: {x: -0.15853591, y: 0, z: -0.000000038146972}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_Children:
-  - {fileID: 100970620}
-  m_Father: {fileID: 465534097}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1451011741
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100022, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1451011742}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1451011742
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400022, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1451011741}
-  m_LocalRotation: {x: -0.1086954, y: 0.018792447, z: 0.0069581424, w: 0.9938731}
-  m_LocalPosition: {x: -0.66125596, y: -0.03100891, z: -0.13813281}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
-  m_Children:
-  - {fileID: 1956205367}
-  m_Father: {fileID: 1647009064}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1453747577
 GameObject:
   m_ObjectHideFlags: 0
@@ -38058,35 +36772,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1556458660}
   m_Mesh: {fileID: 4300002, guid: dda4a59e1fa970f41972952abeb22830, type: 3}
---- !u!1 &1558789229
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100010, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1558789230}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1558789230
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400010, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1558789229}
-  m_LocalRotation: {x: 0.27965763, y: -0.47179818, z: 0.17515887, w: 0.81762916}
-  m_LocalPosition: {x: -0.19066024, y: 0.07997925, z: -0.39537063}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
-  m_Children:
-  - {fileID: 676482589}
-  m_Father: {fileID: 1647009064}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1559214263
 GameObject:
   m_ObjectHideFlags: 0
@@ -39636,35 +38321,6 @@ Tree:
   m_GameObject: {fileID: 1634413952}
   m_SpeedTreeWindAsset: {fileID: 0}
   m_TreeData: {fileID: 11400000, guid: 292083b57b1c72a438024253eb2ad7fb, type: 2}
---- !u!1 &1638002617
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100106, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1638002618}
-  m_Layer: 0
-  m_Name: GOLEM_ Spine1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1638002618
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400106, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1638002617}
-  m_LocalRotation: {x: -3.0117673e-14, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6865289, y: -0.0008195746, z: -0.0000000022731723}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1265195371}
-  m_Father: {fileID: 1097398668}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1642788426
 GameObject:
   m_ObjectHideFlags: 0
@@ -39938,39 +38594,6 @@ Tree:
   m_GameObject: {fileID: 1646455220}
   m_SpeedTreeWindAsset: {fileID: 0}
   m_TreeData: {fileID: 11400000, guid: 292083b57b1c72a438024253eb2ad7fb, type: 2}
---- !u!1 &1647009063
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100044, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1647009064}
-  m_Layer: 0
-  m_Name: GOLEM_ L Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1647009064
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400044, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1647009063}
-  m_LocalRotation: {x: -0.70526654, y: 0.034569144, z: -0.1114648, w: 0.69927084}
-  m_LocalPosition: {x: -1.1393406, y: -0.000000076293944, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
-  m_Children:
-  - {fileID: 1558789230}
-  - {fileID: 1263463804}
-  - {fileID: 1451011742}
-  - {fileID: 620644175}
-  - {fileID: 1292269840}
-  m_Father: {fileID: 2127907343}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1647882021
 GameObject:
   m_ObjectHideFlags: 0
@@ -42331,62 +40954,6 @@ Transform:
   m_Father: {fileID: 785955699}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1775054316
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100066, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1775054317}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1775054317
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400066, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1775054316}
-  m_LocalRotation: {x: 0.000000014901037, y: 6.090357e-11, z: 0.004087169, w: 0.99999166}
-  m_LocalPosition: {x: -0.25674397, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 43121490}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1779076817
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100048, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1779076818}
-  m_Layer: 0
-  m_Name: GOLEM_ L Toe0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1779076818
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400048, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1779076817}
-  m_LocalRotation: {x: -0.00000001545431, y: 0.00000001545431, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.54044473, y: 0.63397133, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
-  m_Children: []
-  m_Father: {fileID: 782315871}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1783362391
 GameObject:
   m_ObjectHideFlags: 0
@@ -43528,7 +42095,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 114318040778650384, guid: 27e10421b3cffad4091f4a8323e8eb8e,
         type: 2}
@@ -45021,7 +43588,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1865413336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2399998, y: -4.61, z: -144.7}
+  m_LocalPosition: {x: -3.69, y: -4.61, z: -144.7}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 748907625}
@@ -45827,35 +44394,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &1897481836
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100068, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1897481837}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1897481837
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400068, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1897481836}
-  m_LocalRotation: {x: -0.0110934265, y: 0.046681974, z: -0.039730232, w: 0.9980578}
-  m_LocalPosition: {x: -0.615997, y: 0.015969543, z: 0.34730154}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 951674951}
-  m_Father: {fileID: 588639753}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1902073618
 GameObject:
   m_ObjectHideFlags: 0
@@ -47064,36 +45602,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1953831881}
   m_Mesh: {fileID: 4300000, guid: bbabd6310678b6a46bae19f3d88938a0, type: 3}
---- !u!1 &1956205366
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100024, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1956205367}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger21
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1956205367
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400024, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1956205366}
-  m_LocalRotation: {x: 0.000000007324057, y: -0.000000014963751, z: -0.008472894,
-    w: 0.9999641}
-  m_LocalPosition: {x: -0.2429309, y: 0, z: -0.000000076293944}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
-  m_Children:
-  - {fileID: 496741332}
-  m_Father: {fileID: 1451011742}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1957314581
 GameObject:
   m_ObjectHideFlags: 0
@@ -47308,197 +45816,6 @@ Transform:
   m_Father: {fileID: 765304675}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1968302800
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 149790, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1393897303}
-  - component: {fileID: 1968302809}
-  - component: {fileID: 1968302808}
-  - component: {fileID: 1968302807}
-  - component: {fileID: 1968302806}
-  - component: {fileID: 1968302805}
-  - component: {fileID: 1968302804}
-  - component: {fileID: 1968302803}
-  - component: {fileID: 1968302802}
-  - component: {fileID: 1968302801}
-  m_Layer: 9
-  m_Name: Enemy (6)
-  m_TagString: Enemy
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1968302801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114642492244571238, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12c8383acc585204f914fd050f1e5a5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  start: {fileID: 1393897303}
-  end: {fileID: 37702881}
-  enemy: {fileID: 1968302802}
-  marker: {fileID: 1865413336}
---- !u!114 &1968302802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114885733720716036, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36b5b6476a698514da1b95b147249e90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1865413337}
-  wanderTarget: {fileID: 0}
-  m_RigidBody: {fileID: 0}
-  turret: {fileID: 0}
-  m_Shell: {fileID: 54338627326528726, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
-  m_FireTransform: {fileID: 493400323}
-  moveSpeed: 6
-  maxSpeed: 6
-  rotationSpeed: 4.5
-  shootTimer: 0
-  shootCooldown: 2
-  currentState: 0
-  currWayPtState: 1
-  currentWaypoint: 0
-  sightDistance: 2.44
-  peripheralDist: 2.5
-  avoidanceAngle: 45
-  avoidanceState: 0
---- !u!114 &1968302803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114823144388554624, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e464381efb84c3d45b3f888e92db6cf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageToGive: 2
---- !u!114 &1968302804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114318040778650384, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7af4b9ecfea05b54d8f28dce3afd6347, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealthPoints: 100
-  attackRadius: 1.2
-  moveRadius: 11.1
-  bullet: {fileID: 1510173722238942, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
-  bulletSpawn: {fileID: 493400322}
-  projectileSpeed: 12
-  secondsBetweenShots: 1
-  aimOffset: {x: 0, y: 1, z: 0}
-  aStar: {fileID: 0}
-  patrolling: 0
-  waypoint: {fileID: 37702881}
-  weaponSwing: 0
-  pathfindCD: 1
-  currentHealthPoints: 0
-  isAttacking: 0
---- !u!114 &1968302805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114969658837136744, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2c2c895e47546243be568df1d35a628, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  expToGive: 5
---- !u!114 &1968302806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114203293481887226, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2860137c369270c4f8304bdcea462997, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 3600
-  m_StationaryTurnSpeed: 1800
-  m_JumpPower: 12
-  m_GravityMultiplier: 2
-  m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.1
---- !u!136 &1968302807
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13615390, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.3
-  m_Height: 1.6
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.82, z: 0}
---- !u!54 &1968302808
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 54254375446898662, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  serializedVersion: 2
-  m_Mass: 40
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!95 &1968302809
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9579096, guid: 27e10421b3cffad4091f4a8323e8eb8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1968302800}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_Controller: {fileID: 9100000, guid: 7866aed00ee15ad4b90b2e12b100ff09, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1968463985
 GameObject:
   m_ObjectHideFlags: 0
@@ -47577,35 +45894,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1968463985}
   m_Mesh: {fileID: 4300004, guid: 7c9f011957c53344b8b5c1c8ad2cb4ec, type: 3}
---- !u!1 &1970894017
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100074, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1970894018}
-  m_Layer: 0
-  m_Name: GOLEM_ R Finger2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1970894018
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400074, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970894017}
-  m_LocalRotation: {x: 0.10869538, y: -0.018792456, z: 0.006958143, w: 0.9938731}
-  m_LocalPosition: {x: -0.6612561, y: -0.031009521, z: 0.13813274}
-  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
-  m_Children:
-  - {fileID: 463310915}
-  m_Father: {fileID: 588639753}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1972621846
 GameObject:
   m_ObjectHideFlags: 0
@@ -47905,35 +46193,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &1979290790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100018, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1979290791}
-  m_Layer: 0
-  m_Name: GOLEM_ L Finger11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1979290791
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400018, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1979290790}
-  m_LocalRotation: {x: -0.000000014900944, y: 8.046192e-11, z: -0.0053997086, w: 0.99998546}
-  m_LocalPosition: {x: -0.25694367, y: 0, z: -0.000000076293944}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_Children:
-  - {fileID: 15619884}
-  m_Father: {fileID: 1263463804}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1980542754
 GameObject:
   m_ObjectHideFlags: 0
@@ -48227,36 +46486,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!1 &1986246225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100054, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1986246226}
-  m_Layer: 0
-  m_Name: GOLEM_ Pelvis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1986246226
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400054, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1986246225}
-  m_LocalRotation: {x: -0.49999967, y: 0.50000036, z: 0.49999967, w: 0.50000036}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_Children:
-  - {fileID: 573782441}
-  - {fileID: 1299061520}
-  m_Father: {fileID: 2064685367}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1986909271
 GameObject:
   m_ObjectHideFlags: 0
@@ -48434,35 +46663,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1994517031}
   m_Mesh: {fileID: 4300000, guid: 70141ba124d5bd042a85c6007a3792a5, type: 3}
---- !u!1 &1994556122
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100008, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1994556123}
-  m_Layer: 0
-  m_Name: GOLEM_ L Clavicle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1994556123
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400008, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1994556122}
-  m_LocalRotation: {x: -0.6621031, y: -0.11653743, z: 0.72908914, w: -0.12832573}
-  m_LocalPosition: {x: -0.033753358, y: -0.012104492, z: 0.21143807}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
-  m_Children:
-  - {fileID: 2009072587}
-  m_Father: {fileID: 1265195371}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1997145727
 GameObject:
   m_ObjectHideFlags: 0
@@ -48580,7 +46780,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114318040778650384, guid: 27e10421b3cffad4091f4a8323e8eb8e,
         type: 2}
@@ -48642,35 +46842,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 408730, guid: 27e10421b3cffad4091f4a8323e8eb8e, type: 2}
   m_PrefabInternal: {fileID: 730973615}
---- !u!1 &2009072586
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100050, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2009072587}
-  m_Layer: 0
-  m_Name: GOLEM_ L UpperArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2009072587
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400050, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2009072586}
-  m_LocalRotation: {x: 0.23659894, y: -0.40421242, z: 0.044809535, w: 0.88239753}
-  m_LocalPosition: {x: -0.677617, y: 0, z: 0.00000030517577}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 2127907343}
-  m_Father: {fileID: 1994556123}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2009710855
 GameObject:
   m_ObjectHideFlags: 0
@@ -49958,36 +48129,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2061993945}
   m_Mesh: {fileID: 4300002, guid: 51eeec1f55937e94f9b8dfb294ec3e3e, type: 3}
---- !u!1 &2064685366
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2064685367}
-  m_Layer: 0
-  m_Name: GOLEM_
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2064685367
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2064685366}
-  m_LocalRotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
-  m_LocalPosition: {x: 0, y: 2.9309616, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1986246226}
-  - {fileID: 1097398668}
-  m_Father: {fileID: 1393897303}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065192195
 GameObject:
   m_ObjectHideFlags: 0
@@ -50985,134 +49126,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2102488374}
   m_Mesh: {fileID: 4300000, guid: 1a594060837750d43a335da6497c503e, type: 3}
---- !u!1 &2108855210
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100108, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2108855212}
-  - component: {fileID: 2108855211}
-  m_Layer: 0
-  m_Name: GOLEM_LOD0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!137 &2108855211
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13700000, guid: d3d3cb8ade0d8364aa268ba27a3c7985,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2108855210}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 276a6024f7c1a1945bcb2839ba29651c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300002, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_Bones:
-  - {fileID: 1097398668}
-  - {fileID: 1638002618}
-  - {fileID: 1986246226}
-  - {fileID: 1080795607}
-  - {fileID: 2009072587}
-  - {fileID: 1994556123}
-  - {fileID: 773010940}
-  - {fileID: 1061898887}
-  - {fileID: 358004713}
-  - {fileID: 1265195371}
-  - {fileID: 573782441}
-  - {fileID: 1299061520}
-  - {fileID: 1451011742}
-  - {fileID: 33409917}
-  - {fileID: 43121490}
-  - {fileID: 1558789230}
-  - {fileID: 1263463804}
-  - {fileID: 356703491}
-  - {fileID: 550100772}
-  - {fileID: 274065420}
-  - {fileID: 2127907343}
-  - {fileID: 857496501}
-  - {fileID: 646119774}
-  - {fileID: 1979290791}
-  - {fileID: 496741332}
-  - {fileID: 1956205367}
-  - {fileID: 463310915}
-  - {fileID: 1970894018}
-  - {fileID: 15619884}
-  - {fileID: 951674951}
-  - {fileID: 1897481837}
-  - {fileID: 1775054317}
-  - {fileID: 199682710}
-  - {fileID: 676482589}
-  - {fileID: 1647009064}
-  - {fileID: 620644175}
-  - {fileID: 1779076818}
-  - {fileID: 1292269840}
-  - {fileID: 491593796}
-  - {fileID: 409424909}
-  - {fileID: 782315871}
-  - {fileID: 1311578322}
-  - {fileID: 575209261}
-  - {fileID: 610906199}
-  - {fileID: 517815735}
-  - {fileID: 494160344}
-  - {fileID: 471572077}
-  - {fileID: 588639753}
-  - {fileID: 777245665}
-  - {fileID: 465534097}
-  - {fileID: 1449629039}
-  - {fileID: 100970620}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 1097398668}
-  m_AABB:
-    m_Center: {x: 0.60526764, y: 0.20663595, z: -0.0000014305115}
-    m_Extent: {x: 3.1522384, y: 1.5092838, z: 3.0498257}
-  m_DirtyAABB: 0
---- !u!4 &2108855212
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400108, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2108855210}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 4.1938596, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1393897303}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113342564
 GameObject:
   m_ObjectHideFlags: 0
@@ -51662,35 +49675,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2127668403}
   m_Mesh: {fileID: 4300002, guid: d5c2479154ad1794ca18ef63c558728c, type: 3}
---- !u!1 &2127907342
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100042, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2127907343}
-  m_Layer: 0
-  m_Name: GOLEM_ L Forearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2127907343
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400042, guid: d3d3cb8ade0d8364aa268ba27a3c7985, type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2127907342}
-  m_LocalRotation: {x: 0.000000027472247, y: 0.000000011552241, z: 0.38762885, w: 0.9218155}
-  m_LocalPosition: {x: -1.4032568, y: 0, z: 0.00000030517577}
-  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 1647009064}
-  m_Father: {fileID: 2009072587}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2134853901
 GameObject:
   m_ObjectHideFlags: 0

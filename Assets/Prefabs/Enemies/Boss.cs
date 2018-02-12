@@ -11,7 +11,7 @@ public class Boss : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject bulletSpawn;
     [SerializeField] float projectileSpeed = 4f;
-    [SerializeField] float secondsBetweenShots = 1.3f;
+    [SerializeField] float secondsBetweenShots = 5f;
     [SerializeField] Vector3 aimOffset = new Vector3(0, 1f, 0);
     [SerializeField] AStarSteeringBehaviour aStar;
     [SerializeField] bool patrolling = false;
@@ -22,6 +22,8 @@ public class Boss : MonoBehaviour
     [SerializeField] float pathfindCD = 0.5f;
     [SerializeField] float currentHealthPoints;
     [SerializeField]bool isAttacking = false;
+    [SerializeField] bool attack = false;
+    [SerializeField] float attackCD = 5f;
     Pathfinder pathFinder = null;
     GameObject player = null;
     bool pathfindBool = false;
@@ -52,14 +54,27 @@ public class Boss : MonoBehaviour
         }
 
         float distanceToPlyaer = Vector3.Distance(player.transform.position, transform.position);
-        if (distanceToPlyaer <= attackRadius && !isAttacking)
+        if (distanceToPlyaer <= attackRadius && !isAttacking && !attack)
         {
             //aiControl.SetTarget(player.transform);
             isAttacking = true;
+            attack = true;
             aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
-            InvokeRepeating("Attack", 0f, secondsBetweenShots);
+            //InvokeRepeating("Attack", 0f, secondsBetweenShots);
+            Attack();
             weaponSwing = false;
         }
+
+        //attack cooldown
+        if (attack)
+        {
+            attackCD -= Time.deltaTime;
+            if (attackCD <= 0)
+            {
+                attack = false;
+            }
+        }
+
         if (distanceToPlyaer > attackRadius)
         {
             isAttacking = false;
@@ -78,7 +93,7 @@ public class Boss : MonoBehaviour
         if ((distanceToPlyaer <= moveRadius) && (distanceToPlyaer > attackRadius))
         {
             //aiControl.SetTarget(player.transform);
-            InvokeRepeating("Shoot", 0f, secondsBetweenShots);
+            InvokeRepeating("Shoot", 0.2f, secondsBetweenShots);
             pathFinder.end = player.transform;
             //aStar.currentState = AStarSteeringBehaviour.AIState.WAYPOINTS;
             //InvokeRepeating("PathToPlayer", 0f, 5f);

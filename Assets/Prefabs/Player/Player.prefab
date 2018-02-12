@@ -3323,6 +3323,8 @@ MonoBehaviour:
   ManaLv: 6400000064000000780000008c000000a0000000b4000000c8000000dc000000f0000000fa000000
   playerCurrentHealth: 0
   currentAtt: 0
+  axeSwingSFX: {fileID: 0}
+  flameTornadoSFX: {fileID: 0}
   playerMaxHealth: 100
   enemyLayer: 9
   isAttacking: 0

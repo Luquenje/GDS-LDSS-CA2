@@ -31,5 +31,9 @@ public class WeaponDmg : MonoBehaviour
         {
             other.gameObject.GetComponent<Enemy>().HurtEnemy(damageToGive);
         }
+        if (other.gameObject.tag == "Boss" && isAttacking)
+        {
+            other.gameObject.GetComponent<Boss>().HurtEnemy(damageToGive);
+        }
     }
 }

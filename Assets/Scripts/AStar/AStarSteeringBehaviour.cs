@@ -36,6 +36,7 @@ public class AStarSteeringBehaviour : MonoBehaviour {
     public enum AvoidState { SINGLE_RAY, DOUBLE_RAY, TRIPLE_RAY };
     public AvoidState avoidanceState = AvoidState.SINGLE_RAY;
     float animSpeed = 0.8f;
+    [SerializeField] bool ifBoss;
     // Use this for initialization
     void Start()
     {
@@ -46,6 +47,8 @@ public class AStarSteeringBehaviour : MonoBehaviour {
         //Get the player's transform as target
         if (!target)
             target = GameObject.FindGameObjectWithTag("Player").transform;
+
+        moveSpeed = maxSpeed;
     }
     // Update is called once per frame
     void Update()
@@ -75,7 +78,14 @@ public class AStarSteeringBehaviour : MonoBehaviour {
             //case AIState.EVADE:
             //    break;
             case AIState.WAYPOINTS:
-                animSpeed = 0.8f;
+                if (ifBoss)
+                {
+                    animSpeed = 0.4f;
+                }
+                else
+                {
+                    animSpeed = 0.8f;
+                }
                 WayPointNavigation();
                 break;
             

@@ -3311,7 +3311,7 @@ MonoBehaviour:
   enemyLayer: 9
   isAttacking: 0
   attackCD: 0
-  abilityCD: 3
+  abilityCD: 0
   ability2CD: 0
   weaponInUse: {fileID: 11400000, guid: 4888d184e7394b243aea9537dadf4e4c, type: 2}
   weaponSocket: {fileID: 1945500341530746}

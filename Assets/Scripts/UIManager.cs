@@ -7,7 +7,10 @@ public class UIManager : MonoBehaviour {
 
     public Slider healthBar;
     public Text HPText;
-    public PlayerManager playerHealth;
+    public Slider manaBar;
+    public Text manaText;
+    public PlayerManager player;
+    public ManaManager mana;
     
 	// Use this for initialization
 	void Start () {
@@ -16,9 +19,12 @@ public class UIManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        healthBar.maxValue = playerHealth.playerMaxHealth;
-        healthBar.value = playerHealth.playerCurrentHealth;
-        HPText.text = "HP: " + playerHealth.playerCurrentHealth + "/" + playerHealth.playerMaxHealth;
+        healthBar.maxValue = player.playerMaxHealth;
+        healthBar.value = player.playerCurrentHealth;
+        HPText.text = "HP: " + player.playerCurrentHealth + "/" + player.playerMaxHealth;
+        manaBar.maxValue = mana.playerMaxMana;
+        manaBar.value = mana.playerCurrentMana;
+        manaText.text = "HP: " + mana.playerCurrentMana + "/" + mana.playerMaxMana;
 
     }
 }

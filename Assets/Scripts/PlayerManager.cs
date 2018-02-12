@@ -15,8 +15,8 @@ public class PlayerManager : MonoBehaviour
     int attk = 0;
     [SerializeField] public bool isAttacking = false;
     [SerializeField] float attackCD;
-    [SerializeField] float abilityCD = 0f;
-    [SerializeField] float ability2CD = 0f;
+    [SerializeField] public float abilityCD = 0f;
+    [SerializeField] public float ability2CD = 0f;
     bool useability = false;
     float healAmount = 25f;
     Animator animator;

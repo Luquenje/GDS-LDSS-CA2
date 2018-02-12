@@ -82,10 +82,11 @@ public class PlayerMovement : MonoBehaviour
 
             m_Character.Move(m_Move, false);
         }
-        if (Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            //animator
+            animator.SetTrigger("RollFoward");
         }
+        
     }
 
     //private void ProcessMouseMovement()

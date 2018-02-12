@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    public int currentLv;
+    public int currentExp;
+    public int[] toLvUp;
+
 
     public int playerMaxHealth;
     public float playerCurrentHealth;
@@ -70,6 +74,12 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(currentExp >= toLvUp[currentLv])
+        {
+            currentLv++;
+        }
+
+
         if (playerCurrentHealth <= 0)
         {
             gameObject.SetActive(false);
@@ -79,6 +89,11 @@ public class PlayerManager : MonoBehaviour
 
         PlayerAttack();
 
+    }
+
+    public void AddExp(int experienceToAdd)
+    {
+        currentExp += experienceToAdd;
     }
 
     private void PlayerAttack()

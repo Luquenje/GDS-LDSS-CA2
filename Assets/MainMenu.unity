@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -414,7 +414,6 @@ GameObject:
   - component: {fileID: 156525644}
   - component: {fileID: 156525643}
   - component: {fileID: 156525642}
-  - component: {fileID: 156525646}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -501,18 +500,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &156525646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 156525641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2a655ed60584dd4781181716bcd8ab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: a2dc9dad7c924e941bc2f455e16eb9a0, type: 2}
 --- !u!1 &196408618
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,7 +942,7 @@ GameObject:
   - component: {fileID: 807064674}
   m_Layer: 5
   m_Name: SFXSlider
-  m_TagString: Untagged
+  m_TagString: sfxSlider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1028,9 +1015,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 156525646}
+      - m_Target: {fileID: 1637532627}
         m_MethodName: SetSFX
-        m_Mode: 0
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2493,7 +2480,7 @@ GameObject:
   - component: {fileID: 1556039906}
   m_Layer: 5
   m_Name: BGMSlider
-  m_TagString: Untagged
+  m_TagString: bgmSlider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2566,7 +2553,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 156525646}
+      - m_Target: {fileID: 1637532627}
         m_MethodName: SetBGM
         m_Mode: 0
         m_Arguments:
@@ -2659,6 +2646,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1637532626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1637532628}
+  - component: {fileID: 1637532627}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1637532627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637532626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a655ed60584dd4781181716bcd8ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: a2dc9dad7c924e941bc2f455e16eb9a0, type: 2}
+  masterVolume: {fileID: 0}
+  bgmVolume: {fileID: 0}
+  sfxVolume: {fileID: 0}
+  mstVol: 0
+  bgmVol: 0
+  sfxVol: 0
+--- !u!4 &1637532628
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637532626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 85.43021, y: 26.06262, z: -126.945274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1646909036
 GameObject:
@@ -3452,7 +3486,7 @@ GameObject:
   - component: {fileID: 1920849135}
   m_Layer: 5
   m_Name: MasterSlider
-  m_TagString: Untagged
+  m_TagString: mstSlider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3525,7 +3559,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 156525646}
+      - m_Target: {fileID: 1637532627}
         m_MethodName: SetVol
         m_Mode: 0
         m_Arguments:

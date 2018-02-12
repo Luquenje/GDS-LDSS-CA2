@@ -16,8 +16,8 @@ public class PlayerManager : MonoBehaviour
     public int playerCurrentHealth;
     public float currentAtt;
 
-
-
+    public AudioSource axeSwingSFX;
+    public AudioSource flameTornadoSFX;
 
     public int playerMaxHealth;
 
@@ -146,7 +146,7 @@ public class PlayerManager : MonoBehaviour
                 animator.SetInteger("Attack", attk);
 
                 lastHitTime = Time.time;
-
+                axeSwingSFX.Play();
             }
 
             //isAttacking = false;
@@ -237,7 +237,7 @@ public class PlayerManager : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
 
         Instantiate(ability, transform.position + transform.forward * 2.5f, Quaternion.identity);
-
+        flameTornadoSFX.Play();
     }
     void OnMouseClick(RaycastHit raycastHit, int layerHit)
     {

@@ -6,20 +6,25 @@ using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviour {
     public AudioMixer audioMixer;
-    public Slider masterVolume;
+    public GameObject masterVolume;
     public GameObject bgmVolume;
     public GameObject sfxVolume;
+    public GameObject optionsMenu;
 
     public float mstVol;
     public float bgmVol;
     public float sfxVol;
 
+    public bool options;
+
     public static SettingsMenu instance;
     void Awake()
     {
         
-        //bgmVolume = GameObject.FindGameObjectWithTag("bgmSlider");
-        //sfxVolume = GameObject.FindGameObjectWithTag("sfxSlider");
+        masterVolume = GameObject.FindGameObjectWithTag("mstSlider");
+        bgmVolume = GameObject.FindGameObjectWithTag("bgmSlider");
+        sfxVolume = GameObject.FindGameObjectWithTag("sfxSlider");
+        optionsMenu.SetActive(false);
 
         if (instance == null)
             instance = this;
@@ -29,12 +34,6 @@ public class SettingsMenu : MonoBehaviour {
         }
         DontDestroyOnLoad(gameObject);
 
-
-    }
-
-    void Start()
-    {
-        masterVolume = GameObject.FindGameObjectWithTag("mstSlider").GetComponent<Slider>();
 
     }
 
@@ -58,7 +57,7 @@ public class SettingsMenu : MonoBehaviour {
         audioMixer.GetFloat("volumeMaster", out mstVol);
         audioMixer.GetFloat("volumeBGM", out bgmVol);
         audioMixer.GetFloat("volumeSFX", out sfxVol);
-        mstVol = masterVolume.value;
+        mstVol = masterVolume.GetComponent<Slider>().value;
         bgmVol = bgmVolume.GetComponent<Slider>().value;
         sfxVol = sfxVolume.GetComponent<Slider>().value;
     }

@@ -80,7 +80,14 @@ public class AStarSteeringBehaviour : MonoBehaviour {
             case AIState.WAYPOINTS:
                 if (ifBoss)
                 {
-                    animSpeed = 0.4f;
+                    if(moveSpeed == 0)
+                    {
+                        animSpeed = 0.0f;
+                    }
+                    else
+                    {
+                        animSpeed = 0.4f;
+                    }
                 }
                 else
                 {

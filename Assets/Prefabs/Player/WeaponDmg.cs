@@ -30,6 +30,7 @@ public class WeaponDmg : MonoBehaviour
         if (other.gameObject.tag == "Enemy" && isAttacking)
         {
             other.gameObject.GetComponent<Enemy>().HurtEnemy(damageToGive);
+            other.gameObject.GetComponent<Enemy>().animator.SetTrigger("Hit");
         }
         if (other.gameObject.tag == "Boss" && isAttacking)
         {

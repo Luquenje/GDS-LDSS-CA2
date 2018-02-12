@@ -1313,8 +1313,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1818860584615824}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.9, y: -4.41, z: -149.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.4, y: -4.41, z: -149.6}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4553206253383172}
   - {fileID: 4046901673851772}
@@ -2571,8 +2571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 300
-  attackRadius: 2
-  moveRadius: 11.1
+  attackRadius: 7.8
+  moveRadius: 25.79
   bullet: {fileID: 1510173722238942, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
   bulletSpawn: {fileID: 1999232485142270}
   projectileSpeed: 4
@@ -2581,6 +2581,8 @@ MonoBehaviour:
   aStar: {fileID: 0}
   patrolling: 0
   waypoint: {fileID: 0}
+  MeleeSwingSFX: {fileID: 0}
+  fireBallSFX: {fileID: 0}
   weaponSwing: 0
   pathfindCD: 4
   currentHealthPoints: 0

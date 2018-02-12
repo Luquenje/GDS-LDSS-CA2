@@ -57,6 +57,15 @@ public class Boss : MonoBehaviour
             aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
             animator.SetBool("Dead", true);
         }
+        if (currentHealthPoints > 100)
+        {
+            aStar.maxSpeed = 0f;
+            aStar.moveSpeed = 0f;
+        }if(currentHealthPoints <= 100)
+        {
+            aStar.maxSpeed = 3f;
+            aStar.moveSpeed = 3f;
+        }
 
         float distanceToPlyaer = Vector3.Distance(player.transform.position, transform.position);
         if (distanceToPlyaer <= attackRadius /*&& !isAttacking*/ && !attack)
@@ -116,10 +125,9 @@ public class Boss : MonoBehaviour
                 InvokeRepeating("Shoot", 0f, secondsBetweenShots);
                 //Shoot();
             }
-            if (currentHealthPoints <= 100)
-            {
+            
                 FindPathToPlayer();
-            }
+            
         }
         if (distanceToPlyaer > moveRadius)
         {

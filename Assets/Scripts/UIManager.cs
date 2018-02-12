@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour {
 
     public Slider healthBar;
-    public Text HPText;
+    public TextMeshProUGUI HPText;
     public Slider manaBar;
-    public Text manaText;
+    public TextMeshProUGUI manaText;
     public PlayerManager player;
     public ManaManager mana;
     

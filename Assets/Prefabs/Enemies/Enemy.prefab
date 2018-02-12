@@ -31,7 +31,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.69, y: -4.41, z: -58.23}
+  m_LocalPosition: {x: -9.9, y: -4.41, z: -149.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4149163118667806}
@@ -1364,10 +1364,11 @@ MonoBehaviour:
   secondsBetweenShots: 1
   aimOffset: {x: 0, y: 1, z: 0}
   aStar: {fileID: 0}
-  patrolling: 1
+  patrolling: 0
   waypoint: {fileID: 0}
   weaponSwing: 0
   pathfindCD: 1
+  currentHealthPoints: 0
   isAttacking: 0
 --- !u!114 &114348671672860022
 MonoBehaviour:

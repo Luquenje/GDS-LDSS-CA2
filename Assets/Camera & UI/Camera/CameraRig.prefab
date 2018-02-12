@@ -136,7 +136,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 0
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -193,7 +192,7 @@ MonoBehaviour:
   autoTargetPlayer: 1
   wallLayers:
     serializedVersion: 2
-    m_Bits: 32768
+    m_Bits: 98304
   shoulder: 0
   cameraSettings:
     camPositionOffsetLeft: {x: -0.072, y: 1.382, z: -1.513}

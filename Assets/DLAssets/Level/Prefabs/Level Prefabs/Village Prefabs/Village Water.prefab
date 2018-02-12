@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3313666}
   - component: {fileID: 2313670}
   - component: {fileID: 11413666}
-  m_Layer: 4
+  m_Layer: 16
   m_Name: Village Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ MonoBehaviour:
   mediumReflectionMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  keepUnderCamera: 1
+  keepUnderCamera: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

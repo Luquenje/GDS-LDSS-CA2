@@ -23,13 +23,13 @@ public class AnimationManager : MonoBehaviour {
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
         if (stateInfo.IsName("Dead")){
             //playerStat.AddExperience(expToGive); //<-- not working atm
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
-        if(enemyCurrentHp <= 0)
-        {
-            //playerStat.AddExperience(expToGive);
-            Destroy(gameObject);
-        }
+        //if(enemyCurrentHp <= 0)
+        //{
+        //    //playerStat.AddExperience(expToGive);
+        //    Destroy(gameObject);
+        //}
 	}
 
 

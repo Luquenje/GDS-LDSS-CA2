@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
 
     public bool weaponSwing = false;
     [SerializeField] float pathfindCD = 0.5f;
-    float currentHealthPoints;
+    [SerializeField] float currentHealthPoints;
     [SerializeField]bool isAttacking = false;
     Pathfinder pathFinder = null;
     GameObject player = null;
@@ -45,6 +45,12 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
+        if(currentHealthPoints <= 0)
+        {
+            aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
+            animator.SetBool("Dead", true);
+        }
+
         float distanceToPlyaer = Vector3.Distance(player.transform.position, transform.position);
         if (distanceToPlyaer <= attackRadius && !isAttacking)
         {

@@ -16,7 +16,9 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] public bool isAttacking = false;
     [SerializeField] float attackCD;
     [SerializeField] float abilityCD = 0f;
+    [SerializeField] float ability2CD = 0f;
     bool useability = false;
+    float healAmount = 25f;
     Animator animator;
 
     [SerializeField] WeaponControl weaponInUse;
@@ -111,9 +113,15 @@ public class PlayerManager : MonoBehaviour
                 isAttacking = false;
             }
         }
+        AttemptAbility1();
+        AttemptAbility2();
+    }
+
+    private void AttemptAbility1()
+    {
         if (Input.GetMouseButtonDown(1))
         {
-            
+
             if (abilityCD <= 0)
             {
                 var manaComponent = GetComponent<ManaManager>();
@@ -121,11 +129,11 @@ public class PlayerManager : MonoBehaviour
                 if (manaComponent.isManaAvailable(manaCost))
                 {
                     manaComponent.UseMana(manaCost);
-                    AttemptAbility();
+                    StartCoroutine(SpecialAttack());
                     abilityCD = 3f;
                 }
             }
-            
+
         }
         if (abilityCD > 0)
         {
@@ -136,26 +144,44 @@ public class PlayerManager : MonoBehaviour
             abilityCD = 0;
         }
     }
-
-    private void AttemptAbility()
+    private void AttemptAbility2()
     {
-        //var manaComponent = GetComponent<ManaManager>();
-        //var manaCost = 10;
-        //if (manaComponent.isManaAvailable(manaCost))
-        //{
-            
-            StartCoroutine(SpecialAttack());
-            //var abilityParams = new AbilityUseParams(dmgPerHit);
-            //abilities[abilityIndex].Use(abilityParams);
-            //use ability
+        if (playerCurrentHealth != playerMaxHealth) {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
 
-        //}
+                if (ability2CD <= 0)
+                {
+                    var manaComponent = GetComponent<ManaManager>();
+                    var manaCost = 5;
+                    if (manaComponent.isManaAvailable(manaCost))
+                    {
+                        manaComponent.UseMana(manaCost);
+                        if ((playerCurrentHealth + healAmount) > playerMaxHealth)
+                        {
+                            playerCurrentHealth = playerMaxHealth;
+                        }else
+                        {
+                            playerCurrentHealth += 30;
+                        }
+                        ability2CD = 6f;
+                    }
+                }
+            }
 
-        //mana.UseMana(10);
+        }
+        if (ability2CD > 0)
+        {
+            ability2CD -= Time.deltaTime;
+        }
+        if (ability2CD <= 0)
+        {
+            ability2CD = 0;
+        }
     }
     IEnumerator SpecialAttack()
     {
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.1f);
 
         Instantiate(ability, transform.position + transform.forward * 2.5f, Quaternion.identity);
 

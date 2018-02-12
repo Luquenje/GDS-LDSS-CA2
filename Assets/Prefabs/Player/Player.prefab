@@ -3305,12 +3305,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c886d811cdab6fd4ea5bfff3061cb00d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMaxHealth: 60
+  playerMaxHealth: 100
   playerCurrentHealth: 0
   dmgPerHit: 15
   enemyLayer: 9
   isAttacking: 0
   attackCD: 0
+  abilityCD: 3
+  ability2CD: 0
   weaponInUse: {fileID: 11400000, guid: 4888d184e7394b243aea9537dadf4e4c, type: 2}
   weaponSocket: {fileID: 1945500341530746}
   animatorOverrideController: {fileID: 22100000, guid: bdc6a012f294a7e4f9172d6ad04b8316,
@@ -3346,7 +3348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc002f63ee4fb99439d034d9c80fbcaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMaxMana: 100
+  playerMaxMana: 200
   playerCurrentMana: 0
 --- !u!137 &137003355425657702
 SkinnedMeshRenderer:

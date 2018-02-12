@@ -10,12 +10,11 @@ public class SettingsMenu : MonoBehaviour {
     public GameObject bgmVolume;
     public GameObject sfxVolume;
     public GameObject optionsMenu;
+    public GameObject menuClick;
 
     public float mstVol;
     public float bgmVol;
     public float sfxVol;
-
-    public bool options;
 
     public static SettingsMenu instance;
     void Awake()
@@ -24,6 +23,8 @@ public class SettingsMenu : MonoBehaviour {
         masterVolume = GameObject.FindGameObjectWithTag("mstSlider");
         bgmVolume = GameObject.FindGameObjectWithTag("bgmSlider");
         sfxVolume = GameObject.FindGameObjectWithTag("sfxSlider");
+        menuClick = GameObject.FindGameObjectWithTag("menuClick");
+        optionsMenu = GameObject.FindGameObjectWithTag("pauseMenu");
         optionsMenu.SetActive(false);
 
         if (instance == null)
@@ -50,6 +51,10 @@ public class SettingsMenu : MonoBehaviour {
     public void SetSFX(float volume)
     {
         audioMixer.SetFloat("volumeSFX", volume);
+    }
+    public void menuClickAudio()
+    {
+        menuClick.GetComponent<AudioSource>().Play();
     }
 
     private void Update()

@@ -38,8 +38,8 @@ AudioMixerGroupController:
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 42bf7daaaaf8ade478eec31f7c477f64
   m_Children:
-  - {fileID: 243609855029002368}
   - {fileID: 243988312027106242}
+  - {fileID: 243609855029002368}
   m_Volume: e066c2035edd71749be114c5a35b6b41
   m_Pitch: 8b3df136762ade9438c91d72095a471d
   m_Effects:
@@ -70,7 +70,7 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: d75fd7366cc1d5c409f297ddb72a52f3
   m_FloatValues:
-    ad238fa8805613c4584bf1ed81c15f8c: 0
+    ad238fa8805613c4584bf1ed81c15f8c: 0.14839731
   m_TransitionOverrides: {}
 --- !u!243 &243609855029002368
 AudioMixerGroupController:

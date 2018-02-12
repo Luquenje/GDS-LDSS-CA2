@@ -25,6 +25,8 @@ TagManager:
   - sfxSlider
   - bgmSlider
   - mstSlider
+  - menuClick
+  - pauseMenu
   layers:
   - Default
   - TransparentFX

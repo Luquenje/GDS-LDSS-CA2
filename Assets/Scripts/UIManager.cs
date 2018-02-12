@@ -22,10 +22,10 @@ public class UIManager : MonoBehaviour {
 	void Update () {
         healthBar.maxValue = player.playerMaxHealth;
         healthBar.value = player.playerCurrentHealth;
-        HPText.text = "HP: " + player.playerCurrentHealth + "/" + player.playerMaxHealth;
+        HPText.text = player.playerCurrentHealth + "/" + player.playerMaxHealth;
         manaBar.maxValue = mana.playerMaxMana;
         manaBar.value = mana.playerCurrentMana;
-        manaText.text = "Mana: " + mana.playerCurrentMana + "/" + mana.playerMaxMana;
+        manaText.text = mana.playerCurrentMana + "/" + mana.playerMaxMana;
 
     }
 }

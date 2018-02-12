@@ -180,6 +180,7 @@ public class PlayerManager : MonoBehaviour
                 var manaCost = 10;
                 if (manaComponent.isManaAvailable(manaCost))
                 {
+                    animator.SetTrigger("Skill1");
                     manaComponent.UseMana(manaCost);
                     StartCoroutine(SpecialAttack());
                     abilityCD = 3f;

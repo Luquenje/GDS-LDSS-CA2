@@ -3335,7 +3335,8 @@ MonoBehaviour:
   weaponSocket: {fileID: 1945500341530746}
   animatorOverrideController: {fileID: 22100000, guid: bdc6a012f294a7e4f9172d6ad04b8316,
     type: 2}
-  ability: {fileID: 175744, guid: e5bc8bb50018c46cd9669532417609a0, type: 2}
+  ability1: {fileID: 175744, guid: e5bc8bb50018c46cd9669532417609a0, type: 2}
+  ability2: {fileID: 1143209800861298, guid: 9a01b76644b5e9148b328bd4755bdfd1, type: 2}
 --- !u!114 &114718624062200962
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour
 {
+
     public static SceneManage instance;
     // Use this for initialization
     void Awake()
@@ -20,6 +21,7 @@ public class SceneManage : MonoBehaviour
             Destroy(gameObject);
         }
 
+
         DontDestroyOnLoad(gameObject);
     }
 
@@ -28,6 +30,8 @@ public class SceneManage : MonoBehaviour
     {
 
     }
+
+
 
     public void LoadScene(string sceneName)
     {

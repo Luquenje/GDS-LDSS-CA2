@@ -1,0 +1,98 @@
+fileFormatVersion: 2
+guid: 74ac2ceef898feb438fdfd9d5e2d5860
+timeCreated: 1518467845
+licenseType: Free
+SubstanceImporter:
+  externalObjects: {}
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: Concrete_BunkerConcreteWoodgrainCracked
+    prototypeName: Concrete_BunkerConcreteWoodgrainCracked
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 4
+    inputs: []
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs: []
+      floats: []
+      colors: []
+    textureParameters:
+    - name: Concrete_BunkerConcreteWoodgrainCracked_2k_basecolor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Concrete_BunkerConcreteWoodgrainCracked_2k_n
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Concrete_BunkerConcreteWoodgrainCracked_2k_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Concrete_BunkerConcreteWoodgrainCracked_2k_ao
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Concrete_BunkerConcreteWoodgrainCracked_2k_h
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Concrete_BunkerConcreteWoodgrainCracked_2k_mask
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Concrete_BunkerConcreteWoodgrainCracked_2k_e
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 279799342
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 279799348
+    - shaderProp: _DetailMask
+      material: {instanceID: 0}
+      baseUID: 524169040
+    - shaderProp: _EmissionMap
+      material: {instanceID: 0}
+      baseUID: 474675836
+    - shaderProp: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 279799346
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 279799686
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 279799737
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

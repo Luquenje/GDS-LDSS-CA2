@@ -20,14 +20,14 @@ public class enemyWeaponDmg : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(enemy)
-        enemyIsAttacking = enemy.GetComponent<Enemy>().Attacking();
+        if (enemy)
+            enemyIsAttacking = enemy.GetComponent<Enemy>().Attacking();
     }
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player" && enemyIsAttacking)
         {
-            other.gameObject.GetComponent<PlayerManager>().HurtPlayer(damageToGive * 2 * Time.deltaTime);
+            other.gameObject.GetComponent<PlayerManager>().HurtPlayer(damageToGive * 2 * (int)Time.deltaTime);
         }
     }
 }

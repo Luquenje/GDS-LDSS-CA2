@@ -3308,9 +3308,22 @@ MonoBehaviour:
   currentLv: 0
   currentExp: 0
   toLvUp: 00000000140000003200000064000000fa000000f4010000200300007e0400000e060000d0070000
-  playerMaxHealth: 100
+  HPLv: 640000006400000082000000a0000000be000000d2000000e6000000040100001801000036010000
+  AttLv:
+  - 15
+  - 15
+  - 17
+  - 20
+  - 24
+  - 27
+  - 30
+  - 33
+  - 37
+  - 39
+  ManaLv: 6400000064000000780000008c000000a0000000b4000000c8000000dc000000f0000000fa000000
   playerCurrentHealth: 0
-  dmgPerHit: 15
+  currentAtt: 0
+  playerMaxHealth: 100
   enemyLayer: 9
   isAttacking: 0
   attackCD: 0

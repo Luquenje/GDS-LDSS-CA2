@@ -9,10 +9,19 @@ public class PlayerManager : MonoBehaviour
     public int currentExp;
     public int[] toLvUp;
 
+    public int[] HPLv;
+    public float[] AttLv;
+    public int[] ManaLv;
+
+    public int playerCurrentHealth;
+    public float currentAtt;
+
+
+
 
     public int playerMaxHealth;
-    public float playerCurrentHealth;
-    [SerializeField] float dmgPerHit = 15f;
+
+    //[SerializeField] float currentAtt = 15f;
     //[SerializeField] float minTimeBetweenHits = 0.5f;
     //[SerializeField] float maxAttackRange = 3f;
     [SerializeField] int enemyLayer = 9;
@@ -41,16 +50,23 @@ public class PlayerManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        playerCurrentHealth = playerMaxHealth;
-        cameraRaycaster = FindObjectOfType<CameraRaycaster>();
+        playerCurrentHealth = HPLv[1];
+        currentAtt = AttLv[1];
         mana = GetComponent<ManaManager>();
+        mana.playerCurrentMana = ManaLv[1];
+
+        cameraRaycaster = FindObjectOfType<CameraRaycaster>();
+
         //cameraRaycaster.notifyMouseClickObservers += OnMouseClick;
         PutWeaponInHand();
         SetupRuntimeAnimator();
         attackCD = weaponInUse.GetMinTimeBetweenHits();
         //abilities[0].AttachComponentTo(gameObject);
     }
-
+    public float GetCurrentAttack()
+    {
+        return currentAtt;
+    }
     public bool GetAttackingState()
     {
         return isAttacking;
@@ -74,10 +90,13 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentExp >= toLvUp[currentLv])
+        if (currentExp >= toLvUp[currentLv])
         {
-            currentLv++;
+            //currentLv++;
+
+            LvUp();
         }
+
 
 
         if (playerCurrentHealth <= 0)
@@ -89,6 +108,23 @@ public class PlayerManager : MonoBehaviour
 
         PlayerAttack();
 
+    }
+
+    public void LvUp()
+    {
+
+
+        if (currentLv + 1 < 10)
+        {
+            currentLv++;
+        }
+        playerCurrentHealth = HPLv[currentLv];
+        playerMaxHealth = playerCurrentHealth;
+
+
+        currentAtt = AttLv[currentLv];
+        mana.playerCurrentMana = ManaLv[currentLv];
+        mana.playerMaxMana = ManaLv[currentLv];
     }
 
     public void AddExp(int experienceToAdd)
@@ -161,7 +197,8 @@ public class PlayerManager : MonoBehaviour
     }
     private void AttemptAbility2()
     {
-        if (playerCurrentHealth != playerMaxHealth) {
+        if (playerCurrentHealth != playerMaxHealth)
+        {
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
 
@@ -175,7 +212,8 @@ public class PlayerManager : MonoBehaviour
                         if ((playerCurrentHealth + healAmount) > playerMaxHealth)
                         {
                             playerCurrentHealth = playerMaxHealth;
-                        }else
+                        }
+                        else
                         {
                             playerCurrentHealth += 30;
                         }
@@ -220,7 +258,7 @@ public class PlayerManager : MonoBehaviour
         if (Time.time - lastHitTime > weaponInUse.GetMinTimeBetweenHits())
         {
             animator.SetTrigger("Attacking");
-            enemyComponent.HurtEnemy(dmgPerHit);
+            enemyComponent.HurtEnemy(currentAtt);
             lastHitTime = Time.time;
         }
     }
@@ -232,7 +270,7 @@ public class PlayerManager : MonoBehaviour
         return distanceToTarget <= weaponInUse.GetMaxAttackRange();
     }
 
-    public void HurtPlayer(float damageToGive)
+    public void HurtPlayer(int damageToGive)
     {
         playerCurrentHealth -= damageToGive;
     }

@@ -59,6 +59,7 @@ public class AStarSteeringBehaviour : MonoBehaviour {
                 //Perform this when idling
                 moveSpeed = 0f;
                 animSpeed = 0f;
+                //m_Animator.SetFloat("Forward", 0, 0.1f, Time.deltaTime);
                 break;
             case AIState.SEEK:
                 Seek();
@@ -68,7 +69,7 @@ public class AStarSteeringBehaviour : MonoBehaviour {
                 break;
             //case AIState.ARRIVE:
             //    Arrive();
-                break;
+                //break;
             case AIState.PURSUIT:
                 break;
             //case AIState.EVADE:
@@ -123,7 +124,7 @@ public class AStarSteeringBehaviour : MonoBehaviour {
         this.target.position = target.position;
         //Deterimine the slowing down process if close by
         //direction.magnitude is the dist betw waypoint and NPC
-        if (direction.magnitude < 3)
+        if (direction.magnitude < 1)
         {
             switch (currWayPtState)
             {

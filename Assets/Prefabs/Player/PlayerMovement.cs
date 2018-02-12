@@ -27,29 +27,29 @@ public class PlayerMovement : MonoBehaviour
         cameraRaycaster = Camera.main.GetComponent<CameraRaycaster>();
         m_Character = GetComponent<PlayerMovementControl>();
         //currentDestination = transform.position;
-        walkTarget = new GameObject("walkTarget");
+        //walkTarget = new GameObject("walkTarget");
 
         aiControl = GetComponent<AIControl>();
-        cameraRaycaster.notifyMouseClickObservers += ProcessMouseClick;
+        //cameraRaycaster.notifyMouseClickObservers += ProcessMouseClick;
     }
 
-    void ProcessMouseClick(RaycastHit raycastHit, int layerHit)
-    {
-        switch (layerHit)
-        {
-            case enemyLayerNumber:
-                GameObject enemy = raycastHit.collider.gameObject;
-                aiControl.SetTarget(enemy.transform);
-                break;
-            case walkableLayerNumber:
-                walkTarget.transform.position = raycastHit.point;
-                aiControl.SetTarget(walkTarget.transform);
-                break;
-            default:
-                return;
-        }
+    //void ProcessMouseClick(RaycastHit raycastHit, int layerHit)
+    //{
+    //    switch (layerHit)
+    //    {
+    //        case enemyLayerNumber:
+    //            GameObject enemy = raycastHit.collider.gameObject;
+    //            aiControl.SetTarget(enemy.transform);
+    //            break;
+    //        case walkableLayerNumber:
+    //            walkTarget.transform.position = raycastHit.point;
+    //            aiControl.SetTarget(walkTarget.transform);
+    //            break;
+    //        default:
+    //            return;
+    //    }
 
-    }
+    //}
 
     // Fixed update is called in sync with physics
     private void FixedUpdate()

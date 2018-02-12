@@ -14,7 +14,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] float secondsBetweenShots = 1.3f;
     [SerializeField] Vector3 aimOffset = new Vector3(0, 1f, 0);
     [SerializeField] AStarSteeringBehaviour aStar;
+    [SerializeField] bool patrolling = false;
     Animator animator;
+    public Transform waypoint;//Denote the start and end object in the scene
 
     public bool weaponSwing = false;
     [SerializeField] float pathfindCD = 0.5f;
@@ -55,8 +57,17 @@ public class Enemy : MonoBehaviour
         if (distanceToPlyaer > attackRadius)
         {
             isAttacking = false;
-            aStar.currentState = AStarSteeringBehaviour.AIState.WAYPOINTS;
+            
+            if (patrolling)
+            {
+                aStar.currentState = AStarSteeringBehaviour.AIState.WAYPOINTS;
+            }
+            //if (!patrolling)
+            //{
+            //    aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
+            //}
             CancelInvoke();
+            //pathFinder.FindPath();
         }
         //else
         //{
@@ -84,7 +95,7 @@ public class Enemy : MonoBehaviour
         if (distanceToPlyaer > moveRadius)
         {
             //aiControl.SetTarget(transform);
-            pathFinder.end = GameObject.FindGameObjectWithTag("Waypoint").transform;
+            pathFinder.end = waypoint;
             //CancelInvoke();
             if (pathfindBool)
             {

@@ -20,6 +20,7 @@ public class enemyWeaponDmg : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(enemy)
         enemyIsAttacking = enemy.GetComponent<Enemy>().Attacking();
     }
     void OnTriggerEnter(Collider other)

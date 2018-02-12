@@ -15,7 +15,8 @@ public class PlayerManager : MonoBehaviour
     int attk = 0;
     [SerializeField] public bool isAttacking = false;
     [SerializeField] float attackCD;
-
+    [SerializeField] float abilityCD = 0f;
+    bool useability = false;
     Animator animator;
 
     [SerializeField] WeaponControl weaponInUse;
@@ -112,23 +113,43 @@ public class PlayerManager : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(1))
         {
-            AttemptAbility(0);
+            
+            if (abilityCD <= 0)
+            {
+                var manaComponent = GetComponent<ManaManager>();
+                var manaCost = 10;
+                if (manaComponent.isManaAvailable(manaCost))
+                {
+                    manaComponent.UseMana(manaCost);
+                    AttemptAbility();
+                    abilityCD = 3f;
+                }
+            }
+            
+        }
+        if (abilityCD > 0)
+        {
+            abilityCD -= Time.deltaTime;
+        }
+        if (abilityCD <= 0)
+        {
+            abilityCD = 0;
         }
     }
 
-    private void AttemptAbility(int abilityIndex)
+    private void AttemptAbility()
     {
-        var manaComponent = GetComponent<ManaManager>();
-        var manaCost = 10;
-        if (manaComponent.isManaAvailable(manaCost))
-        {
-            manaComponent.UseMana(manaCost);
+        //var manaComponent = GetComponent<ManaManager>();
+        //var manaCost = 10;
+        //if (manaComponent.isManaAvailable(manaCost))
+        //{
+            
             StartCoroutine(SpecialAttack());
             //var abilityParams = new AbilityUseParams(dmgPerHit);
             //abilities[abilityIndex].Use(abilityParams);
             //use ability
 
-        }
+        //}
 
         //mana.UseMana(10);
     }

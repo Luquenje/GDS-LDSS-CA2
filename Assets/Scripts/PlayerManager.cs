@@ -108,7 +108,10 @@ public class PlayerManager : MonoBehaviour
         }
 
         PlayerAttack();
-
+        if(playerCurrentHealth <= 0)
+        {
+            playerCurrentHealth = 0;
+        }
     }
 
     public void LvUp()
@@ -210,6 +213,7 @@ public class PlayerManager : MonoBehaviour
                     var manaCost = 5;
                     if (manaComponent.isManaAvailable(manaCost))
                     {
+                        animator.SetTrigger("Heal");
                         manaComponent.UseMana(manaCost);
                         Instantiate(ability2, transform.position, Quaternion.identity, gameObject.transform);
                         if ((playerCurrentHealth + healAmount) > playerMaxHealth)

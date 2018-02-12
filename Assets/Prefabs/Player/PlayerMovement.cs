@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     AIControl aiControl = null;
 
     GameObject walkTarget = null;
+    Animator animator;
 
     public static bool isMovable = true;
 
@@ -28,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         m_Character = GetComponent<PlayerMovementControl>();
         //currentDestination = transform.position;
         //walkTarget = new GameObject("walkTarget");
-
+        animator = GetComponent<Animator>();
         aiControl = GetComponent<AIControl>();
         //cameraRaycaster.notifyMouseClickObservers += ProcessMouseClick;
     }
@@ -81,7 +82,10 @@ public class PlayerMovement : MonoBehaviour
 
             m_Character.Move(m_Move, false);
         }
-        
+        if (Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            //animator
+        }
     }
 
     //private void ProcessMouseMovement()

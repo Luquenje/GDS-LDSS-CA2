@@ -2458,7 +2458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBoss: 1
-  expToGive: 5
+  expToGive: 100
 --- !u!114 &114547020681046244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2477,12 +2477,12 @@ MonoBehaviour:
   m_Shell: {fileID: 54338627326528726, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
   m_FireTransform: {fileID: 4324145103052898}
   moveSpeed: 2
-  maxSpeed: 3
+  maxSpeed: 2
   rotationSpeed: 4.5
   shootTimer: 0
   shootCooldown: 2
   currentState: 0
-  currWayPtState: 1
+  currWayPtState: 0
   currentWaypoint: 0
   sightDistance: 2.44
   peripheralDist: 2.5
@@ -2515,7 +2515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320107ed4aec4d848b5f4f65261483eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealthPoints: 100
+  maxHealthPoints: 300
   attackRadius: 2
   moveRadius: 11.1
   bullet: {fileID: 1510173722238942, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
@@ -2532,6 +2532,7 @@ MonoBehaviour:
   isAttacking: 0
   attack: 0
   attackCD: 5
+  skillCD: 5
 --- !u!114 &114777645490285734
 MonoBehaviour:
   m_ObjectHideFlags: 1

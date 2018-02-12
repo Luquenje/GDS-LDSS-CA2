@@ -10021,12 +10021,12 @@ Prefab:
     - target: {fileID: 224841263323030160, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -80
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 224841263323030160, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.0025134
+      value: -0.0025134087
       objectReference: {fileID: 0}
     - target: {fileID: 1498029651114558, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba, type: 2}
       propertyPath: m_Name
@@ -10045,12 +10045,12 @@ Prefab:
     - target: {fileID: 224401127711051126, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -80
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 224401127711051126, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5.0025134
+      value: -0.0025134087
       objectReference: {fileID: 0}
     - target: {fileID: 224735272354783376, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
@@ -33485,11 +33485,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 114743210843805718, guid: 74266aeed490b8540aa3bacb56d46f7f,
+    - target: {fileID: 114547020681046244, guid: 74266aeed490b8540aa3bacb56d46f7f,
         type: 2}
-      propertyPath: waypoint
+      propertyPath: target
       value: 
-      objectReference: {fileID: 37702881}
+      objectReference: {fileID: 1865413337}
     - target: {fileID: 114736436642009090, guid: 74266aeed490b8540aa3bacb56d46f7f,
         type: 2}
       propertyPath: end
@@ -33500,11 +33500,11 @@ Prefab:
       propertyPath: marker
       value: 
       objectReference: {fileID: 1865413336}
-    - target: {fileID: 114547020681046244, guid: 74266aeed490b8540aa3bacb56d46f7f,
+    - target: {fileID: 114743210843805718, guid: 74266aeed490b8540aa3bacb56d46f7f,
         type: 2}
-      propertyPath: target
+      propertyPath: waypoint
       value: 
-      objectReference: {fileID: 1865413337}
+      objectReference: {fileID: 37702881}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 74266aeed490b8540aa3bacb56d46f7f, type: 2}
   m_IsPrefabParent: 0

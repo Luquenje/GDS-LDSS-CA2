@@ -23,7 +23,9 @@ public class Boss : MonoBehaviour
     [SerializeField] float currentHealthPoints;
     [SerializeField]bool isAttacking = false;
     [SerializeField] bool attack = false;
+    bool powerAttacking = false;
     [SerializeField] float attackCD = 5f;
+    [SerializeField] float skillCD = 5f;
     Pathfinder pathFinder = null;
     GameObject player = null;
     bool pathfindBool = false;
@@ -54,15 +56,17 @@ public class Boss : MonoBehaviour
         }
 
         float distanceToPlyaer = Vector3.Distance(player.transform.position, transform.position);
-        if (distanceToPlyaer <= attackRadius && !isAttacking && !attack)
+        if (distanceToPlyaer <= attackRadius /*&& !isAttacking*/ && !attack)
         {
             //aiControl.SetTarget(player.transform);
-            isAttacking = true;
+            //isAttacking = true;
             attack = true;
             aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
-            //InvokeRepeating("Attack", 0f, secondsBetweenShots);
+            //InvokeRepeating("Shoot", 0f, secondsBetweenShots);
             Attack();
             weaponSwing = false;
+            CancelInvoke();
+            powerAttacking = false;
         }
 
         //attack cooldown
@@ -72,12 +76,22 @@ public class Boss : MonoBehaviour
             if (attackCD <= 0)
             {
                 attack = false;
+                attackCD = 5f;
             }
         }
+        //if (powerAttacking)
+        //{
+        //    skillCD -= Time.deltaTime;
+        //    if (skillCD <= 0)
+        //    {
+        //        powerAttacking = false;
+        //        skillCD = 5f;
+        //    }
+        //}
 
         if (distanceToPlyaer > attackRadius)
         {
-            isAttacking = false;
+            //isAttacking = false;
             
             if (patrolling)
             {
@@ -87,27 +101,21 @@ public class Boss : MonoBehaviour
             //{
             //    aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
             //}
-            CancelInvoke();
+
             //pathFinder.FindPath();
         }
         if ((distanceToPlyaer <= moveRadius) && (distanceToPlyaer > attackRadius))
         {
             //aiControl.SetTarget(player.transform);
-            InvokeRepeating("Shoot", 0.2f, secondsBetweenShots);
-            pathFinder.end = player.transform;
-            //aStar.currentState = AStarSteeringBehaviour.AIState.WAYPOINTS;
-            //InvokeRepeating("PathToPlayer", 0f, 5f);
-            
-            if(!pathfindBool)
+            if (!powerAttacking)
             {
-                pathFinder.FindPath();
-                pathfindBool = true;
+                powerAttacking = true;
+                InvokeRepeating("Shoot", 0f, secondsBetweenShots);
+                //Shoot();
             }
-            pathfindCD -= Time.deltaTime;
-            if(pathfindCD <= 0)
+            if (currentHealthPoints <= 100)
             {
-                pathfindBool = false;
-                pathfindCD = 0.5f;
+                FindPathToPlayer();
             }
         }
         if (distanceToPlyaer > moveRadius)
@@ -120,8 +128,30 @@ public class Boss : MonoBehaviour
                 pathFinder.FindPath();
                 pathfindBool = false;
             }
+            CancelInvoke();
+            powerAttacking = false;
         }
     }
+
+    private void FindPathToPlayer()
+    {
+        pathFinder.end = player.transform;
+        //aStar.currentState = AStarSteeringBehaviour.AIState.WAYPOINTS;
+        //InvokeRepeating("PathToPlayer", 0f, 5f);
+
+        if (!pathfindBool)
+        {
+            pathFinder.FindPath();
+            pathfindBool = true;
+        }
+        pathfindCD -= Time.deltaTime;
+        if (pathfindCD <= 0)
+        {
+            pathfindBool = false;
+            pathfindCD = 0.5f;
+        }
+    }
+
     void Attack()
     {
         animator.SetTrigger("Attacking");
@@ -141,6 +171,7 @@ public class Boss : MonoBehaviour
         GameObject newBullet = Instantiate(bullet, bulletSpawn.transform.position, Quaternion.identity);
         Vector3 unitVectorToPlayer = (player.transform.position + aimOffset - bulletSpawn.transform.position).normalized;
         newBullet.GetComponent<Rigidbody>().velocity = unitVectorToPlayer * projectileSpeed;
+        animator.SetTrigger("Skill");
     }
 
     public void HurtEnemy(float damageToGive)

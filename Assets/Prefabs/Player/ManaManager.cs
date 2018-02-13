@@ -34,4 +34,17 @@ public class ManaManager : MonoBehaviour
     {
         playerCurrentMana = playerMaxMana;
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "ManaPickup")
+        {
+            playerCurrentMana += 20;
+            if (playerCurrentMana >= playerMaxMana)
+            {
+                playerCurrentMana = playerMaxMana;
+            }
+
+            Destroy(other.gameObject);
+        }
+    }
 }

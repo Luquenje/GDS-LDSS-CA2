@@ -9,6 +9,7 @@ public class AnimationManager : MonoBehaviour {
     float enemyCurrentHp;
     float bossCurrentHp;
     [SerializeField] bool isBoss;
+    public GameObject spawn;
 
     public int expToGive;
 
@@ -27,7 +28,8 @@ public class AnimationManager : MonoBehaviour {
             if (bossCurrentHp <= 0)
             {
                 playerManager.AddExp(expToGive);
-                Destroy(gameObject);
+                animator.SetBool("Dead", true);
+                Destroy(gameObject, 3f);
             }
         }
         else
@@ -36,7 +38,9 @@ public class AnimationManager : MonoBehaviour {
             if (enemyCurrentHp <= 0)
             {
                 playerManager.AddExp(expToGive);
+                //animator.SetBool("Dead", true);
                 Destroy(gameObject);
+                Instantiate(spawn, gameObject.transform.position, Quaternion.identity);
             }
         }
         

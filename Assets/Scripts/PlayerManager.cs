@@ -174,7 +174,7 @@ public class PlayerManager : MonoBehaviour
 
     private void AttemptAbility1()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
 
             if (abilityCD <= 0)
@@ -183,6 +183,7 @@ public class PlayerManager : MonoBehaviour
                 var manaCost = 10;
                 if (manaComponent.isManaAvailable(manaCost))
                 {
+                    flameTornadoSFX.Play();
                     animator.SetTrigger("Skill1");
                     manaComponent.UseMana(manaCost);
                     StartCoroutine(SpecialAttack());
@@ -244,7 +245,7 @@ public class PlayerManager : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
 
         Instantiate(ability1, transform.position + transform.forward * 2.5f, Quaternion.identity);
-        flameTornadoSFX.Play();
+        //flameTornadoSFX.Play();
     }
     void OnMouseClick(RaycastHit raycastHit, int layerHit)
     {

@@ -27,6 +27,7 @@ TagManager:
   - mstSlider
   - menuClick
   - pauseMenu
+  - ManaPickup
   layers:
   - Default
   - TransparentFX

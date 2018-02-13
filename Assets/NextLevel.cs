@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour {
 
     //SceneManage scene;
-
+    public string sceneName = "CaveLevel";
 	// Use this for initialization
 	void Start () {
 
@@ -20,7 +20,7 @@ public class NextLevel : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("CaveLevel");
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

@@ -32,6 +32,7 @@ public class Boss : MonoBehaviour
     Pathfinder pathFinder = null;
     GameObject player = null;
     bool pathfindBool = false;
+    public GameObject victoryUI;
 
     public float healthAsPercentage
     {
@@ -56,6 +57,7 @@ public class Boss : MonoBehaviour
         {
             aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
             animator.SetBool("Dead", true);
+            victoryUI.SetActive(true);
         }
         if (currentHealthPoints > 100)
         {

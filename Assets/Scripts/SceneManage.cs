@@ -10,19 +10,19 @@ public class SceneManage : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
-        if (instance == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            instance = this;
-        }
+        //if (instance == null)
+        //{
+        //    DontDestroyOnLoad(gameObject);
+        //    instance = this;
+        //}
 
-        else
-        {
-            Destroy(gameObject);
-        }
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
 
 
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame

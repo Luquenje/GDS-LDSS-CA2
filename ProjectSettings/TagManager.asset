@@ -28,6 +28,8 @@ TagManager:
   - menuClick
   - pauseMenu
   - ManaPickup
+  - UISocket
+  - DeadMenu
   layers:
   - Default
   - TransparentFX

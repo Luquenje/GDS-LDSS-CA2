@@ -2392,7 +2392,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1818860584615824}
   serializedVersion: 2
-  m_Mass: 200
+  m_Mass: 10000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2499,6 +2499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBoss: 1
+  spawn: {fileID: 0}
+  uiSocket: {fileID: 0}
   expToGive: 100
 --- !u!114 &114547020681046244
 MonoBehaviour:
@@ -2575,7 +2577,7 @@ MonoBehaviour:
   moveRadius: 25.79
   bullet: {fileID: 1510173722238942, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
   bulletSpawn: {fileID: 1999232485142270}
-  projectileSpeed: 4
+  projectileSpeed: 11
   secondsBetweenShots: 5
   aimOffset: {x: 0, y: 1, z: 0}
   aStar: {fileID: 0}
@@ -2590,6 +2592,7 @@ MonoBehaviour:
   attack: 0
   attackCD: 5
   skillCD: 5
+  victoryUI: {fileID: 0}
 --- !u!136 &136070157121314748
 CapsuleCollider:
   m_ObjectHideFlags: 1

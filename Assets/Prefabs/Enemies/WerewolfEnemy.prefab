@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 114916837271652008}
   m_Layer: 9
   m_Name: UI Socket
-  m_TagString: Untagged
+  m_TagString: UISocket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1559,7 +1559,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496603238705994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 119.4, y: 0.3, z: -74}
+  m_LocalPosition: {x: 84.16, y: 0.3, z: -88.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4447406804319222}
@@ -1793,7 +1793,7 @@ MonoBehaviour:
   shootTimer: 0
   shootCooldown: 2
   currentState: 0
-  currWayPtState: 1
+  currWayPtState: 0
   currentWaypoint: 0
   sightDistance: 2.44
   peripheralDist: 2.5
@@ -1812,6 +1812,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBoss: 0
+  spawn: {fileID: 100002, guid: 391ec6f1311384e75b4888fd6fc26b7e, type: 2}
+  uiSocket: {fileID: 1038451199036388}
   expToGive: 5
 --- !u!114 &114529138485853086
 MonoBehaviour:
@@ -1840,8 +1842,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 100
-  attackRadius: 2.82
-  moveRadius: 11.1
+  attackRadius: 2.18
+  moveRadius: 50.62
   bullet: {fileID: 1510173722238942, guid: c4036d745e1dd8647bb2a65c6fdba0a7, type: 2}
   bulletSpawn: {fileID: 1896968719386352}
   projectileSpeed: 12

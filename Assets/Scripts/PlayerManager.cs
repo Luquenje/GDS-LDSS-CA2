@@ -20,6 +20,7 @@ public class PlayerManager : MonoBehaviour
     public AudioSource flameTornadoSFX;
 
     public int playerMaxHealth;
+    public GameObject gameoverUI;
 
     //[SerializeField] float currentAtt = 15f;
     //[SerializeField] float minTimeBetweenHits = 0.5f;
@@ -48,6 +49,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject ability1;
     public GameObject ability2;
 
+    public AudioSource levelUp;
     // Use this for initialization
     void Start()
     {
@@ -62,6 +64,7 @@ public class PlayerManager : MonoBehaviour
         PutWeaponInHand();
         SetupRuntimeAnimator();
         attackCD = weaponInUse.GetMinTimeBetweenHits();
+        //gameoverUI = GameObject.FindGameObjectWithTag("DeadMenu");
         //abilities[0].AttachComponentTo(gameObject);
     }
     public float GetCurrentAttack()
@@ -103,7 +106,7 @@ public class PlayerManager : MonoBehaviour
         if (playerCurrentHealth <= 0)
         {
             gameObject.SetActive(false);
-
+            gameoverUI.SetActive(true);
             //TODO: RESPAWN
         }
 
@@ -129,6 +132,8 @@ public class PlayerManager : MonoBehaviour
         currentAtt = AttLv[currentLv];
         mana.playerCurrentMana = ManaLv[currentLv];
         mana.playerMaxMana = ManaLv[currentLv];
+
+        levelUp.Play();
     }
 
     public void AddExp(int experienceToAdd)

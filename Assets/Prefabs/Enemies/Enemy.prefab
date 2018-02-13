@@ -31,7 +31,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.69, y: -4.41, z: -58.23}
+  m_LocalPosition: {x: -9.9, y: -4.41, z: -149.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4149163118667806}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 114033904587198388}
   m_Layer: 9
   m_Name: UI Socket
-  m_TagString: Untagged
+  m_TagString: UISocket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1365,6 +1365,7 @@ MonoBehaviour:
   aimOffset: {x: 0, y: 1, z: 0}
   aStar: {fileID: 0}
   patrolling: 0
+  animator: {fileID: 0}
   waypoint: {fileID: 0}
   weaponSwing: 0
   pathfindCD: 1
@@ -1440,6 +1441,7 @@ MonoBehaviour:
   peripheralDist: 2.5
   avoidanceAngle: 45
   avoidanceState: 0
+  ifBoss: 0
 --- !u!114 &114969658837136744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1451,6 +1453,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c2c895e47546243be568df1d35a628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isBoss: 0
+  spawn: {fileID: 100002, guid: 391ec6f1311384e75b4888fd6fc26b7e, type: 2}
+  uiSocket: {fileID: 1148873284862878}
   expToGive: 5
 --- !u!137 &137596843945596662
 SkinnedMeshRenderer:

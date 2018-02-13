@@ -3326,6 +3326,7 @@ MonoBehaviour:
   axeSwingSFX: {fileID: 0}
   flameTornadoSFX: {fileID: 0}
   playerMaxHealth: 100
+  gameoverUI: {fileID: 0}
   enemyLayer: 9
   isAttacking: 0
   attackCD: 0
@@ -3337,6 +3338,7 @@ MonoBehaviour:
     type: 2}
   ability1: {fileID: 175744, guid: e5bc8bb50018c46cd9669532417609a0, type: 2}
   ability2: {fileID: 1143209800861298, guid: 9a01b76644b5e9148b328bd4755bdfd1, type: 2}
+  levelUp: {fileID: 0}
 --- !u!114 &114718624062200962
 MonoBehaviour:
   m_ObjectHideFlags: 1

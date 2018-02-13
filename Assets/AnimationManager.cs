@@ -10,14 +10,16 @@ public class AnimationManager : MonoBehaviour {
     float bossCurrentHp;
     [SerializeField] bool isBoss;
     public GameObject spawn;
+    [SerializeField]GameObject uiSocket;
 
+    bool isInstantiated = false;
     public int expToGive;
 
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
         playerManager = FindObjectOfType<PlayerManager>();
-        
+        //uiSocket = GameObject.FindGameObjectWithTag("UISocket");
 	}
 	
 	// Update is called once per frame
@@ -27,8 +29,13 @@ public class AnimationManager : MonoBehaviour {
             bossCurrentHp = GetComponent<Boss>().healthAsPercentage;
             if (bossCurrentHp <= 0)
             {
-                playerManager.AddExp(expToGive);
-                animator.SetBool("Dead", true);
+                if (!isInstantiated)
+                {
+                    playerManager.AddExp(expToGive);
+                    animator.SetBool("Dead", true);
+                    isInstantiated = true;
+                }
+                
                 Destroy(gameObject, 3f);
             }
         }
@@ -37,10 +44,16 @@ public class AnimationManager : MonoBehaviour {
             enemyCurrentHp = GetComponent<Enemy>().healthAsPercentage;
             if (enemyCurrentHp <= 0)
             {
-                playerManager.AddExp(expToGive);
-                //animator.SetBool("Dead", true);
-                Destroy(gameObject);
-                Instantiate(spawn, gameObject.transform.position, Quaternion.identity);
+                uiSocket.SetActive(false);
+                if (!isInstantiated)
+                {
+                    
+                    playerManager.AddExp(expToGive);
+                    animator.SetBool("Dead", true);
+                    Instantiate(spawn, gameObject.transform.position, Quaternion.identity);
+                    isInstantiated = true;
+                }
+                Destroy(gameObject, 3f);
             }
         }
         

@@ -12,6 +12,7 @@ public class NextLevel : MonoBehaviour {
     public GameObject finishScene;
     public GameObject loadingScreen;
     public Slider slider;
+     
 	// Use this for initialization
 	void Start () {
 

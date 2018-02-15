@@ -65,6 +65,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4613813137662170}
+  - component: {fileID: 65780121055334940}
+  - component: {fileID: 114379133942125574}
   m_Layer: 0
   m_Name: WEREWOLF_ L Hand
   m_TagString: Untagged
@@ -765,6 +767,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4436638084505770}
+  - component: {fileID: 65790765279620178}
+  - component: {fileID: 114897150584358192}
   m_Layer: 0
   m_Name: WEREWOLF_ R Hand
   m_TagString: Untagged
@@ -1559,7 +1563,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496603238705994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.16, y: 0.3, z: -88.88}
+  m_LocalPosition: {x: 78.850006, y: 0.3, z: -81.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4447406804319222}
@@ -1753,6 +1757,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65780121055334940
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076701081664206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5544939, y: 0.50724494, z: 0.6555787}
+  m_Center: {x: -0.13420358, y: 0.0834154, z: -0.060441863}
+--- !u!65 &65790765279620178
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849691829296560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5038021, y: 0.4567107, z: 0.71553767}
+  m_Center: {x: -0.25190175, y: 0.03267024, z: 0.08425554}
 --- !u!95 &95808355711023006
 Animator:
   serializedVersion: 3
@@ -1815,6 +1843,20 @@ MonoBehaviour:
   spawn: {fileID: 100002, guid: 391ec6f1311384e75b4888fd6fc26b7e, type: 2}
   uiSocket: {fileID: 1038451199036388}
   expToGive: 5
+--- !u!114 &114379133942125574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076701081664206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74410193096a8f04bb05bfa1ed9c9b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1496603238705994}
+  enemyIsAttacking: 0
+  damageToGive: 25
 --- !u!114 &114529138485853086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1857,6 +1899,20 @@ MonoBehaviour:
   pathfindCD: 1
   currentHealthPoints: 0
   isAttacking: 0
+--- !u!114 &114897150584358192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849691829296560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74410193096a8f04bb05bfa1ed9c9b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1496603238705994}
+  enemyIsAttacking: 0
+  damageToGive: 25
 --- !u!114 &114916837271652008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1910,10 +1966,10 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.3
-  m_Height: 1.6
+  m_Radius: 0.56897354
+  m_Height: 3.1958869
   m_Direction: 1
-  m_Center: {x: 0, y: 0.82, z: 0}
+  m_Center: {x: 0.03155136, y: 1.6179434, z: 0}
 --- !u!137 &137624995065891930
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

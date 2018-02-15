@@ -30,6 +30,7 @@ TagManager:
   - ManaPickup
   - UISocket
   - DeadMenu
+  - HiddenWall
   layers:
   - Default
   - TransparentFX

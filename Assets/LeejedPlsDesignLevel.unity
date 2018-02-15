@@ -3069,11 +3069,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114012997274924364, guid: c10441a33a5532a48a2a4c70ff8090b8,
+    - target: {fileID: 114679427803015596, guid: c10441a33a5532a48a2a4c70ff8090b8,
         type: 2}
-      propertyPath: target
+      propertyPath: waypoint
       value: 
-      objectReference: {fileID: 370850979}
+      objectReference: {fileID: 1143030005}
     - target: {fileID: 114529138485853086, guid: c10441a33a5532a48a2a4c70ff8090b8,
         type: 2}
       propertyPath: end
@@ -3084,26 +3084,11 @@ Prefab:
       propertyPath: marker
       value: 
       objectReference: {fileID: 370850978}
-    - target: {fileID: 114679427803015596, guid: c10441a33a5532a48a2a4c70ff8090b8,
-        type: 2}
-      propertyPath: waypoint
-      value: 
-      objectReference: {fileID: 1143030005}
-    - target: {fileID: 114679427803015596, guid: c10441a33a5532a48a2a4c70ff8090b8,
-        type: 2}
-      propertyPath: moveRadius
-      value: 50.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 114679427803015596, guid: c10441a33a5532a48a2a4c70ff8090b8,
-        type: 2}
-      propertyPath: attackRadius
-      value: 2.18
-      objectReference: {fileID: 0}
     - target: {fileID: 114012997274924364, guid: c10441a33a5532a48a2a4c70ff8090b8,
         type: 2}
-      propertyPath: currWayPtState
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 370850979}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c10441a33a5532a48a2a4c70ff8090b8, type: 2}
   m_IsPrefabParent: 0
@@ -4980,12 +4965,12 @@ Prefab:
     - target: {fileID: 224293438014351260, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 217
+      value: 212.5
       objectReference: {fileID: 0}
     - target: {fileID: 224293438014351260, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 122
+      value: 119.5
       objectReference: {fileID: 0}
     - target: {fileID: 224293438014351260, guid: 42b00fe12fe90dc449cdb9ecbb75b7ba,
         type: 2}
@@ -7461,7 +7446,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1083696838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.000061035156, z: 0}
+  m_LocalPosition: {x: 0.000061035156, y: -0.000061035156, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1991495458}

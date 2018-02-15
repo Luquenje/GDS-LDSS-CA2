@@ -5,32 +5,40 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class NextLevel : MonoBehaviour {
+public class NxtLvCave : MonoBehaviour {
 
-    //SceneManage scene;
-    //public string sceneName = "CaveLevel";
-    //public int sceneIndex;
     public GameObject finishScene;
     public GameObject loadingScreen;
     public Slider slider;
     public TextMeshProUGUI loadingPercent;
-	// Use this for initialization
-	void Start () {
-        //loadingPercent = GetComponent<TextMeshProUGUI>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-    void OnCollisionEnter(Collision other)
+    public Transform enemy;
+    private int enemyCount;
+    // Use this for initialization
+    void Start()
     {
-        if (other.gameObject.tag == "Player")
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        enemyCount = enemy.childCount;
+        if(enemyCount == 0)
         {
             finishScene.SetActive(true);
+            Cursor.visible = true;
+            enabled = false;
         }
-        Cursor.visible = true;
+        //Debug.Log(enemyCount);
     }
+    //void OnCollisionEnter(Collision other)
+    //{
+    //    if (other.gameObject.tag == "Player")
+    //    {
+    //        finishScene.SetActive(true);
+    //    }
+    //    Cursor.visible = true;
+    //}
     public void LoadLv(int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));

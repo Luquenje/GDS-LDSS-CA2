@@ -76,6 +76,11 @@ public class PlayerManager : MonoBehaviour
         return isAttacking;
     }
 
+    public void SetCurrentHealth(int currentHealth)
+    {
+        playerCurrentHealth = currentHealth;
+    }
+
     private void SetupRuntimeAnimator()
     {
         animator = GetComponent<Animator>();

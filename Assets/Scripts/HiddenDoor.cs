@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class HiddenDoor : MonoBehaviour {
 
-    [SerializeField] GameObject hiddenWall;
+    public GameObject hiddenWall;
+    public GameObject nxLevel;
     public GameObject UI;
 
 	// Use this for initialization
 	void Start () {
-        hiddenWall = GameObject.FindGameObjectWithTag("HiddenWall");
+        //hiddenWall = GameObject.FindGameObjectWithTag("HiddenWall");
 	}
 	
 	// Update is called once per frame
@@ -20,7 +21,8 @@ public class HiddenDoor : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(hiddenWall);
+            hiddenWall.transform.position = new Vector3(0, -50, 0);
+            nxLevel.SetActive(true);
             UI.SetActive(true);
             Destroy(UI, 2f);
         }

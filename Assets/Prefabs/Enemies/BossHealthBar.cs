@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class BossHealthBar : MonoBehaviour
 {
     RawImage healthBarRawImage = null;
-    Boss boss = null;
+    [SerializeField] Boss boss;
+    public GameObject golem;
 
     // Use this for initialization
     void Start()
     { // Different to way player's health bar finds player
-        boss = GetComponentInParent<Boss>();
+        boss = golem.GetComponent<Boss>();
         healthBarRawImage = GetComponent<RawImage>();
     }
 

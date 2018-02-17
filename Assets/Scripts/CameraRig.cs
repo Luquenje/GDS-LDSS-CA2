@@ -69,7 +69,7 @@ public class CameraRig : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        //Cursor.visible = false;
+        Cursor.visible = false;
         mainCamera = Camera.main;
         pivot = transform.GetChild(0);
     }

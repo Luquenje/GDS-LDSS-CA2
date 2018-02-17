@@ -21,6 +21,7 @@ public class PlayerManager : MonoBehaviour
 
     public int playerMaxHealth;
     public GameObject gameoverUI;
+    public AudioSource playerHit;
 
     //[SerializeField] float currentAtt = 15f;
     //[SerializeField] float minTimeBetweenHits = 0.5f;
@@ -291,6 +292,8 @@ public class PlayerManager : MonoBehaviour
     public void HurtPlayer(int damageToGive)
     {
         playerCurrentHealth -= damageToGive;
+        playerHit.Play();
+        
     }
 
     public void SetMaxHealth()

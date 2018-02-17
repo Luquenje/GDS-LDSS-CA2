@@ -28,8 +28,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149790}
-  m_LocalRotation: {x: -0, y: -0.7467685, z: -0, w: 0.6650841}
-  m_LocalPosition: {x: 7.75, y: -4.48, z: -129.7}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 201.1, y: 1.23, z: -196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4763998848207550}
@@ -3327,6 +3327,7 @@ MonoBehaviour:
   flameTornadoSFX: {fileID: 0}
   playerMaxHealth: 100
   gameoverUI: {fileID: 0}
+  playerHit: {fileID: 0}
   enemyLayer: 9
   isAttacking: 0
   attackCD: 0

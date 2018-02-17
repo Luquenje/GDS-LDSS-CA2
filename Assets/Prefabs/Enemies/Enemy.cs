@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
     Pathfinder pathFinder = null;
     GameObject player = null;
     bool pathfindBool = false;
+    public AudioSource enemyHit;
 
     public float healthAsPercentage
     {
@@ -134,6 +135,8 @@ public class Enemy : MonoBehaviour
     public void HurtEnemy(float damageToGive)
     {
         currentHealthPoints -= damageToGive;
+        enemyHit.Play();
+
     }
 
     public void SetMaxHealth()

@@ -8,6 +8,7 @@ public class enemyWeaponDmg : MonoBehaviour
     [SerializeField] GameObject enemy;
     [SerializeField] bool enemyIsAttacking;
     [SerializeField] int damageToGive = 15;
+    public AudioSource attackHit;
 
     // Use this for initialization
     void Start()
@@ -28,6 +29,7 @@ public class enemyWeaponDmg : MonoBehaviour
         if (other.gameObject.tag == "Player" && enemyIsAttacking)
         {
             other.gameObject.GetComponent<PlayerManager>().HurtPlayer(damageToGive * 2 * (int)Time.deltaTime);
+            attackHit.Play();
         }
     }
 }

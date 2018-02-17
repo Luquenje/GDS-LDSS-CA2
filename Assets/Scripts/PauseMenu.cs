@@ -10,6 +10,24 @@ public class PauseMenu : MonoBehaviour {
     public GameObject exitBtn;
     public GameObject Title;
     public GameObject Panel;
+    public static PauseMenu instance;
+
+    // Use this for initialization
+    void Awake()
+    {
+        if (instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            instance = this;
+        }
+
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
     // Use this for initialization
     void Start () {
         pauseMenuUI.SetActive(false);

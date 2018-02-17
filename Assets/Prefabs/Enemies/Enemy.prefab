@@ -31,8 +31,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.9, y: -4.41, z: -149.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -37.69, y: -4.41, z: -58.23}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4149163118667806}
   - {fileID: 4027361046316586}
@@ -1371,6 +1371,7 @@ MonoBehaviour:
   pathfindCD: 1
   currentHealthPoints: 0
   isAttacking: 0
+  enemyHit: {fileID: 0}
 --- !u!114 &114348671672860022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1385,6 +1386,7 @@ MonoBehaviour:
   enemy: {fileID: 0}
   enemyIsAttacking: 0
   damageToGive: 15
+  attackHit: {fileID: 0}
 --- !u!114 &114642492244571238
 MonoBehaviour:
   m_ObjectHideFlags: 1

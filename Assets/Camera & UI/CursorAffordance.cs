@@ -18,7 +18,7 @@ public class CursorAffordance : MonoBehaviour {
     Vector2 cursorHotSpotUnknown = new Vector2(0, 0);
 
     [SerializeField]
-    const int walkableLayerNumber = 8;
+    const int walkableLayerNumber = 0;
     [SerializeField]
     const int enemyLayerNumber = 9;
     [SerializeField]
@@ -31,9 +31,10 @@ public class CursorAffordance : MonoBehaviour {
     {
         cameraRaycaster = GetComponent<CameraRaycaster>();
         cameraRaycaster.notifyLayerChangeObservers += OnLayerChanged;
+        //Cursor.SetCursor(walkCursor, cursorHotSpot, CursorMode.Auto);
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void OnLayerChanged(int newLayer)
     { //only called when layer changes
         //print(cameraRaycaster.layerHit);

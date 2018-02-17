@@ -50,7 +50,7 @@ public class Pathfinder : MonoBehaviour {
         enemy.currentWaypoint = 0;
         enemy.currentState = AStarSteeringBehaviour.AIState.WAYPOINTS;
         enemy.moveSpeed = 6.0f;
-        Debug.Log(pathArray.Count);//debug just to make sure AStar does something
+        //Debug.Log(pathArray.Count);//debug just to make sure AStar does something
 
 
     }

@@ -5302,7 +5302,7 @@ Prefab:
     - target: {fileID: 114883484369840700, guid: fef8385a4f1e40e45bb1594e71d8dfe5,
         type: 2}
       propertyPath: showGrid
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114883484369840700, guid: fef8385a4f1e40e45bb1594e71d8dfe5,
         type: 2}

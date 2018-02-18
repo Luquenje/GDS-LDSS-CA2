@@ -33,6 +33,7 @@ public class Boss : MonoBehaviour
     GameObject player = null;
     bool pathfindBool = false;
     public GameObject victoryUI;
+    public AudioSource bossHit;
 
     public float healthAsPercentage
     {
@@ -192,6 +193,7 @@ public class Boss : MonoBehaviour
     public void HurtEnemy(float damageToGive)
     {
         currentHealthPoints -= damageToGive;
+        bossHit.Play();
     }
 
     public void SetMaxHealth()

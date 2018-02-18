@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     public Animator animator;
     public Transform waypoint;//Denote the start and end object in the scene
 
+    Rigidbody rb;
     public bool weaponSwing = false;
     [SerializeField] float pathfindCD = 0.5f;
     [SerializeField] float currentHealthPoints;
@@ -25,6 +26,8 @@ public class Enemy : MonoBehaviour
     Pathfinder pathFinder = null;
     GameObject player = null;
     bool pathfindBool = false;
+    [SerializeField]bool rollBool = true;
+    [SerializeField] float rollCD = 4f;
     public AudioSource enemyHit;
 
     public float healthAsPercentage
@@ -42,6 +45,7 @@ public class Enemy : MonoBehaviour
         aStar = GetComponent<AStarSteeringBehaviour>();
         animator = GetComponent<Animator>();
         currentHealthPoints = maxHealthPoints;
+        rb = GetComponent<Rigidbody>();
 
     }
     void Update()
@@ -56,10 +60,16 @@ public class Enemy : MonoBehaviour
         if (distanceToPlyaer <= attackRadius && !isAttacking)
         {
             //aiControl.SetTarget(player.transform);
-            isAttacking = true;
+            
             aStar.currentState = AStarSteeringBehaviour.AIState.IDLE;
             InvokeRepeating("Attack", 0f, secondsBetweenShots);
             weaponSwing = false;
+        }
+        rollCD -= Time.deltaTime;
+        if(rollCD <= 0 && !rollBool)
+        {
+            rollBool = true;
+            rollCD = 8f;
         }
         if (distanceToPlyaer > attackRadius)
         {
@@ -115,6 +125,14 @@ public class Enemy : MonoBehaviour
     {
         animator.SetTrigger("Attacking");
         weaponSwing = true;
+        isAttacking = true;
+        if (rollBool)
+        {
+            animator.SetTrigger("Roll");
+            //gameObject.transform.Translate(0.7f, 0, 0);
+            rb.AddForce(350, 0, -10, ForceMode.Impulse);
+            rollBool = false;
+        }
     }
     public bool Attacking()
     {
